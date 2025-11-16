@@ -214,3 +214,6 @@ extra:
   flatpak: A flatpak is a sandboxed application, flatpaks run in an isolated environment which allow for granular control over permissions. On a Steam Deck, flatpaks can be installed, managed, and updated through Discover. 
   permissions: click `Properties`, click `Permissions`, check `Is Executable`.
   steaminput: This section assumes you are using an emulator through Steam and will be using the Steam Virtual Gamepad as the primary device for your controller. If you are not using Steam Input, make sure to select the appropriate controller option (which will typically match your controller name).
+  discover: On SteamOS and distros with KDE, you may use Discover, a "store" to install and manage Flatpaks. 
+  flatseal: Alternatively, you may install and use Flatseal from your distro's software manager. Open Flatseal, locate the emulator on the left-hand side of the screen, scroll down to the `Filesystem` section and enable `All system files`
+  
