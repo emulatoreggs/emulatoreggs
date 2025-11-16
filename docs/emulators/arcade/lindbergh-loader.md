@@ -1,4 +1,4 @@
-# Lindbergh Loader is a program to play Sega Lindbergh games. 
+# Lindbergh Loader is a program to play Sega Lindbergh games
 
 ## Lindbergh Loader Table of Contents
 
