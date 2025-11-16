@@ -1,10 +1,10 @@
-# Welcome to Emuguinpedia!
+# Welcome to EmulatorEggs!
 
-[Wiki Link](https://emuguinpedia.com/)
+[Wiki Link](https://wiki.emulatoreggs.com/)
 
-## What is Emuguinpedia? 
+## What is EmulatorEggs? 
 
-Emuguinpedia is meant to be a catch-all wiki for emulation on Linux with an eye for the Steam Deck and immutable operating systems. This wiki will cover how to install and configure various emulators using universal Linux packaging such as AppImages and Flatpaks. When possible, pages will adhere to the developer's preferred packaging format. When a packaging format does not exist, a page will include a disclaimer and helpful tips when asking for support. 
+EmulatorEggs is meant to be a catch-all wiki for emulation on Linux with an eye for the Steam Deck and immutable operating systems. This wiki will cover how to install and configure various emulators using universal Linux packaging such as AppImages and Flatpaks. When possible, pages will adhere to the developer's preferred packaging format. When a packaging format does not exist, a page will include a disclaimer and helpful tips when asking for support. 
 
 If an emulator only exists on Windows, this wiki will cover instructions on how to install the emulator through Wine/Proton with heavy emphasis that support for these emulators is not guaranteed when asking for help in official channels. 
 
@@ -20,7 +20,7 @@ The goals of the wiki are as follows:
 
 ## Contributions
 
-Emuguinpedia is always looking for contributors to add new wiki pages and enhance the documentation. This wiki is hosted on a public Gitlab page, pull requests welcome. 
+EmulatorEggs is always looking for contributors to add new wiki pages and enhance the documentation. This wiki is hosted on a public Gitlab page, pull requests welcome. 
 
 ## Steam Deck and Game Mode
 
