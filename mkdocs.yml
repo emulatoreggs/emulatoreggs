@@ -83,9 +83,10 @@ nav:
       - Frontends: 'frontends/index.md'   
       - ES-DE: 'frontends/es-de.md'  
       - Steam ROM Manager: 'frontends/steam-rom-manager.md'  
+  - Linux Gaming:
+      - Linux Gaming: 'linux-gaming/index.md'
   - How to Contribute:
       - How to Contribute: 'how-to-contribute/index.md' 
-
 theme:
   name: material
   logo: assets/logo.png
