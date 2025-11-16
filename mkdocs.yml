@@ -1,0 +1,215 @@
+site_name: Emuguinpedia
+site_url: https://emuguinpedia.com/
+repo_url: https://gitlab.com/emuguinpedia/emuguinpedia
+repo_name: emuguinpedia/emuguinpedia
+edit_uri: edit/master/docs/
+copyright: > 
+    Copyright Creative Commons Attribution-ShareAlike 4.0 International
+watch: 
+    - includes
+nav:  
+  - Home: 'index.md'
+  - First Steps: 'first-steps/index.md'
+  - BIOS and ROMs Cheat Sheet: 'cheat-sheet.md'
+  - Decompilations: 
+      - Decompilations: 'decompilations/index.md' 
+  - Emulation Tools:
+      - Emulation Tools: 'emulation-tools/index.md' 
+      - Compiling Software: 'emulation-tools/compiling-software.md'
+      - Distrobox: 'emulation-tools/distrobox.md'
+      - Meld: 'emulation-tools/meld.md'
+      - ROM Hacks: 'emulation-tools/rom-hacks.md'
+  - Emulators: 
+      - Emulators: 'emulators/index.md'
+      - Arcade: 
+        - Hypsesus Singe: 'emulators/arcade/hypseus-singe.md'
+        - Lindbergh Loader: 'emulators/arcade/lindbergh-loader.md'
+        - MAME: 'emulators/arcade/mame.md'
+        - Model 2 Emulator: 'emulators/arcade/model-2-emulator.md'
+        - Supermodel: 'emulators/arcade/supermodel.md'
+      - Emulator Forks:
+        - Mario Party Netplay (melonDS Fork): 'emulators/emulator-forks/mario-party-netplay.md'
+        - Melon Mix (melonDS Fork): 'emulators/emulator-forks/melon-mix.md'
+        - melonPrimeDS (melonDS Fork): 'emulators/emulator-forks/melon-primeds.md'
+        - PrimeHack (Dolphin Fork): 'emulators/emulator-forks/primehack.md'
+        - Project Rio (Dolphin Fork): 'emulators/emulator-forks/project-rio.md'
+        - Triforce (Dolphin Fork): 'emulators/emulator-forks/triforce.md'
+      - Microsoft:
+        - Cxbx-Reloaded: 'emulators/microsoft/cxbx-reloaded.md'
+        - Xemu: 'emulators/microsoft/xemu.md'
+        - Xenia: 'emulators/microsoft/xenia.md'
+      - Miscellaneous:
+        - DooM: 'emulators/miscellaneous/doom.md'
+        - DREAMM: 'emulators/miscellaneous/dreamm.md'
+        - EasyRPG: 'emulators/miscellaneous/easyrpg.md'
+        - Pico-8: 'emulators/miscellaneous/pico-8.md'
+        - ScummVM: 'emulators/miscellaneous/scummvm.md'
+        - Visual Pinball: 'emulators/miscellaneous/visual-pinball.md'
+      - Mobile Emulators:
+        - EKA2L1: 'emulators/mobile/eka2l1.md'
+        - FreeJ2ME: 'emulators/mobile/freej2me.md'
+        - touchHLE: 'emulators/mobile/touchhle.md'
+        - Waydroid: 'emulators/mobile/waydroid.md'
+      - Multi-System Emulators:
+        - ares: 'emulators/multi-system/ares.md'
+        - Mednafen: 'emulators/multi-system/mednafen.md'
+        - Mesen: 'emulators/multi-system/mesen.md'
+        - RetroArch: 'emulators/multi-system/retroarch.md'
+      - Nintendo: 
+        - Azahar: 'emulators/nintendo/azahar.md'
+        - Cemu: 'emulators/nintendo/cemu.md'
+        - Dolphin: 'emulators/nintendo/dolphin.md'
+        - melonDS: 'emulators/nintendo/melonds.md'
+        - mGBA: 'emulators/nintendo/mgba.md'
+        - RMG: 'emulators/nintendo/rmg.md'
+        - Ryujinx: 'emulators/nintendo/ryujinx.md'
+      - Personal Computers:
+        - DOSBox-X: 'emulators/personal-computers/dosbox-x.md'
+        - FS-UAE: 'emulators/personal-computers/fs-uae.md'
+        - Neko Project II: 'emulators/personal-computers/neko-project-ii.md'
+        - Tsugaru: 'emulators/personal-computers/tsugaru.md'
+      - Sega:
+        - BlastEm: 'emulators/sega/blastem.md'
+        - Flycast: 'emulators/sega/flycast.md'
+        - Kronos: 'emulators/sega/kronos.md'
+        - redream: 'emulators/sega/redream.md'
+      - Sony:
+        - DuckStation: 'emulators/sony/duckstation.md'
+        - PCXS2: 'emulators/sony/pcsx2.md'
+        - Play!: 'emulators/sony/play.md'
+        - RPCS3: 'emulators/sony/rpcs3.md'
+        - ShadPS4: 'emulators/sony/shadps4.md'
+  - Frontends:
+      - Frontends: 'frontends/index.md'   
+      - ES-DE: 'frontends/es-de.md'  
+      - Steam ROM Manager: 'frontends/steam-rom-manager.md'  
+  - How to Contribute:
+      - How to Contribute: 'how-to-contribute/index.md' 
+
+theme:
+  name: material
+  logo: assets/logo.png
+  icon: 
+    repo: fontawesome/brands/gitlab
+    edit: material/pencil
+    view: material/eye
+  palette: 
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      primary: pink
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+      accent: pink
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      primary: pink
+      scheme: default 
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+      accent: pink
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      primary: pink
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.path
+    - navigation.indexes
+    - toc.integrate
+    - toc.follow
+    - navigation.top
+    - content.action.edit
+    - content.tooltips
+markdown_extensions:
+  - attr_list
+  - nl2br
+  - mdx_truly_sane_lists
+  - toc:
+      permalink: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.magiclink
+  - pymdownx.emoji:
+        emoji_index: !!python/name:material.extensions.emoji.twemoji
+        emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  # permalink:true adds anchors to headers
+  - toc:
+      permalink: ''
+      toc_depth: 3
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.keys
+  - def_list
+  - sane_lists
+  - tables
+  - abbr
+  - pymdownx.snippets:
+      auto_append:
+        - includes/abbreviations.md
+  # Adds keyboard icons, may be able to add steam deck buttons
+  - pymdownx.keys
+  # Allows for writing markdown in HTML
+  - md_in_html       
+  # Adds checkboxes   
+  - pymdownx.tasklist
+  # Adds highlighting and subscript and superscript
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true        
+      use_pygments: true
+  - pymdownx.inlinehilite
+  - admonition
+  - footnotes
+  - pymdownx.smartsymbols
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.magiclink
+plugins:
+    - search:
+        separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+    - macros
+    - glightbox
+    - blog
+    - git-revision-date-localized:
+        enable_creation_date: true
+    - git-committers:
+       repository: emuguinpedia/emuguinpedia
+       branch: master    
+    - redirects
+    - table-reader:
+        data_path: "docs/tables/"
+        allow_missing_files: True
+extra_javascript:
+  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
+  - javascripts/tablesort.js
+  - javascripts/custom.js
+extra_css:
+  - css/github-permalink-style.css
+  - css/github-tables.css
+  - css/emuguinpedia.css
+extra:
+  home: $HOME or ~ refer to your home directory. On a typical linux distro, the full path will be `\$HOME/\$USER`. On a Steam Deck, the full path will be `/home/deck`. When navigating using the file manager, the file manager may not be display the username visually in the full file path.
+  applications: $HOME/Applications refers to the Applications folder in your home directory. On a typical linux distro, the full path will be `\$HOME/\$USER/Applications`. On a Steam Deck, the full path will be `/home/deck/Applications`. When navigating using the file manager, the file manager may not display the username visually in the full file path. The Applications folder is not created by default. If you have not created one already, do so before following the steps in this section. 
+  hiddenfolders: Directories with a `.` in front of their name, like `$HOME/.steam`, are hidden by default. In Dolphin (a file manager), click the hamburger menu in the top right and toggle on `Show Hidden Files`. The setting may vary depending on which file manager you are using. 
+  steamdeckdesktopmode: If you are on a Steam Deck, use Desktop Mode for this step. 
+  steamdeckgamemode: If you are on a Steam Deck, use Game Mode for this step. 
+  appimage: An AppImage is a portable/self-contained application. It contains all of the dependencies required to run the respective program.
+  flatpak: A flatpak is a sandboxed application, flatpaks run in an isolated environment which allow for granular control over permissions. On a Steam Deck, flatpaks can be installed, managed, and updated through Discover. 
+  permissions: click `Properties`, click `Permissions`, check `Is Executable`.
+  steaminput: This section assumes you are using an emulator through Steam and will be using the Steam Virtual Gamepad as the primary device for your controller. If you are not using Steam Input, make sure to select the appropriate controller option (which will typically match your controller name).

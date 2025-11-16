@@ -1,0 +1,3 @@
+*[AppImage]: An AppImage is a portable/self-contained application. It contains all of the dependencies required to run the respective program.
+*[Flatpak]: A flatpak is a sandboxed application, flatpaks run in an isolated environment which allow for granular control over permissions. On a Steam Deck, flatpaks can be installed, managed, and updated through Discover. 
+*[~]: ~ or $HOME  refer to your home directory. On a typical linux distro, the full path will be `\$HOME/\$USER`. On a Steam Deck, the full path will be `/home/deck`. When navigating using the file manager, the file manager may not be display the username visually in the full file path.

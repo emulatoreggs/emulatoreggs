@@ -1,0 +1,5 @@
+Console/System,ROM Folder Name,Emulator (Click for link),File Types,BIOS Files
+DooM,doom,[RetroArch PrBoom](https://docs.libretro.com/library/prboom/),.7z .iwad .pwad .wad .zip,`prboom.wad`
+EasyRPG,easyrpg,[RetroArch EasyRPG](https://docs.libretro.com/library/easyrpg/),.easyrpg .ldb ,Not Required
+Pico-8,pico8,[RetroArch Pico-8](https://github.com/Jakz/retro8),.7z .p8 .png .zip ,Not Required
+**ScummVM (Standalone)**,scummvm,**[ScummVM (Standalone)](https://www.scummvm.org/)**,Varies,Not Required
