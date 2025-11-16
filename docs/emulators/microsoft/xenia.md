@@ -4,7 +4,7 @@
 
 [TOC]
 
-## Getting Started with Axeniaahar
+## Getting Started with xenia
 
 ### How to Install xenia
 [Back to the Top](#xenia-table-of-contents)

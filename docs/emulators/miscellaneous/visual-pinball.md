@@ -32,5 +32,3 @@ To download VPinBall:
 6. DREAMM will now be downloaded
 
 ## VPinBall Tips and Tricks
-
-## VPinBall Tips and Tricks
