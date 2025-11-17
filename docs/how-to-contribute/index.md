@@ -14,7 +14,7 @@ Once you have created an account, open the following page, [https://github.com/B
 
 Alternatively open a discussion post, [https://github.com/BlueInterlude/emulatoreggs/discussions](https://github.com/BlueInterlude/emulatoreggs/discussions)
 
-### Option 3: Editing the Markdown files 
+### Option 2: Editing the Markdown files 
 
 #### How to Contribute Using GitHub's Web Editor
 
