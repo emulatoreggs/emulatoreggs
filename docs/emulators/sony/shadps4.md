@@ -4,7 +4,7 @@
 
 [TOC]
 
-## Getting Started with MAMShadPS4E
+## Getting Started with ShadPS4
 
 ### How to Install ShadPS4
 [Back to the Top](#ShadPS4-table-of-contents)
