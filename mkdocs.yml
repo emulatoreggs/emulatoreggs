@@ -84,6 +84,10 @@ nav:
       - Steam ROM Manager: 'frontends/steam-rom-manager.md'  
   - Linux Gaming:
       - Linux Gaming: 'linux-gaming/index.md'
+      - Game Launchers:
+        - Faugus Launcher: 'emulators/sony/faugus-launcher.md'
+        - Lutris: 'emulators/sony/lutris.md'
+        - Heroic Games Launcher!: 'emulators/sony/heroic-games-launcher.md'
   - How to Contribute:
       - How to Contribute: 'how-to-contribute/index.md' 
 theme:
