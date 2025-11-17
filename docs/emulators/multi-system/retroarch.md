@@ -28,4 +28,13 @@ To download RetroArch:
     * `flatpak override org.libretro.RetroArch --filesystem=host --user`
     * {{ flatseal }}
 
+## RetroArch Cores
+
+- :material-counter: **RetroArch Cores**{ style="font-size: 1.1rem" }
+
+  ***
+
+  - [RetroArchCore1]
+
+
 ## RetroArch Tips and Tricks
