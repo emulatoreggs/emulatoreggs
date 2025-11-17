@@ -76,6 +76,7 @@
 
   ***
 
+  - [DOSBox Pure Unleashed](#dosbox-pure-unleashed.md)
   - [DOSBox-X](./personal-computers/dosbox-x.md)
   - [FS-UAE](./personal-computers/fs-uae.md)
   - [Neko Project II](./personal-computers/neko-project-ii.md)
