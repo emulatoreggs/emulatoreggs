@@ -1,6 +1,6 @@
 # Linux Gaming
 
-# Emulators
+# Game Launchers
 
 <div class="grid cards _bz" markdown>
 
