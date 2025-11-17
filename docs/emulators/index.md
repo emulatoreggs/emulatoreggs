@@ -22,7 +22,6 @@
   - [melonPrimeDS (melonDS Fork)](./emulator-forks/melon-primeds.md)
   - [PrimeHack (Dolphin Fork)](./emulator-forks/primehack.md)
   - [Project Rio (Dolphin Fork)](./emulator-forks/project-rio.md)
-  - [Triforce (Dolphin Fork)](./emulator-forks/triforce.md)
 
 - :material-microsoft-xbox: **Microsoft Emulators**{ style="font-size: 1.1rem" }
 
@@ -38,10 +37,10 @@
 
   - [DREAMM](./miscellaneous/dreamm.md)
   - [EasyRPG](./miscellaneous/easyrpg.md)
-  - [GZDoom](./miscellaneous/gzdoom.md)
   - [Pico-8](./miscellaneous/pico-8.md)
   - [ScummVM](./miscellaneous/scummvm.md)
   - [Visual Pinball](./miscellaneous/visual-pinball.md)
+  - [UZDoom](./miscellaneous/uzdoom.md)
 
 - :material-cellphone: **Mobile Emulators**{ style="font-size: 1.1rem" }
 
@@ -88,8 +87,8 @@
   
   - [BlastEm](./sega/blastem.md)
   - [Flycast](./sega/flycast.md)
-  - [Kronos](./sega/kronos.md)
   - [redream](./sega/redream.md)
+  - [ymir](./sega/ymir.md)
 
 - :material-sony-playstation: **Sony Emulators**{ style="font-size: 1.1rem" }
 
