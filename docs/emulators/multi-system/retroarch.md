@@ -28,4 +28,4 @@ To download RetroArch:
     * `flatpak override org.libretro.RetroArch --filesystem=host --user`
     * {{ flatseal }}
 
-## Mesen Tips and Tricks
+## RetroArch Tips and Tricks
