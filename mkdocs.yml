@@ -70,8 +70,8 @@ nav:
       - Sega:
         - BlastEm: 'emulators/sega/blastem.md'
         - Flycast: 'emulators/sega/flycast.md'
-        - Kronos: 'emulators/sega/kronos.md'
         - redream: 'emulators/sega/redream.md'
+        - ymir: 'emulators/sega/ymir.md'
       - Sony:
         - DuckStation: 'emulators/sony/duckstation.md'
         - PCXS2: 'emulators/sony/pcsx2.md'
