@@ -38,6 +38,7 @@
   - [DREAMM](./miscellaneous/dreamm.md)
   - [EasyRPG](./miscellaneous/easyrpg.md)
   - [Pico-8](./miscellaneous/pico-8.md)
+  - [Ruffle](./miscellaneous/ruffle.md)
   - [ScummVM](./miscellaneous/scummvm.md)
   - [Visual Pinball](./miscellaneous/visual-pinball.md)
   - [UZDoom](./miscellaneous/uzdoom.md)

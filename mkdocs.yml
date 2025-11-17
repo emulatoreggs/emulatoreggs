@@ -41,6 +41,7 @@ nav:
         - DREAMM: 'emulators/miscellaneous/dreamm.md'
         - EasyRPG: 'emulators/miscellaneous/easyrpg.md'
         - Pico-8: 'emulators/miscellaneous/pico-8.md'
+        - Ruffle: 'emulators/miscellaneous/ruffle.md'
         - ScummVM: 'emulators/miscellaneous/scummvm.md'
         - UZDoom: 'emulators/miscellaneous/uzdoom.md'
         - Visual Pinball: 'emulators/miscellaneous/visual-pinball.md'
