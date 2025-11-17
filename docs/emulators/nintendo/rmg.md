@@ -22,7 +22,7 @@ To download RMG:
 
 1. Open your distro's software manager.
     * {{ discover }}
-2. Search for "RMG" and click "Install" on the top right of the software page For Azahar
+2. Search for "Rosalie's Mupen GUI" and click "Install" on the top right of the software page for Rosalie's Mupen GUI
 3. Open Konsole or a terminal of your choice
 4. Type the following two lines, one at a time, and press enter after each line:
     * `flatpak override com.github.Rosalie241.RMG --filesystem=host --user`
