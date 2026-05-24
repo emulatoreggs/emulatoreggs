@@ -21,7 +21,7 @@ VPinBall is available as a binary file on Linux. This page will cover how to uti
 
 To download VPinBall:
 
-1. Open the DREAMM [repository](hhttps://github.com/vpinball/vpinball/releases) on a browser of your choice
+1. Open the VPinBall [repository](hhttps://github.com/vpinball/vpinball/releases) on a browser of your choice
 2. Click the `Assets` button below the most recent release
 3. Download the `VPinballX_GL-#-#-#-Release-linux-x64.zip` file
 4. Move the newly downloaded `zip` file to the `$HOME/Applications` folder
@@ -29,6 +29,6 @@ To download VPinBall:
 4. Extract the file. If it extracts to a `tar.gz` file, extract it once more
 4. Rename the extracted folder to `VPinballX`
 5. In the newly named `VPinballX` folder, locate the `VPinballX_GL` file, {{ permissions }}
-6. DREAMM will now be downloaded
+6. VPinBall will now be downloaded
 
 ## VPinBall Tips and Tricks
