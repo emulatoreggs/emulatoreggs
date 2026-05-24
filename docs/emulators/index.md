@@ -102,3 +102,4 @@
   - [Play!](./sony/play.md)
   - [RPCS3](./sony/rpcs3.md)
   - [ShadPS4](./sony/shadps4.md)
+  - [Vita3K](./sony/vita3k.md)

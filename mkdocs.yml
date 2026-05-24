@@ -81,6 +81,7 @@ nav:
         - Play!: 'emulators/sony/play.md'
         - RPCS3: 'emulators/sony/rpcs3.md'
         - ShadPS4: 'emulators/sony/shadps4.md'
+        - Vita3K: 'emulators/sony/vita3k.md'
   - Frontends:
       - Frontends: 'frontends/index.md'   
       - ES-DE: 'frontends/es-de.md'  
