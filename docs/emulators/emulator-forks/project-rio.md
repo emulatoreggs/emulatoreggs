@@ -6,7 +6,7 @@
 
 ## Getting Started with Project Rio
 
-### How to Install Azahar
+### How to Install Project Rio
 [Back to the Top](#project-rio-table-of-contents)
 
 ## Project Rio Tips and Tricks
