@@ -49,7 +49,9 @@
 
   - [EKA2L1](./mobile/eka2l1.md)
   - [FreeJ2ME](./mobile/freej2me.md)
+  - [openDoja](./mobile/opendoja.md)
   - [touchHLE](./mobile/touchhle.md)
+  - [ReMEXA](./mobile/remexa.md)
   - [Waydroid](./mobile/waydroid.md)
 
 - :material-controller: **Multi-System Emulators**{ style="font-size: 1.1rem" }
@@ -57,6 +59,7 @@
   ***
 
   - [ares](./multi-system/ares.md)
+  - [jgenesis](./multi-system/jgenesis.md)
   - [Mednafen](./multi-system/mednafen.md)
   - [Mesen](./multi-system/mesen.md)
   - [RetroArch](./multi-system/retroarch.md)
