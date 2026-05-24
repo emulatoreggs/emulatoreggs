@@ -59,6 +59,7 @@ nav:
         - Azahar: 'emulators/nintendo/azahar.md'
         - Cemu: 'emulators/nintendo/cemu.md'
         - Dolphin: 'emulators/nintendo/dolphin.md'
+        - Eden: 'emulators/nintendo/eden.md'
         - melonDS: 'emulators/nintendo/melonds.md'
         - mGBA: 'emulators/nintendo/mgba.md'
         - RMG: 'emulators/nintendo/rmg.md'

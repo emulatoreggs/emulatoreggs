@@ -68,6 +68,7 @@
   - [Azahar](./nintendo/azahar.md/)
   - [Cemu](./nintendo/cemu.md)
   - [Dolphin](./nintendo/dolphin.md)
+  - [Eden](./nintendo/eden.md)
   - [melonDS](./nintendo/melonds.md)
   - [mGBA](./nintendo/mgba.md/)
   - [Rosalie's Mupen GUI](./nintendo/rmg.md)
