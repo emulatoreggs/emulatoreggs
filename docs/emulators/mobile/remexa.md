@@ -1,0 +1,1 @@
+# ReMEXA is a modern Java reimplementation and host runtime for SoftBank MEXA S-Appli, Vodafone V-Appli, and J-SKY V-Appli software.
