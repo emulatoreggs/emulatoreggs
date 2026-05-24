@@ -63,8 +63,6 @@ The PlayStation 3 controller, or the DualShock 3 notably had "Sixaxis". Sixaxis 
 
 RPCS3 has implemented support to allow emulating the Sixaxis through evdev, which exposes the gyro in a large variety of modern controllers (including the Nintendo Switch Pro Controller, 8BitDo Ultimate Controller, and the DualSense). 
 
-At this time, the Steam Deck gyro **cannot** be used. But if you own one of these controllers, you may emulate the Sixaxis through RPCS3.
-
 ??? info "Steam Input"
     {{ steaminput }} 
 
