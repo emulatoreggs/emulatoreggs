@@ -16,18 +16,16 @@
     
     {{ applications }}
 
-xenia is available as a binary file on Linux. This page will cover how to utilize and install the binary file. 
+On Linux, the official packaging method for xenia is an AppImage. 
 
 To download xenia:
 
-1. Open the xenia [website](https://xenia-manager.github.io/xenia-mirror/) on a browser of your choice
-2. Click the `Linux` button
-3. Move the newly downloaded `xenia_canary_linux.tar.xz` file to the `$HOME/Applications` folder
-    * {{ applications }}
-4. Extract the file
-5. In `$HOME/Applications`, create a `xenia` folder and move the `xenia_canary` file from the newly extracted folder to `$HOME/Applications/xenia`
-5. In the newly named `xenia_canary` folder, {{ permissions }}
-6. xenia will now be downloaded
+1. Open the xenia canary GitHub releases page, [https://github.com/xenia-canary/xenia-canary/releases](https://github.com/xenia-canary/xenia-canary/releases) :material-information-outline:{ title="{{ steamdeckdesktopmode }}" }
+2. Download the `xenia_canary_linux.AppImage ` file
+3. Move the downloaded AppImage to `$HOME/Applications`.
+4. Right click the AppImage, {{ permissions }}
+5. Double click the AppImage to run xenia. 
+6. (Optional) For easier maintenance, rename the AppImage to `xenia_canary.AppImage`
 
 ## xenia Tips and Tricks
 
