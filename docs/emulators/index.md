@@ -8,7 +8,7 @@
   ***
   
   - [Hypseus Singe](./arcade/hypseus-singe.md)
-  - [Lindbergh Loader](./arcade/lindbergh-loader.md)
+  - [Linux Loader](./arcade/linux-loader.md)
   - [MAME](./arcade/mame.md)
   - [Model 2 Emulator](./arcade/model-2-emulator.md)
   - [Supermodel](./arcade/supermodel.md)
