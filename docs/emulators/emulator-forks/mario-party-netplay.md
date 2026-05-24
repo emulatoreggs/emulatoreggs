@@ -6,7 +6,7 @@
 
 ## Getting Started with Mario Party Netplay
 
-### How to Install Azahar
+### How to Install Mario Party Netplay
 [Back to the Top](#mario-party-netplay-table-of-contents)
 
 ## Mario Party Netplay Tips and Tricks
