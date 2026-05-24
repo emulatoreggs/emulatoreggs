@@ -1,0 +1,1 @@
+# jgenesis is a multi-console emulator supporting a number of 8-bit and 16-bit gaming consoles.
