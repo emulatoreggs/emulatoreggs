@@ -27,5 +27,6 @@ To download PrimeHack:
 4. Type the following two lines, one at a time, and press enter after each line:
     * `flatpak override io.github.shiiion.primehack --filesystem=host --user`
     * {{ flatseal }}
+6. PrimeHack will now be downloaded
 
 ## PrimeHack Tips and Tricks
