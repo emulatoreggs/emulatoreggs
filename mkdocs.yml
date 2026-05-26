@@ -62,6 +62,7 @@ nav:
         - Cemu: 'emulators/nintendo/cemu.md'
         - Dolphin: 'emulators/nintendo/dolphin.md'
         - Eden: 'emulators/nintendo/eden.md'
+        - Gopher64: 'emulators/nintendo/gopher64.md'
         - melonDS: 'emulators/nintendo/melonds.md'
         - mGBA: 'emulators/nintendo/mgba.md'
         - RMG: 'emulators/nintendo/rmg.md'

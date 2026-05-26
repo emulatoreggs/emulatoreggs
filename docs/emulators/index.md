@@ -71,6 +71,7 @@
   - [Cemu](./nintendo/cemu.md)
   - [Dolphin](./nintendo/dolphin.md)
   - [Eden](./nintendo/eden.md)
+  - [Gopher64](./nintendo/gopher64.md)
   - [melonDS](./nintendo/melonds.md)
   - [mGBA](./nintendo/mgba.md/)
   - [Rosalie's Mupen GUI](./nintendo/rmg.md)
