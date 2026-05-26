@@ -105,7 +105,7 @@ theme:
   logo: assets/logo.png
   icon: 
     repo: fontawesome/brands/github
-    edit: material/pencil
+    edit: material/material-emoticon-devil
     view: material/eye
   palette: 
     # Palette toggle for automatic mode
