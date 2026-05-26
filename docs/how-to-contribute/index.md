@@ -4,15 +4,15 @@
 
 ## How to Contribute to EmulatorEggs 
 
-GitHub Repository: [https://github.com/BlueInterlude/emulatoreggs](https://github.com/BlueInterlude/emulatoreggs)
+GitHub Repository: [https://github.com/emulatoreggs/emulatoreggs](https://github.com/emulatoreggs/emulatoreggs)
 
 ### Option 1: Opening an Issue or Discussion
 
 You will need to create a GitHub account to open an issue. To sign up for GitHub, see [https://github.com/signup](https://github.com/signup).
 
-Once you have created an account, open the following page, [https://github.com/BlueInterlude/emulatoreggs/issues](https://github.com/BlueInterlude/emulatoreggs/issues), and submit an issue. 
+Once you have created an account, open the following page, [https://github.com/emulatoreggs/emulatoreggs/issues](https://github.com/emulatoreggs/emulatoreggs/issues), and submit an issue. 
 
-Alternatively open a discussion post, [https://github.com/BlueInterlude/emulatoreggs/discussions](https://github.com/BlueInterlude/emulatoreggs/discussions)
+Alternatively open a discussion post, [https://github.com/emulatoreggs/emulatoreggs/discussions](https://github.com/emulatoreggs/emulatoreggs/discussions)
 
 ### Option 2: Editing the Markdown files 
 
@@ -28,7 +28,7 @@ Select a page to edit and follow one of the below options:
     5. Submit your Pull Request.
     6. Once your Pull Request is reviewed, it will be merged and any of your changes will automatically be deployed to the website.
 * **Method 2**
-    1. Select a document to edit in the `docs` folder: [https://github.com/BlueInterlude/emulatoreggs/tree/main/docs](https://github.com/BlueInterlude/emulatoreggs/tree/main/docs).
+    1. Select a document to edit in the `docs` folder: [https://github.com/emulatoreggs/emulatoreggs/tree/main/docs](https://github.com/emulatoreggs/emulatoreggs/tree/main/docs).
     2. On the page you would like to edit, click the `Edit` button in the top right
     3. Click `Edit single file` and make your changes. 
     4. Once you are finished making your changes, click the `Commit changes...` button in the bottom left. 
@@ -51,7 +51,7 @@ This is not a definitive list of software, but instead a tailored list for those
 Clone the EmulatorEggs repository, using one of the below methods:
 
 * Command line
-    * `git clone https://github.com/BlueInterlude/emulatoreggs.git`
+    * `git clone https://github.com/emulatoreggs/emulatoreggs.git`
 * [GitHub Desktop](https://desktop.github.com/)
 * [Clone and use a GitHub repository in Visual Studio Code](https://code.visualstudio.com/docs/sourcecontrol/github)
 * Through your preferred software not listed above
@@ -77,7 +77,7 @@ Generally, when you are starting work on the EmulatorEggs wiki, the flow will lo
 
 * (**If first time or if EmulatorEggs folder is deleted**):
     * Clone the EmulatorEggs repository to a folder of your choice:
-        * git clone https://github.com/BlueInterlude/emulatoreggs.git 
+        * git clone https://github.com/emulatoreggs/emulatoreggs.git 
 * Open a terminal and `cd` to the EmulatorEggs cloned repository.
     * `cd /PATH/TO/EMULATOREGGS`
 * **(If first time or if .venv folder is deleted)**

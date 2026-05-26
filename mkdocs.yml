@@ -203,7 +203,7 @@ plugins:
     - git-revision-date-localized:
         enable_creation_date: true
     - git-committers:
-       repository: emuguinpedia/emuguinpedia
+       repository: emulatoreggs/emulatoreggs
        branch: master    
     - redirects
     - table-reader:
