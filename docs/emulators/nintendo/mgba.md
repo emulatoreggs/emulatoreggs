@@ -26,6 +26,6 @@ To download mGBA:
     * {{ applications }}
 4. Rename the AppImage to `mGBA-appimage-x64.appimage`
 5. {{ permissions }}
-6. Ryujinx will now be downloaded
+6. mGBA will now be downloaded
 
 ## mGBA Tips and Tricks
