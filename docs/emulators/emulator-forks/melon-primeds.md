@@ -27,6 +27,6 @@ To download melonPrimeDS:
     * {{ applications }}
 4. Extract the `melonPrimeDS-appimage-x86_64.zip` file
 5. {{ permissions }}
-6. Melon Mix will now be downloaded
+6. melonPrimeDS will now be downloaded
 
 ## Azahar Tips and Tricks
