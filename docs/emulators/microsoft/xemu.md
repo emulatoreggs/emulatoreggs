@@ -27,5 +27,6 @@ To download Xemu:
 4. Type the following two lines, one at a time, and press enter after each line:
     * `flatpak override app.xemu.xemu --filesystem=host --user`
     * {{ flatseal }}
+5. Xemu is now installed
 
 ## Xemu Tips and Tricks
