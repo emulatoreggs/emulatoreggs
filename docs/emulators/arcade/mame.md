@@ -29,3 +29,7 @@ To download MAME:
     * {{ flatseal }}
 
 ## MAME Tips and Tricks
+
+## Systems
+
+### Sega Model 2

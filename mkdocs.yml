@@ -25,7 +25,6 @@ nav:
         - Hypsesus Singe: 'emulators/arcade/hypseus-singe.md'
         - Linux Loader: 'emulators/arcade/linux-loader.md'
         - MAME: 'emulators/arcade/mame.md'
-        - Model 2 Emulator: 'emulators/arcade/model-2-emulator.md'
         - Supermodel: 'emulators/arcade/supermodel.md'
       - Emulator Forks:
         - Mario Party Netplay (melonDS Fork): 'emulators/emulator-forks/mario-party-netplay.md'

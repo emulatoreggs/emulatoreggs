@@ -10,7 +10,6 @@
   - [Hypseus Singe](./arcade/hypseus-singe.md)
   - [Linux Loader](./arcade/linux-loader.md)
   - [MAME](./arcade/mame.md)
-  - [Model 2 Emulator](./arcade/model-2-emulator.md)
   - [Supermodel](./arcade/supermodel.md)
 
 - :material-silverware-fork: **Emulator Forks**{ style="font-size: 1.1rem" }
