@@ -68,7 +68,7 @@ nav:
         - RMG: 'emulators/nintendo/rmg.md'
         - Ryujinx: 'emulators/nintendo/ryujinx.md'
       - Personal Computers:
-        - DOSBox-X: 'emulators/personal-computers/dosbox-pure-unleashed.md'
+        - DOSBox Pure Unleashed: 'emulators/personal-computers/dosbox-pure-unleashed.md'
         - DOSBox-X: 'emulators/personal-computers/dosbox-x.md'
         - FS-UAE: 'emulators/personal-computers/fs-uae.md'
         - Neko Project II: 'emulators/personal-computers/neko-project-ii.md'
