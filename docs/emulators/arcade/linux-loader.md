@@ -17,7 +17,7 @@ Make sure to read Linux Loader's documentation for additional information on the
 
 ### How to Install Linux Loader
 
-Linux Loader is available both as an AppImage and a Flatpak on Linux. This page will cover how to utilize and install the AppImage. 
+Linux Loader is available as an AppImage on Linux. This page will cover how to utilize and install the AppImage. 
 
 To download Linux Loader:
 
