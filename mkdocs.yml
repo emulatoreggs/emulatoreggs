@@ -92,9 +92,11 @@ nav:
   - Linux Gaming:
       - Linux Gaming: 'linux-gaming/index.md'
       - Game Launchers:
-        - Faugus Launcher: 'emulators/sony/faugus-launcher.md'
-        - Lutris: 'emulators/sony/lutris.md'
-        - Heroic Games Launcher!: 'emulators/sony/heroic-games-launcher.md'
+        - Faugus Launcher: 'linux-gaming/game-launchers/faugus-launcher.md'
+        - Lutris: 'linux-gaming/game-launchers/lutris.md'
+        - Heroic Games Launcher!: 'linux-gaming/game-launchers/heroic-games-launcher.md'
+      - Tools:
+        - Game Fixes: 'linux-gaming/tools/game-fixes.md'
   - How to Contribute:
       - How to Contribute: 'how-to-contribute/index.md' 
 theme:
