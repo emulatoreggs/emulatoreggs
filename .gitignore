@@ -8,3 +8,9 @@ env.bak/
 venv.bak/
 .git
 git/
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+!.env.example
