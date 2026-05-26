@@ -9,6 +9,6 @@
 
   - [Compression Tools](./compression-tools.md)
   - [Distrobox](./distrobox.md)
-  - [Compiling Software](./compiling.md)
+  - [Compiling Software](./compiling-software.md)
   - [Meld](./meld.md)
   - [ROM Hacks](./rom-hacks.md)
