@@ -7,6 +7,7 @@
 
   ***
 
+  - [Compression Tools](./compression-tools.md)
   - [Distrobox](./distrobox.md)
   - [Compiling Software](./compiling.md)
   - [Meld](./meld.md)
