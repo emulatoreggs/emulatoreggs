@@ -20,7 +20,7 @@ The goals of the wiki are as follows:
 
 ## Contributions
 
-EmulatorEggs is always looking for contributors to add new wiki pages and enhance the documentation. This wiki is hosted on a public Gitlab page, pull requests welcome. 
+EmulatorEggs is always looking for contributors to add new wiki pages and enhance the documentation. This wiki is hosted on a public GitHub page, pull requests welcome. 
 
 ## Steam Deck and Game Mode
 
