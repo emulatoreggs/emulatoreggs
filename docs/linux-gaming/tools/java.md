@@ -11,6 +11,13 @@ This page will cover how to download and utilize Java.
 ## How To Install Java
 [Back to the Top](#java-tips-and-tricks-table-of-contents)
 
+??? info "The Basics"
+    {{ home }} 
+
+    {{ hiddenfolders }}
+    
+    {{ applications }}
+
 1. In the `$HOME/Applications` folder, create a `jdk` folder :material-information-outline:{ title="{{ steamdeckdesktopmode }}" }
     * {{ applications }}
 2. Open the Java JDK website, [https://jdk.java.net/](https://jdk.java.net/) on a browser of your choice 
