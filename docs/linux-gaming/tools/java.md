@@ -23,8 +23,8 @@ This page will cover how to download and utilize Java.
     * `$HOME/.bashrc` is a hidden file by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these files
 7.  At the bottom of the `.bashrc` file, paste the following two lines:
 
-        export JAVA_HOME=$HOME/Applications/jdk
-        export PATH=$JAVA_HOME/bin:$PATH
+      export JAVA_HOME=$HOME/Applications/jdk
+      export PATH=$JAVA_HOME/bin:$PATH
 
 8.  Save and exit out of the `.bashrc` file
 9.  Java will now be installed
