@@ -31,13 +31,14 @@ To download Cxbx-Reloaded:
 8. In the text file, write the following:
 
       #!/bin/sh
-      umu-run WINEPREFIX=$HOME/Applications/CxbxReloaded/pfx GAMEID=umu-cxbxreloaded PROTONPATH=GE-Proton $HOME/Applications/CxbxReloaded/cxbx.exe
+      cd "$HOME/Applications/CxbxReloaded"
+      umu-run WINEPREFIX=$HOME/Applications/CxbxReloaded/pfx GAMEID=umu-cxbxreloaded PROTONPATH=GE-Proton "$HOME/Applications/CxbxReloaded/cxbx.exe"
 
 9. Save the text file and exit out of the text editor
 10. Right click the newly created text file, {{ permissions }}
-11. To run Cxbx-Reloaded.sh, double click `Cxbx-Reloaded.sh.sh`
+11. To run Cxbx-Reloaded.sh, double click `Cxbx-Reloaded.sh`
     * The first launch may take a few minutes
-12. Cxbx-Reloaded.sh will now be downloaded
+12. Cxbx-Reloaded will now be downloaded
 
 
 ## Cxbx-Reloaded Tips and Tricks
