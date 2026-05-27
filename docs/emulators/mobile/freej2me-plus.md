@@ -31,6 +31,7 @@ To download FreeJ2ME Plus:
 8. In the text file, write the following:
 
       #!/bin/sh
+      cd "$HOME/Applications/freej2me"
       java -jar "$HOME/Applications/freej2me/freej2me.jar"
 
 9. Save the text file and exit out of the text editor
