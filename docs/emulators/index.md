@@ -16,7 +16,6 @@
 
   ***
 
-  - [Mario Party Netplay (Dolphin Fork)](./emulator-forks/mario-party-netplay.md)
   - [Melon Mix (melonDS Fork)](./emulator-forks/melon-mix.md)
   - [melonPrimeDS (melonDS Fork)](./emulator-forks/melon-primeds.md)
   - [PrimeHack (Dolphin Fork)](./emulator-forks/primehack.md)
