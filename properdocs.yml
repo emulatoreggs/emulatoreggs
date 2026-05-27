@@ -114,6 +114,7 @@ theme:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
       primary: pink
+      scheme: slate
       toggle:
         icon: material/brightness-auto
         name: Switch to light mode
@@ -219,7 +220,7 @@ extra_javascript:
 extra_css:
   - css/github-permalink-style.css
   - css/github-tables.css
-  - css/emuguinpedia.css
+  - css/emulatoreggs.css
 extra:
   home: $HOME or ~ refer to your home directory. On a typical linux distro, the full path will be `\$HOME/\$USER`. On a Steam Deck, the full path will be `/home/deck`. When navigating using the file manager, the file manager may not be display the username visually in the full file path.
   applications: $HOME/Applications refers to the Applications folder in your home directory. On a typical linux distro, the full path will be `\$HOME/\$USER/Applications`. On a Steam Deck, the full path will be `/home/deck/Applications`. When navigating using the file manager, the file manager may not display the username visually in the full file path. The Applications folder is not created by default. If you have not created one already, do so before following the steps in this section. 

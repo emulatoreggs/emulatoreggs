@@ -42,12 +42,12 @@ backdrop-filter: none;
 
 
 @media screen {
-  [data-md-color-scheme=default] {
-    --md-default-bg-color: #1d2f5255;
+  [data-md-color-scheme=slate] {
+    --md-default-bg-color: #212636;
   }
 
-  [data-md-color-scheme=slate] {
-    --md-default-bg-color: #252c42a7;
+  [data-md-color-scheme=default] {
+    --md-default-bg-color: #f0f0f0;
   }
 
   [data-md-color-scheme=slate] .md-typeset .grid.cards > ol > li,
@@ -56,7 +56,18 @@ backdrop-filter: none;
     background-color: #2E3753;
   }
 
+  [data-md-color-scheme=default] .md-typeset .grid.cards > ol > li,
+  [data-md-color-scheme=default] .md-typeset .grid.cards > ul > li,
+  [data-md-color-scheme=default] .md-typeset .grid > .card {
+    background-color: #ffffff;
+  }
+
   [data-md-color-scheme=slate] .md-typeset blockquote {
     background-color: #00000066;
   }
+
+  [data-md-color-scheme=default] .md-typeset blockquote {
+    background-color: #ffffff;
+  }
+
 }
