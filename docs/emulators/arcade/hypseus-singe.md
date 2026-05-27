@@ -16,7 +16,7 @@
     
     {{ applications }}
 
-Hypseus Singe is available both as an AppImage on Linux. This page will cover how to utilize and install the AppImage. 
+Hypseus Singe is available as an AppImage on Linux. This page will cover how to utilize and install the AppImage. 
 
 To download Hypseus Singe:
 
@@ -28,6 +28,6 @@ To download Hypseus Singe:
 4. Extract the `tar.gz` file. If it extracts to another `tar.gz` file, extract it once more
 5. In the newly extracted `hypseus-singe` folder, {{ permissions }}
 6. Hypseus Singe will now be downloaded
-6. (Optional) For easier maintenance, rename the AppImage to `hypseus_singe.AppImage`
+7. (Optional) For easier maintenance, rename the AppImage to `hypseus_singe.AppImage`
 
 ## Hypseus Singe Tips and Tricks
