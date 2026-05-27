@@ -14,6 +14,7 @@ nav:
   - Decompilations: 
       - Decompilations: 'decompilations/index.md' 
   - Emulation Tools:
+      - Emulation Tools: 'emulation-tools/index.md'
       - Compression Tools: 'emulation-tools/compression-tools.md'
       - Emulation Tools: 'emulation-tools/index.md' 
       - Compiling Software: 'emulation-tools/compiling-software.md'
