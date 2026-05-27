@@ -34,7 +34,7 @@ To download openDoJa:
 
 8. Save the text file and exit out of the text editor
 9. Right click the newly created text file, {{ permissions }}
-10.  To run openDoJa, double click `openDoJa.sh`
+10. To run openDoJa, double click `openDoJa.sh`
 11. openDoJa will now be downloaded
 
 ## openDoJa Tips and Tricks
