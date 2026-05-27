@@ -106,6 +106,7 @@ nav:
 theme:
   name: material
   logo: assets/logo.png
+  custom_dir: overrides
   icon: 
     repo: fontawesome/brands/github
     edit: material/emoticon-devil
