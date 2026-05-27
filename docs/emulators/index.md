@@ -84,7 +84,7 @@
   - [DOSBox Pure Unleashed](#dosbox-pure-unleashed.md)
   - [DOSBox-X](./personal-computers/dosbox-x.md)
   - [FS-UAE](./personal-computers/fs-uae.md)
-  - [Neko Project II](./personal-computers/neko-project-ii.md)
+  - [Neko Project II kai](./personal-computers/neko-project-ii-kai.md)
   - [Tsugaru](./personal-computers/tsugaru.md)
 
 - :material-gamepad-variant: **Sega Emulators**{ style="font-size: 1.1rem" }
