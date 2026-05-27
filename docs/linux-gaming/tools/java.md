@@ -20,7 +20,7 @@ This page will cover how to download and utilize Java.
 5.  Right click `openjdk-##.#.#_linux-x64_bin.tar.gz`, click `Extract > Extract Archive here`
     * If it creates a subfolder, move the contents directly to `$HOME/Applications/jdk`
 6.  In the `$HOME` folder, right click the `.bashrc` file, click `Open with Kate` or a text editor of your choice
-    * `$HOME/.bashrc` is a hidden file by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these files
+    * {{ hiddenfolders }}
 7.  At the bottom of the `.bashrc` file, paste the following two lines:
 
       export JAVA_HOME=$HOME/Applications/jdk
