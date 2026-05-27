@@ -86,7 +86,7 @@ Generally, when you are starting work on the EmulatorEggs wiki, the flow will lo
 * In the same folder as the cloned repository and the `.venv` folder:
     * Linux: `source .venv/bin/activate`
     * Windows: `.venv\Scripts\activate`
-* `mkdocs serve`
+* `properdocs serve`
     * This line will provide you with a URL in which you can see your edits in real time.
 * Make your changes to the documents while testing the changes in a web browser of your choice.
 * When you are finished, save your changes and create a `Pull Request` 
