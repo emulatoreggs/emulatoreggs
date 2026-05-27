@@ -1,0 +1,5353 @@
+<!DOCTYPE html><html lang="en" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://wiki.emulatoreggs.com/cheat-sheet/">
+      
+      
+        <link rel="prev" href="../first-steps/">
+      
+      
+        <link rel="next" href="../decompilations/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-ProperDocs 1.6.7, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>BIOS and ROMs Cheat Sheet - EmulatorEggs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../css/github-permalink-style.css">
+    
+      <link rel="stylesheet" href="../css/github-tables.css">
+    
+      <link rel="stylesheet" href="../css/emuguinpedia.css">
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style></head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="pink" data-md-color-accent="pink">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#the-cheat-sheet-is-your-tool-to-success" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="EmulatorEggs" class="md-header__button md-logo" aria-label="EmulatorEggs" data-md-component="logo">
+      
+  <img src="../assets/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            EmulatorEggs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              BIOS and ROMs Cheat Sheet
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="pink" data-md-color-accent="pink" aria-label="Switch to light mode" type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden="">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"></path></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="pink" data-md-color-accent="pink" aria-label="Switch to dark mode" type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden="">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="pink" data-md-color-accent="indigo" aria-label="Switch to system preference" type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_0" hidden="">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"></path></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required="">
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix="">
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/emulatoreggs/emulatoreggs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    emulatoreggs/emulatoreggs
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../first-steps/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  First Steps
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+  
+    
+  
+  BIOS and ROMs Cheat Sheet
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../decompilations/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Decompilations
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../emulation-tools/compression-tools/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Emulation Tools
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../emulators/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Emulators
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../frontends/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Frontends
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../linux-gaming/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Linux Gaming
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../how-to-contribute/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  How to Contribute
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="EmulatorEggs" class="md-nav__button md-logo" aria-label="EmulatorEggs" data-md-component="logo">
+      
+  <img src="../assets/logo.png" alt="logo">
+
+    </a>
+    EmulatorEggs
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/emulatoreggs/emulatoreggs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    emulatoreggs/emulatoreggs
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix="">
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../first-steps/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    First Steps
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    BIOS and ROMs Cheat Sheet
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    BIOS and ROMs Cheat Sheet
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+      
+        <li class="md-nav__item">
+  <a href="#cheat-sheet-table-of-contents" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cheat Sheet Table of Contents
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Introduction
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Introduction">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#roms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ROMs
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bios" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        BIOS
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cheat-sheets" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cheat Sheets
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Cheat Sheets">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#arcade-and-mame-related-emulation-cheat-sheet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arcade and MAME Related Emulation Cheat Sheet
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atari-cheat-sheet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Atari Cheat Sheet
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bandai-cheat-sheet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Bandai Cheat Sheet
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#game-engine-recreations-cheat-sheet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Game Engine Recreations Cheat Sheet
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#mattel-cheat-sheet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Mattel Cheat Sheet
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#microsoft-cheat-sheet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Microsoft Cheat Sheet
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nec-cheat-sheet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        NEC Cheat Sheet
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nintendo-cheat-sheet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Nintendo Cheat Sheet
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#panasonic-cheat-sheet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Panasonic Cheat Sheet
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#personal-computers-cheat-sheet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Personal Computers Cheat Sheet
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sega-cheat-sheet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sega Cheat Sheet
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#snk-cheat-sheet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SNK Cheat Sheet
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sony-cheat-sheet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Sony Cheat Sheet
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../decompilations/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Decompilations
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Decompilations
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../emulation-tools/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Emulation Tools
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Emulation Tools
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulation-tools/compression-tools/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Compression Tools
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulation-tools/compiling-software/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Compiling Software
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulation-tools/distrobox/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Distrobox
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulation-tools/meld/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Meld
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulation-tools/rom-hacks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ROM Hacks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../emulators/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Emulators
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Emulators
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_2">
+        
+          
+          <label class="md-nav__link" for="__nav_6_2" id="__nav_6_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Arcade
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Arcade
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/arcade/hypseus-singe/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hypsesus Singe
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/arcade/linux-loader/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Linux Loader
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/arcade/mame/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    MAME
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/arcade/supermodel/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Supermodel
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_3">
+        
+          
+          <label class="md-nav__link" for="__nav_6_3" id="__nav_6_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Emulator Forks
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Emulator Forks
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/emulator-forks/mario-party-netplay/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mario Party Netplay (melonDS Fork)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/emulator-forks/melon-mix/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Melon Mix (melonDS Fork)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/emulator-forks/melon-primeds/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    melonPrimeDS (melonDS Fork)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/emulator-forks/primehack/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PrimeHack (Dolphin Fork)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/emulator-forks/project-rio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Project Rio (Dolphin Fork)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_4">
+        
+          
+          <label class="md-nav__link" for="__nav_6_4" id="__nav_6_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Microsoft
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Microsoft
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/microsoft/cxbx-reloaded/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cxbx-Reloaded
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/microsoft/xemu/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Xemu
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/microsoft/xenia/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Xenia
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_5">
+        
+          
+          <label class="md-nav__link" for="__nav_6_5" id="__nav_6_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Miscellaneous
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Miscellaneous
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/miscellaneous/dreamm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DREAMM
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/miscellaneous/easyrpg/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EasyRPG
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/miscellaneous/pico-8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pico-8
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/miscellaneous/ruffle/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ruffle
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/miscellaneous/scummvm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ScummVM
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/miscellaneous/uzdoom/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    UZDoom
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/miscellaneous/visual-pinball/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Visual Pinball
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_6">
+        
+          
+          <label class="md-nav__link" for="__nav_6_6" id="__nav_6_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mobile Emulators
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Mobile Emulators
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/mobile/eka2l1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    EKA2L1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/mobile/freej2me-plus/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FreeJ2ME Plus
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/mobile/opendoja/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    openDoJa
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/mobile/remexa/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ReMEXA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/mobile/touchhle/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    touchHLE
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/mobile/waydroid/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Waydroid
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_7">
+        
+          
+          <label class="md-nav__link" for="__nav_6_7" id="__nav_6_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Multi-System Emulators
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Multi-System Emulators
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/multi-system/ares/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ares
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/multi-system/jgenesis/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    jgenesis
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/multi-system/mednafen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mednafen
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/multi-system/mesen/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mesen
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/multi-system/retroarch/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RetroArch
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_8">
+        
+          
+          <label class="md-nav__link" for="__nav_6_8" id="__nav_6_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Nintendo
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Nintendo
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/nintendo/azahar/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Azahar
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/nintendo/cemu/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cemu
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/nintendo/dolphin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Dolphin
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/nintendo/eden/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Eden
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/nintendo/gopher64/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gopher64
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/nintendo/melonds/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    melonDS
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/nintendo/mgba/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    mGBA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/nintendo/rmg/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RMG
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/nintendo/ryujinx/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ryujinx
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_9">
+        
+          
+          <label class="md-nav__link" for="__nav_6_9" id="__nav_6_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Personal Computers
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Personal Computers
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/personal-computers/dosbox-pure-unleashed/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DOSBox Pure Unleashed
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/personal-computers/dosbox-x/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DOSBox-X
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/personal-computers/fs-uae/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    FS-UAE
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/personal-computers/neko-project-ii-kai/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Neko Project II kai
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/personal-computers/tsugaru/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tsugaru
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_10">
+        
+          
+          <label class="md-nav__link" for="__nav_6_10" id="__nav_6_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sega
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Sega
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/sega/blastem/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    BlastEm
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/sega/flycast/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Flycast
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/sega/redream/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    redream
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/sega/ymir/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ymir
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_11">
+        
+          
+          <label class="md-nav__link" for="__nav_6_11" id="__nav_6_11_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sony
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Sony
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/sony/duckstation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    DuckStation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/sony/pcsx2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PCXS2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/sony/play/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Play!
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/sony/rpcs3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    RPCS3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/sony/shadps4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ShadPS4
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../emulators/sony/vita3k/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vita3K
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../frontends/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Frontends
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_7" id="__nav_7_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Frontends
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../frontends/es-de/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    ES-DE
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../frontends/freegosy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Freegosy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../frontends/steam-rom-manager/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Steam ROM Manager
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../linux-gaming/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Linux Gaming
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_8" id="__nav_8_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Linux Gaming
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_2">
+        
+          
+          <label class="md-nav__link" for="__nav_8_2" id="__nav_8_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Game Launchers
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Game Launchers
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../linux-gaming/game-launchers/faugus-launcher/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Faugus Launcher
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../linux-gaming/game-launchers/lutris/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lutris
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../linux-gaming/game-launchers/heroic-games-launcher/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Heroic Games Launcher!
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_3">
+        
+          
+          <label class="md-nav__link" for="__nav_8_3" id="__nav_8_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tools
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Tools
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../linux-gaming/tools/game-fixes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Game Fixes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../linux-gaming/tools/java/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Java
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../linux-gaming/tools/umu-launcher/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    umu launcher
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9">
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../how-to-contribute/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How to Contribute
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    How to Contribute
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix="">
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+    <a href="https://github.com/emulatoreggs/emulatoreggs/edit/main/docs/cheat-sheet.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M22.5 2.09c-.9.91-2.37 1.64-4.19 2.16A9.92 9.92 0 0 0 12 2c-2.39 0-4.59.84-6.31 2.25C3.87 3.73 2.4 3 1.5 2.09c.03 1.63.85 3.12 2.22 4.31A9.9 9.9 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10c0-2.08-.63-4-1.72-5.6 1.37-1.19 2.19-2.68 2.22-4.31M7.5 8.5l3 1.5c0 .8-.7 1.5-1.5 1.5s-1.5-.7-1.5-1.5zm4.5 8.73c-1.75 0-3.29-.73-4.19-1.81L9.23 14c.45.72 1.52 1.23 2.77 1.23s2.32-.51 2.77-1.23l1.42 1.42c-.9 1.08-2.44 1.81-4.19 1.81M16.5 10c0 .8-.7 1.5-1.5 1.5s-1.5-.7-1.5-1.5l3-1.5z"></path></svg>
+    </a>
+  
+  
+
+
+<h1 id="the-cheat-sheet-is-your-tool-to-success">The Cheat Sheet is Your Tool to Success.<a class="headerlink" href="#the-cheat-sheet-is-your-tool-to-success" title="Permanent link"></a></h1>
+<hr>
+<h2 id="cheat-sheet-table-of-contents">Cheat Sheet Table of Contents<a class="headerlink" href="#cheat-sheet-table-of-contents" title="Permanent link"></a></h2>
+<div class="toc">
+<ul>
+<li><a href="#the-cheat-sheet-is-your-tool-to-success">The Cheat Sheet is Your Tool to Success.</a><ul>
+<li><a href="#cheat-sheet-table-of-contents">Cheat Sheet Table of Contents</a></li>
+<li><a href="#introduction">Introduction</a><ul>
+<li><a href="#roms">ROMs</a></li>
+<li><a href="#bios">BIOS</a></li>
+</ul>
+</li>
+<li><a href="#cheat-sheets">Cheat Sheets</a><ul>
+<li><a href="#arcade-and-mame-related-emulation-cheat-sheet">Arcade and MAME Related Emulation Cheat Sheet</a></li>
+<li><a href="#atari-cheat-sheet">Atari Cheat Sheet</a></li>
+<li><a href="#bandai-cheat-sheet">Bandai Cheat Sheet</a></li>
+<li><a href="#game-engine-recreations-cheat-sheet">Game Engine Recreations Cheat Sheet</a></li>
+<li><a href="#mattel-cheat-sheet">Mattel Cheat Sheet</a></li>
+<li><a href="#microsoft-cheat-sheet">Microsoft Cheat Sheet</a></li>
+<li><a href="#nec-cheat-sheet">NEC Cheat Sheet</a></li>
+<li><a href="#nintendo-cheat-sheet">Nintendo Cheat Sheet</a></li>
+<li><a href="#panasonic-cheat-sheet">Panasonic Cheat Sheet</a></li>
+<li><a href="#personal-computers-cheat-sheet">Personal Computers Cheat Sheet</a></li>
+<li><a href="#sega-cheat-sheet">Sega Cheat Sheet</a></li>
+<li><a href="#snk-cheat-sheet">SNK Cheat Sheet</a></li>
+<li><a href="#sony-cheat-sheet">Sony Cheat Sheet</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<h2 id="introduction">Introduction<a class="headerlink" href="#introduction" title="Permanent link"></a></h2>
+<h3 id="roms">ROMs<a class="headerlink" href="#roms" title="Permanent link"></a></h3>
+<p>This cheat sheet assumes you are using ES-DE's file directory for ROMs. For a full list of these folders, see below.</p>
+<pre><code>3do: 3DO Interactive Multiplayer
+adam: Coleco Adam
+ags: Adventure Game Studio Game Engine
+amiga: Commodore Amiga
+amiga1200: Commodore Amiga 1200
+amiga600: Commodore Amiga 600
+amigacd32: Commodore Amiga CD32
+amstradcpc: Amstrad CPC
+apple2: Apple II
+apple2gs: Apple IIGS
+arcade: Arcade
+arcadia: Emerson Arcadia 2001
+archimedes: Acorn Archimedes
+arduboy: Arduboy Miniature Game System
+astrocde: Bally Astrocade
+atari2600: Atari 2600
+atari5200: Atari 5200
+atari7800: Atari 7800 ProSystem
+atari800: Atari 800
+atarijaguar: Atari Jaguar
+atarijaguarcd: Atari Jaguar CD
+atarilynx: Atari Lynx
+atarist: Atari ST
+atarixe: Atari XE
+atomiswave: Sammy Corporation Atomiswave
+bbcmicro: Acorn Computers BBC Micro
+c64: Commodore 64
+cdimono1: Philips CD-i
+cdtv: Commodore CDTV
+chailove: ChaiLove Game Engine
+channelf: Fairchild Channel F
+coco: Tandy Color Computer
+colecovision: Coleco ColecoVision
+consolearcade: Console Arcade Systems
+cps: Capcom Play System
+cps1: Capcom Play System I
+cps2: Capcom Play System II
+cps3: Capcom Play System III
+crvision: VTech CreatiVision
+daphne: Daphne Arcade LaserDisc Emulator
+desktop: Desktop Applications
+doom: Doom
+dos: DOS (PC)
+dragon32: Dragon Data Dragon 32
+dreamcast: Sega Dreamcast
+easyrpg: EasyRPG Game Engine
+electron: Acorn Electron
+emulators: Emulators
+epic: Epic Games Store
+famicom: Nintendo Family Computer
+fba: FinalBurn Alpha
+fbneo: FinalBurn Neo
+fds: Nintendo Famicom Disk System
+flash: Adobe Flash
+fm7: Fujitsu FM-7
+fmtowns: Fujitsu FM Towns
+gamate: Bit Corporation Gamate
+gameandwatch: Nintendo Game and Watch
+gamecom: Tiger Electronics Game.com
+gamegear: Sega Game Gear
+gb: Nintendo Game Boy
+gba: Nintendo Game Boy Advance
+gbc: Nintendo Game Boy Color
+gc: Nintendo GameCube
+genesis: Sega Genesis
+gmaster: Hartung Game Master
+gx4000: Amstrad GX4000
+intellivision: Mattel Electronics Intellivision
+j2me: Java 2 Micro Edition (J2ME)
+kodi: Kodi Home Theatre Software
+laserdisc: LaserDisc Games
+lcdgames: LCD Handheld Games
+lindbergh (custom system): Sega Lindbergh
+lowresnx: LowRes NX Fantasy Console
+lutris: Lutris Open Gaming Platform
+lutro: Lutro Game Engine
+macintosh: Apple Macintosh
+mame: Multiple Arcade Machine Emulator
+mame-advmame: AdvanceMAME
+mastersystem: Sega Master System
+megacd: Sega Mega-CD
+megacdjp: Sega Mega-CD
+megadrive: Sega Mega Drive
+megadrivejp: Sega Mega Drive
+megaduck: Creatronic Mega Duck
+mess: Multi Emulator Super System
+model2: Sega Model 2
+model3: Sega Model 3
+moto: Thomson MO/TO Series
+msx: MSX
+msx1: MSX1
+msx2: MSX2
+msxturbor: MSX Turbo R
+mugen: M.U.G.E.N Game Engine
+multivision: Othello Multivision
+n3ds: Nintendo 3DS
+n64: Nintendo 64
+n64dd: Nintendo 64DD
+naomi: Sega NAOMI
+naomi2: Sega NAOMI 2
+naomigd: Sega NAOMI GD-ROM
+nds: Nintendo DS
+neogeo: SNK Neo Geo
+neogeocd: SNK Neo Geo CD
+neogeocdjp: SNK Neo Geo CD
+nes: Nintendo Entertainment System
+ngage: Nokia N-Gage
+ngp: SNK Neo Geo Pocket
+ngpc: SNK Neo Geo Pocket Color
+odyssey2: Magnavox Odyssey 2
+openbor: OpenBOR Game Engine
+oric: Tangerine Computer Systems Oric
+palm: Palm OS
+pc: IBM PC
+pc88: NEC PC-8800 Series
+pc98: NEC PC-9800 Series
+pcarcade: PC Arcade Systems
+pcengine: NEC PC Engine
+pcenginecd: NEC PC Engine CD
+pcfx: NEC PC-FX
+pico8: PICO-8 Fantasy Console
+plus4: Commodore Plus/4
+pokemini: Nintendo Pokémon Mini
+ports: Ports
+ps2: Sony PlayStation 2
+ps3: Sony PlayStation 3
+psp: Sony PlayStation Portable
+psvita: Sony PlayStation Vita
+psx: Sony PlayStation
+pv1000: Casio PV-1000
+quake: Quake
+samcoupe: MGT SAM Coupé
+satellaview: Nintendo Satellaview
+saturn: Sega Saturn
+saturnjp: Sega Saturn
+scummvm: ScummVM Game Engine
+scv: Epoch Super Cassette Vision
+sega32x: Sega Mega Drive 32X
+sega32xjp: Sega Super 32X
+sega32xna: Sega Genesis 32X
+segacd: Sega CD
+sfc: Nintendo SFC (Super Famicom)
+sg-1000: Sega SG-1000
+sgb: Nintendo Super Game Boy
+snes: Nintendo SNES (Super Nintendo)
+snesna: Nintendo SNES (Super Nintendo)
+solarus: Solarus Game Engine
+spectravideo: Spectravideo
+steam: Valve Steam
+stv: Sega Titan Video Game System
+sufami: Bandai SuFami Turbo
+supergrafx: NEC SuperGrafx
+supervision: Watara Supervision
+supracan: Funtech Super A'Can
+switch: Nintendo Switch
+symbian: Symbian
+tanodragon: Tano Dragon
+tg-cd: NEC TurboGrafx-CD
+tg16: NEC TurboGrafx-16
+ti99: Texas Instruments TI-99
+tic80: TIC-80 Fantasy Computer
+to8: Thomson TO8
+triforce: Namco-Sega-Nintendo Triforce
+trs-80: Tandy TRS-80
+type-x: Taito Type X
+uzebox: Uzebox Open Source Console
+vectrex: GCE Vectrex
+vic20: Commodore VIC-20
+videopac: Philips Videopac G7000
+virtualboy: Nintendo Virtual Boy
+vpinball: Visual Pinball
+vsmile: VTech V.Smile
+wasm4: WASM-4 Fantasy Console
+wii: Nintendo Wii
+wiiu: Nintendo Wii U
+windows: Microsoft Windows
+windows3x: Microsoft Windows 3.x
+windows9x: Microsoft Windows 9x
+wonderswan: Bandai WonderSwan
+wonderswancolor: Bandai WonderSwan Color
+x1: Sharp X1
+x68000: Sharp X68000
+xbox: Microsoft Xbox
+xbox360: Microsoft Xbox 360
+zmachine: Infocom Z-machine
+zx81: Sinclair ZX81
+zxnext: Sinclair ZX Spectrum Next
+zxspectrum: Sinclair ZX Spectrum
+</code></pre>
+<h3 id="bios">BIOS<a class="headerlink" href="#bios" title="Permanent link"></a></h3>
+<p>This cheat sheet assumes you are using a <code>bios</code> or <code>BIOS</code> folder for your BIOS. Paths listed will be relative and will not assume a hard-coded path. When reading <code>bios/BIOSNAME.bin</code>, you may replace the <code>bios</code> folder with the path to your own BIOS folder. </p>
+<h2 id="cheat-sheets">Cheat Sheets<a class="headerlink" href="#cheat-sheets" title="Permanent link"></a></h2>
+<p><a href="#cheat-sheet-table-of-contents">Back to the Top</a></p>
+<hr>
+<h3 id="arcade-and-mame-related-emulation-cheat-sheet">Arcade and MAME Related Emulation Cheat Sheet<a class="headerlink" href="#arcade-and-mame-related-emulation-cheat-sheet" title="Permanent link"></a></h3>
+<p><a href="#cheat-sheet-table-of-contents">Back to the Top</a></p>
+<hr>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Console/System</th>
+<th style="text-align: left;">ROM Folder Name</th>
+<th style="text-align: left;">Emulator (Click for Link)</th>
+<th style="text-align: left;">File Types</th>
+<th style="text-align: left;">BIOS Files</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Final Burn Neo</td>
+<td style="text-align: left;">fbneo</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/fbneo/">RetroArch FinalBurn Neo</a></td>
+<td style="text-align: left;">.7z .zip</td>
+<td style="text-align: left;">BIOS will be searched through 3 folders:<br> ∙<code>roms/arcade/</code>  <br> ∙<code>bios/mame/</code> <br> ∙<code>bios/</code> <br> ∙EmulationStation-DE will ONLY work with the BIOS in <code>roms/arcade/</code> folder</td>
+</tr>
+<tr>
+<td style="text-align: left;">MAME 2003 Plus</td>
+<td style="text-align: left;">mame2003</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/mame2003_plus/">RetroArch MAME 2003 Plus</a></td>
+<td style="text-align: left;">.zip</td>
+<td style="text-align: left;">Not Required</td>
+</tr>
+<tr>
+<td style="text-align: left;">MAME 2010</td>
+<td style="text-align: left;">mame2010</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/mame_2010/">RetroArch MAME 2010</a></td>
+<td style="text-align: left;">.zip</td>
+<td style="text-align: left;">Not Required</td>
+</tr>
+<tr>
+<td style="text-align: left;">MAME Current</td>
+<td style="text-align: left;">arcade</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/development/cores/core-specific/mame/">RetroArch MAME Current</a></td>
+<td style="text-align: left;">.zip</td>
+<td style="text-align: left;">Not Required</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>MAME (Standalone)</strong></td>
+<td style="text-align: left;">arcade</td>
+<td style="text-align: left;"><strong><a href="https://www.mamedev.org/">MAME (Standalone)</a></strong></td>
+<td style="text-align: left;">.chd .zip</td>
+<td style="text-align: left;">BIOS will be searched through 3 folders:<br> ∙<code>roms/arcade/</code>  <br> ∙<code>bios/mame/</code> <br> ∙<code>bios/</code> <br> ∙EmulationStation-DE will ONLY work with the BIOS in <code>roms/arcade/</code> folder</td>
+</tr>
+<tr>
+<td style="text-align: left;">Philips CD-i</td>
+<td style="text-align: left;">cdimono1</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/same_cdi/">RetroArch SAME CDi</a></td>
+<td style="text-align: left;">.chd .iso</td>
+<td style="text-align: left;">Create <code>same_cdi/bios</code> folders in <code>bios</code> <br> Place <code>cdibios.zip</code> in <code>bios/same_cdi/bios</code> <br> May substitute <code>cdibios.zip</code> with <code>cdimono.zip</code> or <code>cdimono2.zip</code></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Philips CD-i (Standalone)</strong></td>
+<td style="text-align: left;">cdimono1</td>
+<td style="text-align: left;"><strong><a href="https://www.mamedev.org/">MAME (Standalone)</a></strong></td>
+<td style="text-align: left;">.chd .iso</td>
+<td style="text-align: left;">Place <code>cdimono1.zip</code> in <code>roms/cdimono</code></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Tiger Electronics Game.com (Standalone)</strong></td>
+<td style="text-align: left;">gamecom</td>
+<td style="text-align: left;"><strong><a href="https://www.mamedev.org/">MAME (Standalone)</a></strong></td>
+<td style="text-align: left;">.zip</td>
+<td style="text-align: left;">Place <code>gamecom.zip</code> in <code>roms/gamecom</code></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>VTech V.Smile (Standalone)</strong></td>
+<td style="text-align: left;">vsmile</td>
+<td style="text-align: left;"><strong><a href="https://www.mamedev.org/">MAME (Standalone)</a></strong></td>
+<td style="text-align: left;">.zip</td>
+<td style="text-align: left;">Place <code>vsmile.zip</code> in <code>roms/vsmile</code></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>
+<h4 id="final-burn-neo">Final Burn Neo<a class="headerlink" href="#final-burn-neo" title="Permanent link"></a></h4>
+</li>
+<li>
+<h4 id="mame-2003">MAME 2003<a class="headerlink" href="#mame-2003" title="Permanent link"></a></h4>
+</li>
+<li>
+<h4 id="mame-2010">MAME 2010<a class="headerlink" href="#mame-2010" title="Permanent link"></a></h4>
+</li>
+<li>
+<h4 id="mame-current">MAME Current<a class="headerlink" href="#mame-current" title="Permanent link"></a></h4>
+</li>
+<li>
+<h4 id="mame-standalone">MAME (Standalone)<a class="headerlink" href="#mame-standalone" title="Permanent link"></a></h4>
+</li>
+<li>
+<h4 id="philips-cd-i">Philips CD-i<a class="headerlink" href="#philips-cd-i" title="Permanent link"></a></h4>
+</li>
+<li>
+<h4 id="tiger-electronics-gamecom">Tiger Electronics Game.com<a class="headerlink" href="#tiger-electronics-gamecom" title="Permanent link"></a></h4>
+</li>
+<li>
+<h4 id="vtech-vsmile">VTech V.Smile<a class="headerlink" href="#vtech-vsmile" title="Permanent link"></a></h4>
+</li>
+</ul>
+<hr>
+<h3 id="atari-cheat-sheet">Atari Cheat Sheet<a class="headerlink" href="#atari-cheat-sheet" title="Permanent link"></a></h3>
+<p><a href="#cheat-sheet-table-of-contents">Back to the Top</a></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Console/System</th>
+<th style="text-align: left;">ROM Folder Name</th>
+<th style="text-align: left;">Emulator (Click for Link)</th>
+<th style="text-align: left;">File Types</th>
+<th style="text-align: left;">BIOS Files</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Atari 2600</td>
+<td style="text-align: left;">atari2600</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/stella/">RetroArch Stella</a></td>
+<td style="text-align: left;">.7z .a26   .bin .zip</td>
+<td style="text-align: left;">Not Required</td>
+</tr>
+<tr>
+<td style="text-align: left;">Atari Jaguar</td>
+<td style="text-align: left;">atarijaguar</td>
+<td style="text-align: left;"><a href="https://www.richwhitehouse.com/jaguar/">BigPEmu</a></td>
+<td style="text-align: left;">.abs .cdi .cof .cue .j64 .jag .rom .zip</td>
+<td style="text-align: left;">Not Required</td>
+</tr>
+<tr>
+<td style="text-align: left;">Atari Jaguar</td>
+<td style="text-align: left;">atarijaguarcd</td>
+<td style="text-align: left;"><a href="https://www.richwhitehouse.com/jaguar/">BigPEmu</a></td>
+<td style="text-align: left;">.abs .cdi .cof .cue .j64 .jag .rom .zip</td>
+<td style="text-align: left;">Not Required</td>
+</tr>
+<tr>
+<td style="text-align: left;">Atari Lynx</td>
+<td style="text-align: left;">lynx</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/beetle_lynx/">RetroArch Beetle Lynx</a></td>
+<td style="text-align: left;">.7z .bin .lnx .zip</td>
+<td style="text-align: left;"><code>lynxboot.img</code></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="bandai-cheat-sheet">Bandai Cheat Sheet<a class="headerlink" href="#bandai-cheat-sheet" title="Permanent link"></a></h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Console/System</th>
+<th style="text-align: left;">ROM Folder Name</th>
+<th style="text-align: left;">Emulator (Click for Link)</th>
+<th style="text-align: left;">File Types</th>
+<th style="text-align: left;">BIOS Files</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Bandai Wonderswan</td>
+<td style="text-align: left;">wonderswan</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/beetle_cygne/">RetroArch Beetle Cygne</a></td>
+<td style="text-align: left;">.7z  .pc2  .ws  .wsc  .zip</td>
+<td style="text-align: left;">Not Required</td>
+</tr>
+<tr>
+<td style="text-align: left;">Bandai Wonderswan Color</td>
+<td style="text-align: left;">wonderswancolor</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/beetle_cygne/">RetroArch Beetle Cygne</a></td>
+<td style="text-align: left;">.7z  .pc2  .ws  .wsc  .zip</td>
+<td style="text-align: left;">Not Required</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="game-engine-recreations-cheat-sheet">Game Engine Recreations Cheat Sheet<a class="headerlink" href="#game-engine-recreations-cheat-sheet" title="Permanent link"></a></h3>
+<p><a href="#cheat-sheet-table-of-contents">Back to the Top</a></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Console/System</th>
+<th style="text-align: left;">ROM Folder Name</th>
+<th style="text-align: left;">Emulator (Click for link)</th>
+<th style="text-align: left;">File Types</th>
+<th style="text-align: left;">BIOS Files</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">DooM</td>
+<td style="text-align: left;">doom</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/prboom/">RetroArch PrBoom</a></td>
+<td style="text-align: left;">.7z .iwad .pwad .wad .zip</td>
+<td style="text-align: left;"><code>prboom.wad</code></td>
+</tr>
+<tr>
+<td style="text-align: left;">EasyRPG</td>
+<td style="text-align: left;">easyrpg</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/easyrpg/">RetroArch EasyRPG</a></td>
+<td style="text-align: left;">.easyrpg .ldb</td>
+<td style="text-align: left;">Not Required</td>
+</tr>
+<tr>
+<td style="text-align: left;">Pico-8</td>
+<td style="text-align: left;">pico8</td>
+<td style="text-align: left;"><a href="https://github.com/Jakz/retro8">RetroArch Pico-8</a></td>
+<td style="text-align: left;">.7z .p8 .png .zip</td>
+<td style="text-align: left;">Not Required</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>ScummVM (Standalone)</strong></td>
+<td style="text-align: left;">scummvm</td>
+<td style="text-align: left;"><strong><a href="https://www.scummvm.org/">ScummVM (Standalone)</a></strong></td>
+<td style="text-align: left;">Varies</td>
+<td style="text-align: left;">Not Required</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>
+<h4 id="doom">DooM<a class="headerlink" href="#doom" title="Permanent link"></a></h4>
+</li>
+<li>
+<h4 id="easyrpg">EasyRPG<a class="headerlink" href="#easyrpg" title="Permanent link"></a></h4>
+</li>
+<li>
+<h4 id="pico-8">Pico-8<a class="headerlink" href="#pico-8" title="Permanent link"></a></h4>
+</li>
+<li>
+<h4 id="scummvm">ScummVM<a class="headerlink" href="#scummvm" title="Permanent link"></a></h4>
+</li>
+</ul>
+<hr>
+<h3 id="mattel-cheat-sheet">Mattel Cheat Sheet<a class="headerlink" href="#mattel-cheat-sheet" title="Permanent link"></a></h3>
+<p><a href="#cheat-sheet-table-of-contents">Back to the Top</a></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Console/System</th>
+<th style="text-align: left;">ROM Folder Name</th>
+<th style="text-align: left;">Emulator (Click for link)</th>
+<th style="text-align: left;">File Types</th>
+<th style="text-align: left;">BIOS Files</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Mattel Electronics Intellivison</td>
+<td style="text-align: left;">intellivision</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/freeintv/">RetroArch FreeIntv</a></td>
+<td style="text-align: left;">.7z .bin .int .rom .zip</td>
+<td style="text-align: left;">Not Required</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>
+<h4 id="mattel-electronics-intellivison">Mattel Electronics Intellivison<a class="headerlink" href="#mattel-electronics-intellivison" title="Permanent link"></a></h4>
+</li>
+</ul>
+<hr>
+<h3 id="microsoft-cheat-sheet">Microsoft Cheat Sheet<a class="headerlink" href="#microsoft-cheat-sheet" title="Permanent link"></a></h3>
+<p><a href="#cheat-sheet-table-of-contents">Back to the Top</a></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Console/System</th>
+<th style="text-align: left;">ROM Folder Name</th>
+<th style="text-align: left;">Emulator (Click for Link)</th>
+<th style="text-align: left;">File Types</th>
+<th style="text-align: left;">BIOS Files</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Microsoft Xbox (Standalone)</strong></td>
+<td style="text-align: left;">xbox</td>
+<td style="text-align: left;"><strong><a href="https://xemu.app/">Xemu (Standalone)</a></strong></td>
+<td style="text-align: left;">.iso (xiso formatted)</td>
+<td style="text-align: left;">MCPX Boot ROM: <code>mcpx_1.0.bin</code> <br>  Flash ROM Image (COMPLEX 4627 BIOS):  <code>Complex_4627v1.03.bin</code></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Microsoft Xbox 360 (Standalone)</strong></td>
+<td style="text-align: left;"><code>xbox360/roms</code></td>
+<td style="text-align: left;"><strong><a href="https://xenia.jp/">Xenia (Standalone)</a></strong></td>
+<td style="text-align: left;">.iso .zar</td>
+<td style="text-align: left;">Not Required</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Microsoft Xbox 360 Live Arcade (Standalone)</strong></td>
+<td style="text-align: left;"><code>xbox360/roms/xbla</code></td>
+<td style="text-align: left;"><strong><a href="https://xenia.jp/">Xenia (Standalone)</a></strong></td>
+<td style="text-align: left;">No file extension .zar</td>
+<td style="text-align: left;">Not Required</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>
+<h4 id="microsoft-xbox">Microsoft Xbox<a class="headerlink" href="#microsoft-xbox" title="Permanent link"></a></h4>
+</li>
+<li>
+<h4 id="microsoft-xbox-360">Microsoft Xbox 360<a class="headerlink" href="#microsoft-xbox-360" title="Permanent link"></a></h4>
+</li>
+<li>
+<h4 id="microsoft-msx-1">Microsoft MSX 1<a class="headerlink" href="#microsoft-msx-1" title="Permanent link"></a></h4>
+</li>
+<li>
+<h4 id="microsoft-msx-2">Microsoft MSX 2<a class="headerlink" href="#microsoft-msx-2" title="Permanent link"></a></h4>
+</li>
+</ul>
+<hr>
+<h3 id="nec-cheat-sheet">NEC Cheat Sheet<a class="headerlink" href="#nec-cheat-sheet" title="Permanent link"></a></h3>
+<p><a href="#cheat-sheet-table-of-contents">Back to the Top</a></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Console/System</th>
+<th style="text-align: left;">ROM Folder Name</th>
+<th style="text-align: left;">Emulator (Click for Link)</th>
+<th style="text-align: left;">File Types</th>
+<th style="text-align: left;">BIOS Files</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">NEC TurboGrafx-16 / PC Engine</td>
+<td style="text-align: left;"><code>tg16</code> or <code>pcengine</code></td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/beetle_pce_fast/">RetroArch Beetle PCE</a></td>
+<td style="text-align: left;">.bin  .ccd <code>.cue and .bin</code> .chd .img  .iso  .pce</td>
+<td style="text-align: left;"><code>syscard1.pce</code> <code>syscard2.pce</code> <code>syscard3.pce</code> <code>gexpress.pce</code></td>
+</tr>
+<tr>
+<td style="text-align: left;">NEC TurboGrafx-16 CD / PC Engine CD</td>
+<td style="text-align: left;"><code>tg-cd</code> or <code>pcenginecd</code></td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/beetle_pce_fast/">RetroArch Beetle PCE</a></td>
+<td style="text-align: left;">.bin  .ccd <code>.cue and .bin</code> .chd .img  .iso  .pce</td>
+<td style="text-align: left;"><code>syscard1.pce</code> <code>syscard2.pce</code> <code>syscard3.pce</code> <code>gexpress.pce</code></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>
+<h4 id="nec-turbografx-16-pc-engine">NEC TurboGrafx-16 / PC Engine<a class="headerlink" href="#nec-turbografx-16-pc-engine" title="Permanent link"></a></h4>
+</li>
+<li>
+<h4 id="turbografx-16-pc-engine-cd">TurboGrafx-16 / PC Engine CD<a class="headerlink" href="#turbografx-16-pc-engine-cd" title="Permanent link"></a></h4>
+</li>
+<li>
+<h4 id="nec-supergrafx">NEC SuperGrafx<a class="headerlink" href="#nec-supergrafx" title="Permanent link"></a></h4>
+</li>
+</ul>
+<hr>
+<h3 id="nintendo-cheat-sheet">Nintendo Cheat Sheet<a class="headerlink" href="#nintendo-cheat-sheet" title="Permanent link"></a></h3>
+<p><a href="#cheat-sheet-table-of-contents">Back to the Top</a></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">System</th>
+<th style="text-align: left;">ROM Folder Name</th>
+<th style="text-align: left;">Emulator (Click for Link)</th>
+<th style="text-align: left;">File Format</th>
+<th style="text-align: left;">BIOS Files</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Nintendo 3DS (Standalone)</strong></td>
+<td style="text-align: left;"><code>n3ds</code></td>
+<td style="text-align: left;"><strong><a href="https://azahar-emu.org/">Azahar (Standalone)</a></strong></td>
+<td style="text-align: left;">.app .axf cci .cxi .elf   <br> .cia is incompatible with ES-DE and Steam ROM Manager  <br> .cia can only be used if installed and played through Citra's GUI</td>
+<td style="text-align: left;">Place <code>aes_keys.txt</code> (for encrypted ROMs) in: <code>bios/citra/keys</code></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Nintendo 64 (Standalone)</strong></td>
+<td style="text-align: left;">n64</td>
+<td style="text-align: left;"><strong><a href="https://github.com/Rosalie241/RMG">Rosalie's Mupen GUI (Standalone)</a></strong></td>
+<td style="text-align: left;">.7z <code>.bin</code> .n64 .ndd .u1 .v64 .z64 .zip</td>
+<td style="text-align: left;">Not Required</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Nintendo 64DD (Standalone)</strong></td>
+<td style="text-align: left;"><code>n64</code> or <code>n64dd</code></td>
+<td style="text-align: left;"><strong><a href="https://github.com/Rosalie241/RMG">Rosalie's Mupen GUI (Standalone)</a></strong></td>
+<td style="text-align: left;">.7z <code>.bin</code> .n64 .ndd .u1 .v64 .z64 .zip</td>
+<td style="text-align: left;">Nintendo 64DD BIOS:<br><code>64DD_IPL_US.n64</code><br><code>64DD_IPL_JP.n64</code><br><code>64DD_IPL_DEV.n64</code></td>
+</tr>
+<tr>
+<td style="text-align: left;">Nintendo 64</td>
+<td style="text-align: left;">n64</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/mupen64plus/">RetroArch Mupen64plus-Next</a></td>
+<td style="text-align: left;">.7z <code>.bin</code> .n64 .ndd .u1 .v64 .z64 .zip</td>
+<td style="text-align: left;">Not Required</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Nintendo DS (Standalone)</strong></td>
+<td style="text-align: left;">nds</td>
+<td style="text-align: left;"><strong><a href="https://melonds.kuribo64.net/">melonDS (Standalone)</a></strong></td>
+<td style="text-align: left;">.nds</td>
+<td style="text-align: left;"><strong>Optional:</strong><br>Nintendo DS BIOS:<br><code>bios7.bin</code><br><code>bios9.bin</code><br><code>firmware.bin</code></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Nintendo DSiWare (Standalone)</strong></td>
+<td style="text-align: left;">nds</td>
+<td style="text-align: left;"><strong><a href="https://melonds.kuribo64.net/">melonDS (Standalone)</a></strong></td>
+<td style="text-align: left;">.app <br> <a href="https://emudeck.github.io/emulators/steamos/melonds/#how-to-set-up-dsiware">How to Set Up DSIWare</a></td>
+<td style="text-align: left;">Nintendo DSI BIOS    <code>dsi_bios7.bin</code>    <code>dsi_bios9.bin</code>    <code>dsi_firmware.bin</code>    <code>dsi_nand.bin</code></td>
+</tr>
+<tr>
+<td style="text-align: left;">Nintendo DS</td>
+<td style="text-align: left;">nds</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/melonds/">RetroArch melonDS (Legacy Core)</a></td>
+<td style="text-align: left;">.7z .nds .zip</td>
+<td style="text-align: left;">Nintendo DS BIOS:    <code>bios7.bin</code>     <code>bios9.bin</code>     <code>firmware.bin</code></td>
+</tr>
+<tr>
+<td style="text-align: left;">Nintendo DS</td>
+<td style="text-align: left;">nds</td>
+<td style="text-align: left;"><a href="https://github.com/JesseTG/melonds-ds">RetroArch melonDS DS</a></td>
+<td style="text-align: left;">.7z .nds .zip</td>
+<td style="text-align: left;"><strong>Optional:</strong><br>Nintendo DS BIOS:<br><code>bios7.bin</code><br><code>bios9.bin</code><br><code>firmware.bin</code></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Nintendo Game Boy (Standalone)</strong></td>
+<td style="text-align: left;">gb</td>
+<td style="text-align: left;"><strong><a href="https://mgba.io/">mGBA (Standalone)</a></strong></td>
+<td style="text-align: left;">.7z .dmg .gb .zip</td>
+<td style="text-align: left;">Not Required</td>
+</tr>
+<tr>
+<td style="text-align: left;">Nintendo Game Boy</td>
+<td style="text-align: left;">gb</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/sameboy/">RetroArch SameBoy</a></td>
+<td style="text-align: left;">.7z .dmg .gb .zip</td>
+<td style="text-align: left;">Not Required</td>
+</tr>
+<tr>
+<td style="text-align: left;">Nintendo Game Boy</td>
+<td style="text-align: left;">gb</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/gambatte/">RetroArch Gambatte</a></td>
+<td style="text-align: left;">.7z .dmg .gb .zip</td>
+<td style="text-align: left;">Not Required</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Nintendo Game Boy Advance (Standalone)</strong></td>
+<td style="text-align: left;">gba</td>
+<td style="text-align: left;"><strong><a href="https://mgba.io/">mGBA (Standalone)</a></strong></td>
+<td style="text-align: left;">.7z .gba .zip</td>
+<td style="text-align: left;">Not Required</td>
+</tr>
+<tr>
+<td style="text-align: left;">Nintendo Game Boy Advance</td>
+<td style="text-align: left;">gba</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/mgba/">RetroArch mGBA</a></td>
+<td style="text-align: left;">.7z .gba .zip</td>
+<td style="text-align: left;">Not Required</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Nintendo Game Boy Color (Standalone)</strong></td>
+<td style="text-align: left;">gbc</td>
+<td style="text-align: left;"><strong><a href="https://mgba.io/">mGBA (Standalone)</a></strong></td>
+<td style="text-align: left;">.7z .dmg .gb .gbc .zip</td>
+<td style="text-align: left;">Not Required</td>
+</tr>
+<tr>
+<td style="text-align: left;">Nintendo Game Boy Color</td>
+<td style="text-align: left;">gbc</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/sameboy/">RetroArch SameBoy</a></td>
+<td style="text-align: left;">.7z .dmg .gb .gbc .zip</td>
+<td style="text-align: left;">Not Required</td>
+</tr>
+<tr>
+<td style="text-align: left;">Nintendo Game Boy Color</td>
+<td style="text-align: left;">gbc</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/gambatte/">RetroArch Gambatte</a></td>
+<td style="text-align: left;">.7z .dmg .gb .gbc .zip</td>
+<td style="text-align: left;">Not Required</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Nintendo GameCube (Standalone)</strong></td>
+<td style="text-align: left;"><code>gc</code></td>
+<td style="text-align: left;"><strong><a href="https://dolphin-emu.org/">Dolphin (Standalone)</a></strong></td>
+<td style="text-align: left;">.ciso .dol .elf .gcm .gcz .iso .m3u .nkit .rvz .wad .wbfs .wia</td>
+<td style="text-align: left;"><strong>Optional:</strong><br><a href="https://emudeck.github.io/emulators/steamos/dolphin/#how-to-set-up-gamecube-bios">Gamecube BIOS</a><br><code>IPL.bin</code> in the correct region folder.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Nintendo NES / Famicom</td>
+<td style="text-align: left;"><code>nes</code> or <code>famicom</code></td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/mesen/">RetroArch Mesen</a></td>
+<td style="text-align: left;">.7z .fds .nes .unf .unif .zip</td>
+<td style="text-align: left;">FDS (Famicom Disk System) games require a BIOS:  <code>disksys.rom</code> in <code>bios</code></td>
+</tr>
+<tr>
+<td style="text-align: left;">Nintendo NES / Famicom</td>
+<td style="text-align: left;"><code>nes</code> or <code>famicom</code></td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/nestopia_ue/">RetroArch Nestopia</a></td>
+<td style="text-align: left;">.7z .fds .nes .unf .unif .zip</td>
+<td style="text-align: left;">FDS (Famicom Disk System) games require a BIOS:  <code>disksys.rom</code> in <code>bios</code></td>
+</tr>
+<tr>
+<td style="text-align: left;">Super Nintendo</td>
+<td style="text-align: left;"><code>snes</code> or <code>snesna</code></td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/snes9x/">RetroArch Snes9x</a></td>
+<td style="text-align: left;">.7z .bs .fig .sfc .smc .swx .zip</td>
+<td style="text-align: left;">Not Required</td>
+</tr>
+<tr>
+<td style="text-align: left;">Super Nintendo Widescreen</td>
+<td style="text-align: left;"><code>sneshd</code></td>
+<td style="text-align: left;"><a href="https://github.com/DerKoun/bsnes-hd">RetroArch bsnes hd beta</a></td>
+<td style="text-align: left;">.7z .bs .fig .sfc .smc .swx .zip</td>
+<td style="text-align: left;">Not Required</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Nintendo PrimeHack (Standalone)</strong></td>
+<td style="text-align: left;">primehacks</td>
+<td style="text-align: left;"><strong><a href="https://forums.dolphin-emu.org/Thread-fork-primehack-fps-controls-and-more-for-metroid-prime">PrimeHack (Metroid Prime) (Standalone)</a></strong></td>
+<td style="text-align: left;">.ciso .dol .elf .gcm .gcz .iso .json .nkit .rvz .wad .wbfs .wia</td>
+<td style="text-align: left;">Not Required</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Nintendo Switch (Standalone)</strong></td>
+<td style="text-align: left;">switch</td>
+<td style="text-align: left;"><strong><a href="https://ryujinx.org/">Ryujinx (Standalone)</a></strong></td>
+<td style="text-align: left;">.kp .nca .nro .nso .nsp .nsz .xci</td>
+<td style="text-align: left;">∙ Place <code>prod.keys</code> in:  <code>bios/ryujinx/keys</code> <br> ∙ Install firmware through Ryujinx GUI <br> ∙ <strong>Both</strong> firmware and keys are <strong>required</strong> for Ryujinx</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Nintendo Switch (Standalone)</strong></td>
+<td style="text-align: left;">switch</td>
+<td style="text-align: left;"><strong><a href="https://yuzu-emu.org/">Yuzu (Standalone)</a></strong></td>
+<td style="text-align: left;">.kp .nca .nro .nso .nsp .nsz .xci</td>
+<td style="text-align: left;">∙ Place <code>prod.keys</code> in: <code>bios/yuzu/keys</code><br> ∙ Place <code>Firmware</code> files in: <code>bios/yuzu/firmware</code></td>
+</tr>
+<tr>
+<td style="text-align: left;">Nintendo Virtual Boy</td>
+<td style="text-align: left;">virtualboy</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/beetle_vb/">RetroArch Beetle VB</a></td>
+<td style="text-align: left;">.7z .bin .vb .vboy .zip</td>
+<td style="text-align: left;">Not Required</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Nintendo Wii (Standalone)</strong></td>
+<td style="text-align: left;">wii</td>
+<td style="text-align: left;"><strong><a href="https://dolphin-emu.org/">Dolphin (Standalone)</a></strong></td>
+<td style="text-align: left;">.ciso .dol .elf .gcm .gcz .iso .json .m3u .nkit .rvz .wad .wbfs .wia</td>
+<td style="text-align: left;">Not Required</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Nintendo Wii U (Standalone)</strong></td>
+<td style="text-align: left;"><code>wiiu/roms</code><span class="twemoji" title="Place your games here,  do not install your games through Cemu"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 9h2V7h-2m1 13c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8m0-18A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m-1 15h2v-6h-2z"></path></svg></span></td>
+<td style="text-align: left;"><strong><a href="https://cemu.info/">Cemu (Standalone) (Native)</a></strong></td>
+<td style="text-align: left;">.elf .rpx .wad .wua .wud .wux</td>
+<td style="text-align: left;">Place <code>keys.txt</code> (for encrypted ROMs) in: <code>/home/deck/.local/share/Cemu/</code></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="panasonic-cheat-sheet">Panasonic Cheat Sheet<a class="headerlink" href="#panasonic-cheat-sheet" title="Permanent link"></a></h3>
+<p><a href="#cheat-sheet-table-of-contents">Back to the Top</a></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Console/System</th>
+<th style="text-align: left;">ROM Folder Name</th>
+<th style="text-align: left;">Emulator (Click for Link)</th>
+<th style="text-align: left;">File Types</th>
+<th style="text-align: left;">BIOS Files</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Panasonic 3DO</td>
+<td style="text-align: left;">3do</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/opera/">RetroArch Opera</a></td>
+<td style="text-align: left;">.chd <code>.cue and bin</code> .iso</td>
+<td style="text-align: left;"><code>panafz1.bin</code></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>
+<h4 id="panasonic-3do">Panasonic 3DO<a class="headerlink" href="#panasonic-3do" title="Permanent link"></a></h4>
+</li>
+</ul>
+<hr>
+<h3 id="personal-computers-cheat-sheet">Personal Computers Cheat Sheet<a class="headerlink" href="#personal-computers-cheat-sheet" title="Permanent link"></a></h3>
+<p><a href="#cheat-sheet-table-of-contents">Back to the Top</a></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">System</th>
+<th style="text-align: left;">ROM Folder Name</th>
+<th style="text-align: left;">Emulator</th>
+<th style="text-align: left;">File Format</th>
+<th style="text-align: left;">BIOS Files</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Amiga</td>
+<td style="text-align: left;">amiga</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/puae/">RetroArch PUAE</a></td>
+<td style="text-align: left;">.7z .adf .adz .ccd .chd <code>.cue and .bin</code> .dms .fdi .hdf .hdz .info .ipf .iso .lha .m3u .mds .nrg .slave .uae .zip</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/puae/">Read the Libretro Wiki</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">Amiga 600</td>
+<td style="text-align: left;">amiga600</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/puae/">RetroArch PUAE</a></td>
+<td style="text-align: left;">.7z .adf .adz .ccd .chd <code>.cue and .bin</code> .dms .fdi .hdf .hdz .info .ipf .iso .lha .m3u .mds .nrg .slave .uae .zip</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/puae/">Read the Libretro Wiki</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">Amiga 1200</td>
+<td style="text-align: left;">amiga1200</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/puae/">RetroArch PUAE</a></td>
+<td style="text-align: left;">.7z .adf .adz .ccd .chd <code>.cue and .bin</code> .dms .fdi .hdf .hdz .info .ipf .iso .lha .m3u .mds .nrg .slave .uae .zip</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/puae/">Read the Libretro Wiki</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">Amiga CD32</td>
+<td style="text-align: left;">amigacd32</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/puae/">RetroArch PUAE</a></td>
+<td style="text-align: left;">.7z .adf .adz .ccd .chd <code>.cue and .bin</code> .dms .fdi .hdf .hdz .info .ipf .iso .lha .m3u .mds .nrg .slave .uae .zip</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/puae/">Read the Libretro Wiki</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">Amstrad CPC</td>
+<td style="text-align: left;">amstradcpc</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/caprice32/">RetroArch Caprice32</a></td>
+<td style="text-align: left;">.7z .cdt .dsk .sna .tap</td>
+<td style="text-align: left;">Not Required</td>
+</tr>
+<tr>
+<td style="text-align: left;">Commodore 16</td>
+<td style="text-align: left;">c16</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/vice/">RetroArch Vice</a></td>
+<td style="text-align: left;">.cmd .crt <code>.cue and .bin</code> .d64 .d6z .d71 .d7z .d80 .d81 .d82 .d8z .g41 .g4z .g64 .g6z .m3u .nbz .nib .p00 .prg .t64 .tap .vsf .x64 .x6z .zip</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/vice/">Read the Libretro Wiki</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">Commodore 64</td>
+<td style="text-align: left;">c64</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/vice/">RetroArch Vice</a></td>
+<td style="text-align: left;">.cmd .crt <code>.cue and .bin</code> .d64 .d6z .d71 .d7z .d80 .d81 .d82 .d8z .g41 .g4z .g64 .g6z .m3u .nbz .nib .p00 .prg .t64 .tap .vsf .x64 .x6z .zip</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/vice/">Read the Libretro Wiki</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">Commodore VIC-20</td>
+<td style="text-align: left;">vic20</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/vice/">RetroArch Vice</a></td>
+<td style="text-align: left;">.cmd .crt <code>.cue and .bin</code> .d64 .d6z .d71 .d7z .d80 .d81 .d82 .d8z .g41 .g4z .g64 .g6z .m3u .nbz .nib .p00 .prg .t64 .tap .vsf .x64 .x6z .zip</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/vice/">Read the Libretro Wiki</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">DOS</td>
+<td style="text-align: left;">dos</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/dosbox_pure/">RetroArch DOSBox Pure</a></td>
+<td style="text-align: left;">.7z .zip</td>
+<td style="text-align: left;">Not Required</td>
+</tr>
+<tr>
+<td style="text-align: left;">NEC PC-98</td>
+<td style="text-align: left;">pc98</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/libraryneko_project_ii_kai/">RetroArch Neko Project II Kai</a></td>
+<td style="text-align: left;">.2hd.88d.98d.cmd.d88.d98.dup.fdd.fdi .hdd .hdi .hdm .hdn .nhd .tfd .thd .xdi .zip</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/neko_project_ii_kai/">Read the Libretro Wiki</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">Sharp X68000</td>
+<td style="text-align: left;">x68000</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/px68k/">RetroArch PX68k</a></td>
+<td style="text-align: left;">.2hd .88d .cmd .d8 .dim .dup .hdf .hdm .img .m3u .xdf.zip</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/px68k/">Read the Libretro Wiki</a></td>
+</tr>
+<tr>
+<td style="text-align: left;">ZX Spectrum</td>
+<td style="text-align: left;">zxspectrum</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/fuse/">RetroArch Fuse</a></td>
+<td style="text-align: left;">.7z .rzx .scl .tap .trd .tzx .z80 .zip .zx</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/fuse/">Read the Libretro Wiki</a></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="sega-cheat-sheet">Sega Cheat Sheet<a class="headerlink" href="#sega-cheat-sheet" title="Permanent link"></a></h3>
+<p><a href="#cheat-sheet-table-of-contents">Back to the Top</a></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">System</th>
+<th style="text-align: left;">ROM Folder Name</th>
+<th style="text-align: left;">Emulator (Click for Link)</th>
+<th style="text-align: left;">File Format</th>
+<th style="text-align: left;">BIOS Files</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">Sega 32X</td>
+<td style="text-align: left;">sega32x</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/picodrive/">RetroArch PicoDrive</a></td>
+<td style="text-align: left;">.32x .7z .bin .zip</td>
+<td style="text-align: left;">Not Required</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Sega Atomiswave (Standalone)</strong></td>
+<td style="text-align: left;">atomiswave</td>
+<td style="text-align: left;"><strong><a href="https://github.com/flyinghead/flycast">Flycast (Standalone)</a></strong></td>
+<td style="text-align: left;">.zip</td>
+<td style="text-align: left;">Place <code>awbios.zip</code> in <code>bios/flycast/bios</code></td>
+</tr>
+<tr>
+<td style="text-align: left;">Sega CD / Mega-CD</td>
+<td style="text-align: left;"><code>segacd</code> or <code>megacd</code></td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/genesis_plus_gx/">RetroArch Genesis Plus GX</a></td>
+<td style="text-align: left;">.32x .7z .chd ‘.cue and .bin’ .iso .m3u .zip</td>
+<td style="text-align: left;"><code>bios_CD_E.bin</code> (Europe) <br> <code>bios_CD_U.bin</code> (US) <br> <code>bios_CD_J.bin</code> (Japan)</td>
+</tr>
+<tr>
+<td style="text-align: left;">Sega Dreamcast</td>
+<td style="text-align: left;">dreamcast</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/flycast/">RetroArch FlyCast</a></td>
+<td style="text-align: left;">.cdi   .chd  <code>.cue and .bin</code> <code>.gdi and .bin</code></td>
+<td style="text-align: left;">Create <code>dc</code> folder in <code>bios</code> <br> Place <code>dc_boot.bin</code> in <code>bios/dc</code></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Sega Dreamcast (Standalone)</strong></td>
+<td style="text-align: left;">dreamcast</td>
+<td style="text-align: left;"><strong><a href="https://github.com/flyinghead/flycast">Flycast (Standalone)</a></strong></td>
+<td style="text-align: left;">.cdi   .chd  <code>.cue and .bin</code> <code>.gdi and .bin</code></td>
+<td style="text-align: left;">Not Required</td>
+</tr>
+<tr>
+<td style="text-align: left;">Sega Game Gear</td>
+<td style="text-align: left;">gamegear</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/genesis_plus_gx/">RetroArch Genesis Plus GX</a></td>
+<td style="text-align: left;">.7z .gg .zip</td>
+<td style="text-align: left;">Not Required</td>
+</tr>
+<tr>
+<td style="text-align: left;">Sega Genesis / Mega Drive</td>
+<td style="text-align: left;"><code>genesis</code> or <code>megadrive</code></td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/genesis_plus_gx/">RetroArch Genesis Plus GX</a></td>
+<td style="text-align: left;">.7z .bin .gen .md .smd .zip</td>
+<td style="text-align: left;">Not Required</td>
+</tr>
+<tr>
+<td style="text-align: left;">Sega Genesis Widescreen</td>
+<td style="text-align: left;">genesiswide</td>
+<td style="text-align: left;"><a href="https://www.libretro.com/index.php/genesis-plus-gx-wide-now-available-for-libretroRetroArch/">RetroArch Genesis Plus GX</a></td>
+<td style="text-align: left;">.7z .bin .gen .md .smd .zip</td>
+<td style="text-align: left;">Not Required</td>
+</tr>
+<tr>
+<td style="text-align: left;">Sega Master System</td>
+<td style="text-align: left;">mastersystem</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/genesis_plus_gx/">RetroArch Genesis Plus GX</a></td>
+<td style="text-align: left;">.7z .gen .sms .zip</td>
+<td style="text-align: left;">Not Required</td>
+</tr>
+<tr>
+<td style="text-align: left;">Sega Model 2</td>
+<td style="text-align: left;">model2/roms</td>
+<td style="text-align: left;"><a href="https://emulation.gametechwiki.com/index.php/Sega_Model_2">https://emulation.gametechwiki.com/index.php/Sega_Model_2</a></td>
+<td style="text-align: left;">.zip</td>
+<td style="text-align: left;">Not Required</td>
+</tr>
+<tr>
+<td style="text-align: left;">Sega Model 3</td>
+<td style="text-align: left;">model3</td>
+<td style="text-align: left;"><a href="https://www.supermodel3.com/index.html">Supermodel</a></td>
+<td style="text-align: left;">.zip</td>
+<td style="text-align: left;">Not Required</td>
+</tr>
+<tr>
+<td style="text-align: left;">Sega NAOMI</td>
+<td style="text-align: left;">naomi</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/flycast/">RetroArch FlyCast</a></td>
+<td style="text-align: left;">.zip</td>
+<td style="text-align: left;">Create <code>dc</code> folder in <code>bios</code> <br> Place <code>naomi.zip</code> in <code>bios/dc</code></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Sega NAOMI (Standalone)</strong></td>
+<td style="text-align: left;">naomi</td>
+<td style="text-align: left;"><strong><a href="https://github.com/flyinghead/flycast">Flycast (Standalone)</a></strong></td>
+<td style="text-align: left;">.zip</td>
+<td style="text-align: left;">Place <code>naomi.zip</code> in <code>bios/flycast/bios</code></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Sega NAOMI 2 (Standalone)</strong></td>
+<td style="text-align: left;">naomi2</td>
+<td style="text-align: left;"><strong><a href="https://github.com/flyinghead/flycast">Flycast (Standalone)</a></strong></td>
+<td style="text-align: left;">.zip</td>
+<td style="text-align: left;">Place <code>naomi2.zip</code> in <code>bios/flycast/bios</code></td>
+</tr>
+<tr>
+<td style="text-align: left;">Sega Saturn</td>
+<td style="text-align: left;">saturn</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/beetle_saturn/">RetroArch Beetle Saturn</a></td>
+<td style="text-align: left;">.7z .chd <code>.cue and .bin</code> .iso .zip</td>
+<td style="text-align: left;"><code>sega_101.bin</code> (JP) <br>  <code>mpr-17933.bin</code> (US/EU)</td>
+</tr>
+<tr>
+<td style="text-align: left;">Sega Saturn</td>
+<td style="text-align: left;">saturn</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/kronos/">RetroArch Kronos</a></td>
+<td style="text-align: left;">.7z .chd <code>.cue and .bin</code> .iso .zip</td>
+<td style="text-align: left;">Create <code>kronos</code> folder in <code>bios</code> <br> Place <code>saturn_bios.bin</code> in <code>bios/kronos</code></td>
+</tr>
+<tr>
+<td style="text-align: left;">Sega Saturn</td>
+<td style="text-align: left;">saturn</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/yabause/">RetroArch Yabause</a></td>
+<td style="text-align: left;">.7z .chd <code>.cue and .bin</code> .iso .zip</td>
+<td style="text-align: left;"><code>saturn_bios.bin</code></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h3 id="snk-cheat-sheet">SNK Cheat Sheet<a class="headerlink" href="#snk-cheat-sheet" title="Permanent link"></a></h3>
+<p><a href="#cheat-sheet-table-of-contents">Back to the Top</a></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">System</th>
+<th style="text-align: left;">ROM Folder Name</th>
+<th style="text-align: left;">Emulator (Click for Link)</th>
+<th style="text-align: left;">File Format</th>
+<th style="text-align: left;">BIOS Files</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">SNK Neo Geo MVS</td>
+<td style="text-align: left;">fbneo</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/fbneo/">RetroArch FinalBurn Neo</a></td>
+<td style="text-align: left;">.7z .zip</td>
+<td style="text-align: left;"><code>neocdz.zip</code> (US) <br> <code>neogeo.zip</code> (JP)</td>
+</tr>
+<tr>
+<td style="text-align: left;">SNK Neo Geo CD</td>
+<td style="text-align: left;"><code>neogeocd</code> or <code>neogeocdjp</code></td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/fbneo/">RetroArch FinalBurn Neo</a></td>
+<td style="text-align: left;">.chd</td>
+<td style="text-align: left;"><code>neocdz.zip</code> (US) <br> <code>neogeo.zip</code> (JP)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>SNK Neo Geo CD (Standalone)</strong></td>
+<td style="text-align: left;"><code>neogeocd</code> or <code>neogeocdjp</code></td>
+<td style="text-align: left;"><strong><a href="https://www.mamedev.org/">MAME (Standalone)</a></strong></td>
+<td style="text-align: left;">.chd</td>
+<td style="text-align: left;">Place <code>neocdz.zip</code> in <code>roms/neogeocd</code> or <code>roms/neogeocdjp</code> (matching the location of your ROMs)</td>
+</tr>
+<tr>
+<td style="text-align: left;">SNK  Neo Geo Pocket</td>
+<td style="text-align: left;">ngp</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/beetle_neopop/">RetroArch Beetle NeoPop</a></td>
+<td style="text-align: left;">.7z .ngc .ngp .zip</td>
+<td style="text-align: left;">Not Required</td>
+</tr>
+<tr>
+<td style="text-align: left;">SNK  Neo Geo Pocket Color</td>
+<td style="text-align: left;">ngpc</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/beetle_neopop/">RetroArch Beetle NeoPop</a></td>
+<td style="text-align: left;">.7z .ngc .ngp .zip</td>
+<td style="text-align: left;">Not Required</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li>
+<h4 id="snk-neo-geo-cd">SNK Neo Geo CD<a class="headerlink" href="#snk-neo-geo-cd" title="Permanent link"></a></h4>
+</li>
+<li>
+<h4 id="snk-neo-geo-pocket">SNK Neo Geo Pocket<a class="headerlink" href="#snk-neo-geo-pocket" title="Permanent link"></a></h4>
+</li>
+<li>
+<h4 id="snk-neo-geo-pocket-color">SNK Neo Geo Pocket Color<a class="headerlink" href="#snk-neo-geo-pocket-color" title="Permanent link"></a></h4>
+</li>
+</ul>
+<hr>
+<h3 id="sony-cheat-sheet">Sony Cheat Sheet<a class="headerlink" href="#sony-cheat-sheet" title="Permanent link"></a></h3>
+<p><a href="#cheat-sheet-table-of-contents">Back to the Top</a></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">System</th>
+<th style="text-align: left;">ROM Folder Name</th>
+<th style="text-align: left;">Emulator (Click for Link)</th>
+<th style="text-align: left;">File Format</th>
+<th style="text-align: left;">BIOS Files</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Sony PlayStation (Standalone)</strong></td>
+<td style="text-align: left;">psx</td>
+<td style="text-align: left;"><strong><a href="https://www.duckstation.org/">DuckStation (Standalone)</a></strong></td>
+<td style="text-align: left;">.chd <code>.cue and .bin</code> .ecm .iso .m3u .mds .pbp</td>
+<td style="text-align: left;">Example Set:  <br>    <code>scph5500.bin</code> (JP) <br>     <code>scph5501.bin</code> (US) <br>    <code>scph5502.bin</code> (EU)</td>
+</tr>
+<tr>
+<td style="text-align: left;">Sony PlayStation</td>
+<td style="text-align: left;">psx</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/beetle_psx/">RetroArch Beetle HW</a></td>
+<td style="text-align: left;">.chd <code>.cue and .bin</code> .ecm .iso .m3u .mds .pbp</td>
+<td style="text-align: left;">Example Set:  <br>    <code>scph5500.bin</code> (JP) <br>     <code>scph5501.bin</code> (US) <br>    <code>scph5502.bin</code> (EU)</td>
+</tr>
+<tr>
+<td style="text-align: left;">Sony PlayStation</td>
+<td style="text-align: left;">psx</td>
+<td style="text-align: left;"><a href="https://www.libretro.com/index.php/category/swanstation/">RetroArch Swanstation</a></td>
+<td style="text-align: left;">.chd <code>.cue and .bin</code> .ecm .iso .m3u .mds .pbp</td>
+<td style="text-align: left;">Example Set:  <br>    <code>scph5500.bin</code> (JP) <br>     <code>scph5501.bin</code> (US) <br>    <code>scph5502.bin</code> (EU)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Sony PlayStation 2 (Standalone)</strong></td>
+<td style="text-align: left;">ps2</td>
+<td style="text-align: left;"><strong><a href="https://pcsx2.net/">PCSX2 (Standalone)</a></strong></td>
+<td style="text-align: left;"><code>.bin</code> .chd .cso .dump .gz .img .iso .mdf .nrg</td>
+<td style="text-align: left;">Example Set (EU Set): <br>    <code>SCPH-70004_BIOS_V12_EUR_200.BIN</code> <br>    <code>SCPH-70004_BIOS_V12_EUR_200.EROM</code> <br>     <code>SCPH-70004_BIOS_V12_EUR_200.ROM1</code> <br>    <code>SCPH-70004_BIOS_V12_EUR_200.ROM2</code> <br>  <br>   Example Set (US Set): <br>  <code>SCPH-70012_BIOS_V12_USA_200.BIN</code></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Sony PlayStation 3 (Standalone)</strong></td>
+<td style="text-align: left;">ps3</td>
+<td style="text-align: left;"><strong><a href="https://rpcs3.net/">RPCS3 (Standalone)</a></strong></td>
+<td style="text-align: left;">∙ Game Folder: <code>/PS3_GAME/USRDIR/eboot.bin</code> in <code>roms/ps3</code> <br> ∙ An installed <code>.pkg and .rap</code> file through RPCS3 <br> ∙ ISO file format is <strong>not</strong> supported</td>
+<td style="text-align: left;">Firmware installation required through RPCS3 directly <br>  Read the <a href="https://rpcs3.net/quickstart">Quickstart Guide</a> for more information</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Sony PlayStation Portable (Standalone)</strong></td>
+<td style="text-align: left;">psp</td>
+<td style="text-align: left;"><strong><a href="https://www.ppsspp.org/">PPSSPP (Standalone)</a></strong></td>
+<td style="text-align: left;">.chd .cso .elf .iso .pbp .prx</td>
+<td style="text-align: left;">Not Required</td>
+</tr>
+<tr>
+<td style="text-align: left;">Sony PlayStation Portable</td>
+<td style="text-align: left;">psp</td>
+<td style="text-align: left;"><a href="https://docs.libretro.com/library/ppsspp/">RetroArch PPSSPP</a></td>
+<td style="text-align: left;">.7z .chd .cso .elf .iso .pbp .prx</td>
+<td style="text-align: left;">The RetroArch core requires <code>ppsspp.zip</code> in:  <code>bios</code> <br>   <code>ppsspp.zip</code> is provided through RetroArch's downloader. <br> Open <code>RetroArch</code> <br>  Click <code>Online Updater</code> &gt; <code>Core System Files Downloader</code> to download <code>ppsspp.zip</code></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Sony PlayStation Vita (Standalone)</strong></td>
+<td style="text-align: left;">psvita</td>
+<td style="text-align: left;"><strong><a href="https://vita3k.org/">Vita3K (Standalone)</a></strong></td>
+<td style="text-align: left;">∙Game Folder in <code>roms/psvita/ux0</code> <br> ∙A valid installed ROM file through Vita3K (<code>.pkg and work.bin</code>, .zip)</td>
+<td style="text-align: left;">Firmware installation required through Vita3K directly <br> Read the <a href="https://vita3k.org/quickstart.html">Quickstart Guide</a> for more information</td>
+</tr>
+</tbody>
+</table>
+<hr>
+
+
+
+
+
+
+
+  
+    
+  
+  
+    
+  
+
+
+  <aside class="md-source-file">
+    
+      
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="Last update">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
+    </span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="May 27, 2026 14:28:15 UTC">May 27, 2026</span>
+  </span>
+
+    
+    
+      
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="Created">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M14.47 15.08 11 13V7h1.5v5.25l3.08 1.83c-.41.28-.79.62-1.11 1m-1.39 4.84c-.36.05-.71.08-1.08.08-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8c0 .37-.03.72-.08 1.08.69.1 1.33.32 1.92.64.1-.56.16-1.13.16-1.72 0-5.5-4.5-10-10-10S2 6.5 2 12s4.47 10 10 10c.59 0 1.16-.06 1.72-.16-.32-.59-.54-1.23-.64-1.92M18 15v3h-3v2h3v3h2v-3h3v-2h-3v-3z"></path></svg>
+    </span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="May 27, 2026 14:28:15 UTC">May 27, 2026</span>
+  </span>
+
+    
+    
+    
+  </aside>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden="">
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright Creative Commons Attribution-ShareAlike 4.0 International
+
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+      <div class="md-progress" data-md-component="progress" role="progressbar"></div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.instant", "navigation.instant.prefetch", "navigation.instant.progress", "navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.path", "navigation.indexes", "toc.integrate", "toc.follow", "navigation.top", "content.action.edit", "content.tooltips"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
+      
+        <script src="../javascripts/tablesort.js"></script>
+      
+        <script src="../javascripts/custom.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>
