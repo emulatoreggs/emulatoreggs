@@ -47,7 +47,7 @@
   ***
 
   - [EKA2L1](./mobile/eka2l1.md)
-  - [FreeJ2ME](./mobile/freej2me.md)
+  - [FreeJ2ME Plus](./mobile/freej2me-plus.md)
   - [openDoja](./mobile/opendoja.md)
   - [ReMEXA](./mobile/remexa.md)
   - [touchHLE](./mobile/touchhle.md)
