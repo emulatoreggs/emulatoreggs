@@ -3,7 +3,6 @@
 ## Compression Tools Table of Contents
 [Back to the Top](#compression-tools-and-tricks-table-of-contents)
 
-
 [TOC]
 
 ## Azahar
