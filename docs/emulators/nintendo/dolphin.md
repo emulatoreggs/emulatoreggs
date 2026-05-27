@@ -16,7 +16,7 @@
     
     {{ applications }}
 
-There is no official packaging method for Dolphin on Linux. This section will cover how to install the Flatpak. 
+Dolphin is available as an **unofficial** Flatpak on Linux. This page will cover how to utilize and install the Flatpak. 
 
 To download Dolphin:
 
