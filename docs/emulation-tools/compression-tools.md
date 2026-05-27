@@ -1,13 +1,22 @@
 # Compression Tools
 
-[toc]
+## Compression Tools Table of Contents
+[Back to the Top](#compression-tools-and-tricks-table-of-contents)
 
-# Azahar
 
-# chdman
+[TOC]
 
-# dolphin-tool
+## Azahar
+[Back to the Top](#compression-tools-and-tricks-table-of-contents)
 
-# nkit
+## chdman
+[Back to the Top](#compression-tools-and-tricks-table-of-contents)
 
-# ZArchive
+## dolphin-tool
+[Back to the Top](#compression-tools-and-tricks-table-of-contents)
+
+## nkit
+[Back to the Top](#compression-tools-and-tricks-table-of-contents)
+
+## ZArchive
+[Back to the Top](#compression-tools-and-tricks-table-of-contents)
