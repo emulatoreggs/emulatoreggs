@@ -20,7 +20,7 @@ DOSBox Pure Unleashed is available as a binary file on Linux. This page will cov
 
 To download DOSBox Pure Unleashed:
 
-1. Open the DOSBox Pure Unleashed [repository](github.com/schellingb/dosbox-pure-unleashed/releases/latest) on a browser of your choice
+1. Open the DOSBox Pure Unleashed GitHub releases page, [https://github.com/schellingb/dosbox-pure-unleashed/releases](https://github.com/schellingb/dosbox-pure-unleashed/releases) on a browser of your choice
 2. Download the `dosbox_pure_unleashed-linux-x64-#.#.zip` file
     * The `#.#` refer to the version number, this may vary depending on when you download DOSBox Pure Unleashed
 3. Move the newly downloaded `zip` file to the `$HOME/Applications` folder
