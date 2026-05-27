@@ -16,7 +16,7 @@
     
     {{ applications }}
 
-On Linux, the official packaging method for Eden is an AppImage. 
+Eden is available as an AppImage on Linux. This page will cover how to utilize and install the AppImage. 
 
 To download Eden:
 
