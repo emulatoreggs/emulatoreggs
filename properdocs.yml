@@ -207,7 +207,7 @@ plugins:
         enable_creation_date: true
     - git-committers:
        repository: emulatoreggs/emulatoreggs
-       branch: master    
+       branch: main    
     - redirects
     - table-reader:
         data_path: "docs/tables/"
