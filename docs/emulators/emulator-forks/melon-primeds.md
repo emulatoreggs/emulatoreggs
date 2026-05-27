@@ -29,4 +29,4 @@ To download melonPrimeDS:
 5. {{ permissions }}
 6. melonPrimeDS will now be downloaded
 
-## Azahar Tips and Tricks
+## melonPrimeDS Tips and Tricks
