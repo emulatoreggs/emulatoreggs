@@ -30,6 +30,7 @@ To download openDoJa:
 7. In the text file, write the following:
 
       #!/bin/sh
+      cd "$HOME/Applications"
       java -jar "$HOME/Applications/opendoja-release.jar"
 
 8. Save the text file and exit out of the text editor
