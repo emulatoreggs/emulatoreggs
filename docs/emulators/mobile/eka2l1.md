@@ -7,7 +7,7 @@
 ## Getting Started with EKA2L1
 
 ### How to Install EKA2L1
-[Back to the Top](#EKA2L1-table-of-contents)
+[Back to the Top](#eka2l1-table-of-contents)
 
 ??? info "The Basics"
     {{ home }} 

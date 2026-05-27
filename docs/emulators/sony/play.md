@@ -7,7 +7,7 @@
 ## Getting Started with Play
 
 ### How to Install Play
-[Back to the Top](#Play-table-of-contents)
+[Back to the Top](#play-table-of-contents)
 
 ??? info "The Basics"
     {{ home }} 

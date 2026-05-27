@@ -7,7 +7,7 @@
 ## Getting Started with mGBA
 
 ### How to Install mGBA
-[Back to the Top](#mGBA-table-of-contents)
+[Back to the Top](#mgba-table-of-contents)
 
 ??? info "The Basics"
     {{ home }} 

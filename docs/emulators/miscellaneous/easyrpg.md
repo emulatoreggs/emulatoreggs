@@ -7,7 +7,7 @@
 ## Getting Started with EasyRPG
 
 ### How to Install EasyRPG
-[Back to the Top](#EasyRPG-table-of-contents)
+[Back to the Top](#easyrpg-table-of-contents)
 
 ??? info "The Basics"
     {{ home }} 

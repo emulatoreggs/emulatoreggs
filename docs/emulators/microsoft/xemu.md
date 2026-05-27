@@ -7,7 +7,7 @@
 ## Getting Started with Xemu
 
 ### How to Install Xemu
-[Back to the Top](#Xemu-table-of-contents)
+[Back to the Top](#xemu-table-of-contents)
 
 ??? info "The Basics"
     {{ home }} 

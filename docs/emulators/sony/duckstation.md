@@ -7,7 +7,7 @@
 ## Getting Started with DuckStation
 
 ### How to Install DuckStation
-[Back to the Top](#DuckStation-table-of-contents)
+[Back to the Top](#duckstation-table-of-contents)
 
 ??? info "The Basics"
     {{ home }} 

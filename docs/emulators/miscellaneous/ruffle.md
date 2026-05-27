@@ -7,7 +7,7 @@
 ## Getting Started with Ruffle
 
 ### How to Install Ruffle
-[Back to the Top](#Ruffle-table-of-contents)
+[Back to the Top](#ruffle-table-of-contents)
 
 ??? info "The Basics"
     {{ home }} 

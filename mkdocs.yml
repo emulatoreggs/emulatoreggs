@@ -89,6 +89,7 @@ nav:
   - Frontends:
       - Frontends: 'frontends/index.md'   
       - ES-DE: 'frontends/es-de.md'  
+      - Freegosy: 'frontends/freegosy.md'
       - Steam ROM Manager: 'frontends/steam-rom-manager.md'  
   - Linux Gaming:
       - Linux Gaming: 'linux-gaming/index.md'

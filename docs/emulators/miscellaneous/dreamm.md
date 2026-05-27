@@ -7,7 +7,7 @@
 ## Getting Started with DREAMM
 
 ### How to Install DREAMM
-[Back to the Top](#DREAMM-table-of-contents)
+[Back to the Top](#dreamm-table-of-contents)
 
 ??? info "The Basics"
     {{ home }} 

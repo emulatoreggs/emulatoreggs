@@ -7,7 +7,7 @@
 ## Getting Started with Cemu
 
 ### How to Install Cemu
-[Back to the Top](#Cemu-table-of-contents)
+[Back to the Top](#cemu-table-of-contents)
 
 ??? info "The Basics"
     {{ home }} 

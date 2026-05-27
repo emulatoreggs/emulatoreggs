@@ -7,7 +7,7 @@
 ## Getting Started with FreeJ2ME Plus
 
 ### How to Install FreeJ2ME Plus
-[Back to the Top](#FreeJ2ME-plus-table-of-contents)
+[Back to the Top](#freej2me-plus-table-of-contents)
 
 ??? info "The Basics"
     {{ home }} 

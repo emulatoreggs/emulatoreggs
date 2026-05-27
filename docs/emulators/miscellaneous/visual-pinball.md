@@ -8,7 +8,7 @@
 ## Getting Started with VPinBall
 
 ### How to Install VPinBall
-[Back to the Top](#VPinBall-table-of-contents)
+[Back to the Top](#vpinball-table-of-contents)
 
 ??? info "The Basics"
     {{ home }} 

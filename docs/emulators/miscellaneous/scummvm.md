@@ -7,7 +7,7 @@
 ## Getting Started with ScummVM
 
 ### How to Install ScummVM
-[Back to the Top](#ScummVM-table-of-contents)
+[Back to the Top](#scummvm-table-of-contents)
 
 ??? info "The Basics"
     {{ home }} 

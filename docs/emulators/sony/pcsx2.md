@@ -7,7 +7,7 @@
 ## Getting Started with PCSX2
 
 ### How to Install PCSX2
-[Back to the Top](#PCSX2-table-of-contents)
+[Back to the Top](#pcsx2-table-of-contents)
 
 ??? info "The Basics"
     {{ home }} 

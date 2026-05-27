@@ -7,7 +7,7 @@
 ## Getting Started with PrimeHack
 
 ### How to Install PrimeHack
-[Back to the Top](#PrimeHack-table-of-contents)
+[Back to the Top](#primehack-table-of-contents)
 
 ??? info "The Basics"
     {{ home }} 

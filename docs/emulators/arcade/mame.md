@@ -7,7 +7,7 @@
 ## Getting Started with MAME
 
 ### How to Install MAME
-[Back to the Top](#MAME-table-of-contents)
+[Back to the Top](#mame-table-of-contents)
 
 ??? info "The Basics"
     {{ home }} 

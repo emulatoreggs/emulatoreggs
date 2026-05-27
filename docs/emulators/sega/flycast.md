@@ -7,7 +7,7 @@
 ## Getting Started with Flycast
 
 ### How to Install Flycast
-[Back to the Top](#Flycast-table-of-contents)
+[Back to the Top](#flycast-table-of-contents)
 
 ??? info "The Basics"
     {{ home }} 

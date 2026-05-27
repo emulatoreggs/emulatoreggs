@@ -7,7 +7,7 @@
 ## Getting Started with ShadPS4
 
 ### How to Install ShadPS4
-[Back to the Top](#ShadPS4-table-of-contents)
+[Back to the Top](#shadps4-table-of-contents)
 
 ??? info "The Basics"
     {{ home }} 

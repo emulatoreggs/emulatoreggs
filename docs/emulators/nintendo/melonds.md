@@ -30,7 +30,7 @@ To download melonDS:
 
 1. Open your distro's software manager.
     * {{ discover }}
-2. Search for "melonDS" and click "Install" on the top right of the software page For Azahar
+2. Search for "melonDS" and click "Install" on the top right of the software page For melonDS
 3. Open Konsole or a terminal of your choice
 4. Type the following two lines, one at a time, and press enter after each line:
     * `flatpak override net.kuribo64.melonDS --filesystem=host --user`
@@ -38,7 +38,7 @@ To download melonDS:
 
 
 ## melonDS Tips and Tricks
-[Back to the Top](#azahar-table-of-contents)
+[Back to the Top](#melonds-table-of-contents)
 
 ***
 
@@ -165,7 +165,7 @@ The Nintendo DSI requires DSI specific BIOS. Place **all** of the files from the
 
 #### Game Mode
 
-If you are playing in Game Mode, make sure you have the correct "Steam Input" profile applied. For more information, see the [Hotkeys](#melonds-hotkeys) section. 
+If you are playing in Game Mode, make sure you have the correct "Steam Input" profile applied.
 
 While in game, press `Select` + `R3` to exit full screen. While melonDS is windowed, you will have access to the settings at the top of the screen. Adjust these options to your liking. After you have made your changes, press `Select` + `R3` again to switch melonDS back to full screen. 
 

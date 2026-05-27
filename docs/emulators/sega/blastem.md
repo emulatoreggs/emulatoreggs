@@ -7,7 +7,7 @@
 ## Getting Started with BlastEm
 
 ### How to Install BlastEm
-[Back to the Top](#BlastEm-table-of-contents)
+[Back to the Top](#blastem-table-of-contents)
 
 ??? info "The Basics"
     {{ home }} 

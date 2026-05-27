@@ -7,7 +7,7 @@
 ## Getting Started with touchHLE
 
 ### How to Install touchHLE
-[Back to the Top](#touchHLE-table-of-contents)
+[Back to the Top](#touchhle-table-of-contents)
 
 touchHLE is available as an **unofficial** AppImage on Linux. This page will cover how to utilize and install the AppImage. 
 

@@ -7,7 +7,7 @@
 ## Getting Started with Cxbx-Reloaded
 
 ### How to Install Cxbx-Reloaded
-[Back to the Top](#Cxbx-Reloaded-table-of-contents)
+[Back to the Top](#cxbx-reloaded-table-of-contents)
 
 ??? info "The Basics"
     {{ home }} 

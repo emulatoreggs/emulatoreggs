@@ -7,7 +7,7 @@
 ## Getting Started with DOSBox-X
 
 ### How to Install DOSBox-X
-[Back to the Top](#DOSBox-X-table-of-contents)
+[Back to the Top](#dosbox-x-table-of-contents)
 
 ??? info "The Basics"
     {{ home }} 

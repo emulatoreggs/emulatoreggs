@@ -7,7 +7,7 @@
 ## Getting Started with FS-UAE
 
 ### How to Install FS-UAE
-[Back to the Top](#FS-UAE-table-of-contents)
+[Back to the Top](#fs-uae-table-of-contents)
 
 ??? info "The Basics"
     {{ home }} 

@@ -7,7 +7,7 @@
 ## Getting Started with melonPrimeDS
 
 ### How to Install melonPrimeDS
-[Back to the Top](#melonPrimeDS-table-of-contents)
+[Back to the Top](#melonprimeds-table-of-contents)
 
 ??? info "The Basics"
     {{ home }} 

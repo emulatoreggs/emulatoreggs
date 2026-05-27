@@ -7,6 +7,6 @@
 ## Getting Started with Supermodel
 
 ### How to Install Supermodel
-[Back to the Top](#Supermodel-table-of-contents)
+[Back to the Top](#supermodel-table-of-contents)
 
 ## Supermodel Tips and Tricks
