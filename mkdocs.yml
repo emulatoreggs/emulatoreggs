@@ -98,6 +98,7 @@ nav:
         - Heroic Games Launcher!: 'linux-gaming/game-launchers/heroic-games-launcher.md'
       - Tools:
         - Game Fixes: 'linux-gaming/tools/game-fixes.md'
+        - Java: 'linux-gaming/tools/java.md'
   - How to Contribute:
       - How to Contribute: 'how-to-contribute/index.md' 
 theme:

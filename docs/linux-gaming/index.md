@@ -16,3 +16,4 @@
   ***
 
   - [Game Fixes](./tools/game-fixes.md)
+  - [Java](./tools/java.md)
