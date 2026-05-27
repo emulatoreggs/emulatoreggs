@@ -47,7 +47,7 @@ nav:
         - Visual Pinball: 'emulators/miscellaneous/visual-pinball.md'
       - Mobile Emulators:
         - EKA2L1: 'emulators/mobile/eka2l1.md'
-        - FreeJ2ME: 'emulators/mobile/freej2me.md'
+        - FreeJ2ME Plus: 'emulators/mobile/freej2me-plus.md'
         - openDoJa: 'emulators/mobile/opendoja.md'
         - ReMEXA: 'emulators/mobile/remexa.md'
         - touchHLE: 'emulators/mobile/touchhle.md'
