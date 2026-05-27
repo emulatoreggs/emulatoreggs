@@ -11,6 +11,17 @@ This page will cover how to download and utilize umu launcher.
 ## How To Install umu launcher
 [Back to the Top](#umu-launcher-tips-and-tricks-table-of-contents)
 
+??? info "The Basics"
+    {{ home }} 
+
+    {{ hiddenfolders }}
+    
+    {{ applications }}
+
+!!! info 
+
+    If you already have an `umu` folder in `$HOME/.local/share`, you do not need to re-install umu. Steps 1-4 will update umu to the latest version. Alternatively, you may skip to Step 5. 
+
 1. Open the umu launcher GitHub repository, [https://github.com/Open-Wine-Components/umu-launcher/releases](https://github.com/Open-Wine-Components/umu-launcher/releases) :material-information-outline:{ title="{{ steamdeckdesktopmode }}" }
 2. Download the latest `umu-launcher-#.#.#-zipapp.tar` file
     * The #.#.# refers to the version number, this may vary depending on when you are downloading umu launcher
