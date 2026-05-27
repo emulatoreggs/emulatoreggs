@@ -581,10 +581,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#bios-folders" class="md-nav__link">
+  <a href="#how-to-set-up-a-basic-emulation-directory" class="md-nav__link">
     <span class="md-ellipsis">
       
-        BIOS Folders
+        How to Set up a Basic Emulation Directory
       
     </span>
   </a>
@@ -592,10 +592,93 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#rom-folders" class="md-nav__link">
+  <a href="#how-to-set-up-es-de-and-the-rom-folders" class="md-nav__link">
     <span class="md-ellipsis">
       
-        ROM Folders
+        How to Set up ES-DE and the ROM Folders
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-set-up-and-configure-retroarch" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to Set Up and Configure RetroArch
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="How to Set Up and Configure RetroArch">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-to-install-retroarch" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to Install RetroArch
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-configure-retroarch" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to Configure RetroArch
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-download-retroarch-cores-in-batch" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to Download RetroArch Cores in Batch
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#retroarch-recommended-settings" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        RetroArch Recommended Settings
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-configure-hotkeys" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to Configure Hotkeys
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-play-a-game-in-es-de-using-retroarch" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to Play a Game in ES-DE Using RetroArch
       
     </span>
   </a>
@@ -3856,14 +3939,253 @@
 <ul>
 <li><a href="#first-steps">First Steps</a><ul>
 <li><a href="#first-steps-table-of-contents">First Steps Table of Contents</a></li>
-<li><a href="#bios-folders">BIOS Folders</a></li>
-<li><a href="#rom-folders">ROM Folders</a></li>
+<li><a href="#how-to-set-up-a-basic-emulation-directory">How to Set up a Basic Emulation Directory</a></li>
+<li><a href="#how-to-set-up-es-de-and-the-rom-folders">How to Set up ES-DE and the ROM Folders</a></li>
+<li><a href="#how-to-set-up-and-configure-retroarch">How to Set Up and Configure RetroArch</a><ul>
+<li><a href="#how-to-install-retroarch">How to Install RetroArch</a></li>
+<li><a href="#how-to-configure-retroarch">How to Configure RetroArch</a></li>
+<li><a href="#how-to-download-retroarch-cores-in-batch">How to Download RetroArch Cores in Batch</a></li>
+<li><a href="#retroarch-recommended-settings">RetroArch Recommended Settings</a></li>
+<li><a href="#how-to-configure-hotkeys">How to Configure Hotkeys</a></li>
+</ul>
+</li>
+<li><a href="#how-to-play-a-game-in-es-de-using-retroarch">How to Play a Game in ES-DE Using RetroArch</a></li>
 </ul>
 </li>
 </ul>
 </div>
-<h2 id="bios-folders">BIOS Folders<a class="headerlink" href="#bios-folders" title="Permanent link"></a></h2>
-<h2 id="rom-folders">ROM Folders<a class="headerlink" href="#rom-folders" title="Permanent link"></a></h2>
+<details class="info">
+<summary>The Basics</summary>
+<p>$HOME or ~ refer to your home directory. On a typical linux distro, the full path will be <code>\$HOME/\$USER</code>. On a Steam Deck, the full path will be <code>/home/deck</code>. When navigating using the file manager, the file manager may not be display the username visually in the full file path. </p>
+<p>Directories with a <code>.</code> in front of their name, like <code>$HOME/.steam</code>, are hidden by default. In Dolphin (a file manager), click the hamburger menu in the top right and toggle on <code>Show Hidden Files</code>. The setting may vary depending on which file manager you are using.</p>
+<p>$HOME/Applications refers to the Applications folder in your home directory. On a typical linux distro, the full path will be <code>\$HOME/\$USER/Applications</code>. On a Steam Deck, the full path will be <code>/home/deck/Applications</code>. When navigating using the file manager, the file manager may not display the username visually in the full file path. The Applications folder is not created by default. If you have not created one already, do so before following the steps in this section.</p>
+</details>
+<h2 id="how-to-set-up-a-basic-emulation-directory">How to Set up a Basic Emulation Directory<a class="headerlink" href="#how-to-set-up-a-basic-emulation-directory" title="Permanent link"></a></h2>
+<ol>
+<li>In the <code>$HOME</code> folder, create a <code>Games</code> folder if one does not exist <span class="twemoji" title="If you are on a Steam Deck, use Desktop Mode for this step."><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 9h2V7h-2m1 13c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8m0-18A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m-1 15h2v-6h-2z"></path></svg></span></li>
+<li>In the <code>$HOME/Games</code> folder, create an <code>Emulation</code> folder</li>
+<li>In the <code>$HOME/Games/Emulation</code> folder, create the following folders:<br>
+   * <code>BIOS</code><br>
+   * <code>ROMs</code><br>
+   * <code>Saves</code><ul>
+<li>In the <code>Saves</code> folder, create a <code>States</code> folder</li>
+<li><code>Screenshots</code></li>
+</ul>
+</li>
+<li>The final directory should look like the following image:<ul>
+<li><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../assets/emulation-folder.png" data-desc-position="bottom"><img alt="Emulation Folder" src="../assets/emulation-folder.png"></a></li>
+</ul>
+</li>
+</ol>
+<h2 id="how-to-set-up-es-de-and-the-rom-folders">How to Set up ES-DE and the ROM Folders<a class="headerlink" href="#how-to-set-up-es-de-and-the-rom-folders" title="Permanent link"></a></h2>
+<ol>
+<li>Open the ES-DE website, <a href="https://es-de.org/#Download">https://es-de.org/#Download</a> <span class="twemoji" title="If you are on a Steam Deck, use Desktop Mode for this step."><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 9h2V7h-2m1 13c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8m0-18A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m-1 15h2v-6h-2z"></path></svg></span></li>
+<li>If on a Linux desktop, click the <code>Linux x64 AppImage</code> button. If on a Steam Deck, click the <code>Steam Deck AppImage</code></li>
+<li>Move the downloaded <abbr title="An AppImage is a portable/self-contained application. It contains all of the dependencies required to run the respective program.">AppImage</abbr> to <code>$HOME/Applications</code>.</li>
+<li>Right click the <abbr title="An AppImage is a portable/self-contained application. It contains all of the dependencies required to run the respective program.">AppImage</abbr>, Right click the application or file in question, click <code>Properties</code>, click <code>Permissions</code>, check <code>Is Executable</code>.</li>
+<li>(Optional) For easier maintenance, rename the <abbr title="An AppImage is a portable/self-contained application. It contains all of the dependencies required to run the respective program.">AppImage</abbr> to <code>ES-DE.AppImage</code></li>
+<li>Double click the <abbr title="An AppImage is a portable/self-contained application. It contains all of the dependencies required to run the respective program.">AppImage</abbr> to run ES-DE</li>
+<li>On the ES-DE onboarding screen, click <code>CHANGE</code> and update the path to <code>$HOME/Games/Emulation/ROMs</code><ul>
+<li><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../assets/es-de-onboarding.png" data-desc-position="bottom"><img alt="ES-DE Onboarding" src="../assets/es-de-onboarding.png"></a></li>
+</ul>
+</li>
+<li>Click the checkmark to confirm the path</li>
+<li>On the onboarding screen, click <code>CREATE</code> to allow ES-DE to create the ROM folders in <code>$HOME/Games/Emulation/ROMs</code><ul>
+<li><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../assets/es-de-onboarding-create-folders.png" data-desc-position="bottom"><img alt="ES-DE Onboarding: Create Folders" src="../assets/es-de-onboarding-create-folders.png"></a></li>
+</ul>
+</li>
+<li>Once ES-DE has created the folders, click <code>QUIT</code></li>
+<li>ES-DE and the ROM folders are now configured</li>
+</ol>
+<h2 id="how-to-set-up-and-configure-retroarch">How to Set Up and Configure RetroArch<a class="headerlink" href="#how-to-set-up-and-configure-retroarch" title="Permanent link"></a></h2>
+<h3 id="how-to-install-retroarch">How to Install RetroArch<a class="headerlink" href="#how-to-install-retroarch" title="Permanent link"></a></h3>
+<ol>
+<li>Open your distro's software manager. <span class="twemoji" title="If you are on a Steam Deck, use Desktop Mode for this step."><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 9h2V7h-2m1 13c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8m0-18A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m-1 15h2v-6h-2z"></path></svg></span><ul>
+<li>On SteamOS and distros with KDE, you may use Discover, a "store" to install and manage Flatpaks.</li>
+</ul>
+</li>
+<li>Search for "RetroArch" and click "Install" on the top right of the software page For RetroArch</li>
+<li>Open Konsole or a terminal of your choice</li>
+<li>Type the following two lines, one at a time, and press enter after each line:<ul>
+<li><code>flatpak override org.libretro.RetroArch --filesystem=host --user</code></li>
+<li>Alternatively, you may install and use Flatseal from your distro's software manager. Open Flatseal, locate the emulator on the left-hand side of the screen, scroll down to the <code>Filesystem</code> section and enable <code>All system files</code></li>
+</ul>
+</li>
+</ol>
+<h3 id="how-to-configure-retroarch">How to Configure RetroArch<a class="headerlink" href="#how-to-configure-retroarch" title="Permanent link"></a></h3>
+<ol>
+<li>Launch RetroArch <span class="twemoji" title="If you are on a Steam Deck, use Desktop Mode for this step."><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 9h2V7h-2m1 13c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8m0-18A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m-1 15h2v-6h-2z"></path></svg></span></li>
+<li>Click <code>Settings</code> on the left-hand side of the screen</li>
+<li>Scroll down to <code>Directory</code></li>
+<li>Use the following format:<ul>
+<li>For directores that start with <code>/app</code>, click <code>Parent Directory</code> until you see <code>`$HOME/.var/app/org.libretro.RetroArch/config/retroarch</code></li>
+<li><code>System/BIOS</code><ul>
+<li><code>$HOME/Games/Emulation/BIOS</code></li>
+</ul>
+</li>
+<li><code>Save Files</code> <ul>
+<li><code>$HOME/Games/Emulation/Saves</code></li>
+</ul>
+</li>
+<li><code>Save States</code><ul>
+<li><code>$HOME/Games/Emulation/Saves/States</code></li>
+</ul>
+</li>
+<li><code>Assets</code><ul>
+<li><code>$HOME/.var/app/org.libretro.RetroArch/config/retroarch/assets</code></li>
+</ul>
+</li>
+<li><code>Cheats</code><ul>
+<li><code>$HOME/.var/app/org.libretro.RetroArch/config/retroarch/cheats</code></li>
+</ul>
+</li>
+<li><code>Databases</code><ul>
+<li><code>$HOME/.var/app/org.libretro.RetroArch/config/retroarch/database</code></li>
+</ul>
+</li>
+<li><code>Video Shaders</code><ul>
+<li><code>$HOME/.var/app/org.libretro.RetroArch/config/retroarch/shaders</code></li>
+</ul>
+</li>
+<li><code>Overlays</code><ul>
+<li><code>$HOME/.var/app/org.libretro.RetroArch/config/retroarch/overlays</code>  </li>
+</ul>
+</li>
+<li><code>Screenshots</code><ul>
+<li><code>$HOME/Games/Emulation/Screenshots</code></li>
+</ul>
+</li>
+<li><code>Controller Profiles</code><ul>
+<li><code>$HOME/.var/app/org.libretro.RetroArch/config//retroarch/autoconfig</code>  </li>
+</ul>
+</li>
+<li>The final configuration screen should look similar to the image below:<ul>
+<li><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../assets/retroarch-directory-1.png" data-desc-position="bottom"><img alt="Retroarch Directory 1" src="../assets/retroarch-directory-1.png"></a></li>
+<li><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../assets/retroarch-directory-2.png" data-desc-position="bottom"><img alt="Retroarch Directory 2" src="../assets/retroarch-directory-2.png"></a></li>
+<li><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../assets/retroarch-directory-3.png" data-desc-position="bottom"><img alt="Retroarch Directory 3" src="../assets/retroarch-directory-3.png"></a></li>
+<li><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../assets/retroarch-directory-4.png" data-desc-position="bottom"><img alt="Retroarch Directory 4" src="../assets/retroarch-directory-4.png"></a></li>
+<li><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../assets/retroarch-directory-5.png" data-desc-position="bottom"><img alt="Retroarch Directory 5" src="../assets/retroarch-directory-5.png"></a></li>
+<li><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../assets/retroarch-directory-6.png" data-desc-position="bottom"><img alt="Retroarch Directory 6" src="../assets/retroarch-directory-6.png"></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Back out of the <code>Directory</code> settings and click <code>Main Menu</code> on the left-hand side of the screen</li>
+<li>Click <code>Configuration File</code>, click <code>Save Current Configuration</code></li>
+<li>Back out of the <code>Configuration File</code> screen and click <code>Online Updater</code></li>
+<li>Click the following options, one at a time, waiting for each to complete downloading<ul>
+<li><code>Update Assets</code></li>
+<li><code>Update Controller Profiles</code></li>
+<li><code>Update Cheats</code></li>
+<li><code>Update Databases</code></li>
+<li><code>Update Overlays</code></li>
+<li><code>Update Cg Shaders</code></li>
+<li><code>Update GLSL Shaders</code></li>
+<li><code>Core System Files Downloader</code> &gt; <code>PPSSPP.zip</code></li>
+</ul>
+</li>
+<li>Optionally, click <code>Core Downloader</code> and select which cores you would like to use. If you would like to download in batch,skip to <a href="#how-to-download-retroarch-cores-in-batch">How to Download RetroArch Cores in Batch</a>. Otherwise, RetroArch is now configured</li>
+</ol>
+<h3 id="how-to-download-retroarch-cores-in-batch">How to Download RetroArch Cores in Batch<a class="headerlink" href="#how-to-download-retroarch-cores-in-batch" title="Permanent link"></a></h3>
+<ol>
+<li>Open the RetroArch buildbot website, <a href="https://buildbot.libretro.com/">https://buildbot.libretro.com/</a></li>
+<li>click <code>Stable</code>, locate the latest version (look at the dates), click <code>linux</code>, <code>x86_64</code></li>
+<li>Download <code>RetroArch_cores.7z</code></li>
+<li>Right click <code>RetroArch_cores.7z</code>, click <code>Extract</code> &gt; <code>Extract Here</code> which will extract it to a <code>RetroArch-Linux-x86-64</code> folder</li>
+<li>Open the newly extracted folder and navigate through the subfolders until you locate the <code>cores</code> folder</li>
+<li>Right click the <code>cores</code> folder, click <code>Copy</code>, navigate to <code>`$HOME/.var/app/org.libretro.RetroArch/config/retroarch</code></li>
+<li>Right click anywhere in the folder, click <code>Paste</code>, click <code>Write Into</code></li>
+<li>All of the RetroArch cores are now downloaded</li>
+</ol>
+<h3 id="retroarch-recommended-settings">RetroArch Recommended Settings<a class="headerlink" href="#retroarch-recommended-settings" title="Permanent link"></a></h3>
+<ol>
+<li>Launch RetroArch <span class="twemoji" title="If you are on a Steam Deck, use Desktop Mode for this step."><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 9h2V7h-2m1 13c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8m0-18A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m-1 15h2v-6h-2z"></path></svg></span></li>
+<li>Click <code>Settings</code> on the left-hand side of the screen</li>
+<li>Scroll down to <code>Video</code></li>
+<li>Click <code>Output</code>, <code>Video</code>, and select <code>vulkan</code></li>
+<li>Back out to the <code>Video</code> settings, click <code>Fullscreen Mode</code>, and click <code>Fullscreen Display</code> to enable it</li>
+<li>Back out to the <code>Settings</code> menu, click <code>Audio</code>, click <code>Output</code>, <code>Audio</code>, select <code>Pulsewire</code></li>
+<li>Back out to the <code>Audio</code> menu, click <code>Microphone</code>, <code>Microphone</code>, and select <code>sdl2</code></li>
+<li>Back out to the <code>Settings</code> menu, click <code>Input</code>, <code>Controller</code>, and select <code>sdl2</code></li>
+<li>Back out to the <code>Input</code> menu, click <code>Controller</code>, and select <code>sdl2</code></li>
+<li>Back out to the <code>Settings</code> menu, click <code>Main Menu</code> on the left-hand side of the screen, click <code>Configuration File</code>, click <code>Save Current Configuration</code></li>
+</ol>
+<h3 id="how-to-configure-hotkeys">How to Configure Hotkeys<a class="headerlink" href="#how-to-configure-hotkeys" title="Permanent link"></a></h3>
+<ol>
+<li>Launch RetroArch <span class="twemoji" title="If you are on a Steam Deck, use Desktop Mode for this step."><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 9h2V7h-2m1 13c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8m0-18A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m-1 15h2v-6h-2z"></path></svg></span></li>
+<li>Click <code>Settings</code> on the left-hand side of the screen</li>
+<li>Scroll down to <code>Input</code></li>
+<li>Click <code>Hotkeys</code></li>
+<li>Click <code>Hotkey</code> enable and press <code>Select</code> on your controller</li>
+<li>Use the following format:<ul>
+<li><code>Menu Toggle (Controller Combo)</code><ul>
+<li><code>L3 + R3</code></li>
+</ul>
+</li>
+<li><code>Menu Toggle</code><ul>
+<li><code>R3</code></li>
+</ul>
+</li>
+<li><code>Quit (Controller Combo)</code><ul>
+<li><code>Start + Select</code></li>
+</ul>
+</li>
+<li><code>Reset</code><ul>
+<li><code>L3</code></li>
+</ul>
+</li>
+<li><code>Fast Forward (Toggle)</code><ul>
+<li><code>R2</code></li>
+</ul>
+</li>
+<li><code>Rewind</code><ul>
+<li><code>L2</code></li>
+</ul>
+</li>
+<li><code>Pause</code><ul>
+<li><code>A</code></li>
+</ul>
+</li>
+<li><code>Save State</code><ul>
+<li><code>R1</code>  </li>
+</ul>
+</li>
+<li><code>Load State</code><ul>
+<li><code>L1</code></li>
+</ul>
+</li>
+<li><code>Next Save State Slot</code><ul>
+<li><code>DPad Right</code>  </li>
+</ul>
+</li>
+<li><code>Previous Save State Slot</code><ul>
+<li><code>DPad Left</code></li>
+</ul>
+</li>
+<li><code>Next Disc</code><ul>
+<li><code>Y</code></li>
+</ul>
+</li>
+<li><code>Take Screenshot</code><ul>
+<li><code>B</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Back out to the <code>Settings</code> menu, click <code>Main Menu</code> on the left-hand side of the screen, click <code>Configuration File</code>, click <code>Save Current Configuration</code></li>
+</ol>
+<h2 id="how-to-play-a-game-in-es-de-using-retroarch">How to Play a Game in ES-DE Using RetroArch<a class="headerlink" href="#how-to-play-a-game-in-es-de-using-retroarch" title="Permanent link"></a></h2>
+<p>This section will use Apotris, a homebrew Tetris game for the Game Boy Advance as an example</p>
+<ol>
+<li>Open <a href="https://akouzoukos.com/apotris/downloads">https://akouzoukos.com/apotris/downloads</a> on a browser of your choice</li>
+<li>Click <code>GameBoy Advance</code> under <code>Downloads</code></li>
+<li>Extract the newly downloaded <code>.zip</code> file</li>
+<li>In the newly extracted folder, move <code>Apotris.gba</code> to <code>$HOME/Games/Emulation/ROMs/gba</code></li>
+<li>Open ES-DE</li>
+<li>Apotris should now appear under the <code>GameBoy Advance</code> collection</li>
+<li>On the <code>Apotris</code> entry, click <code>Select</code>, <code>Edit This Game's Metadata</code>, <code>Alternative Emulator</code> and confirm <code>mGBA [SYSTEM-WIDE]</code> is selected</li>
+<li>Save the changes and launch the <code>ROM</code> by selecting it, it should now open in RetroArch</li>
+</ol>
 
 
 
@@ -3886,7 +4208,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="November 16, 2025 18:34:51 UTC">November 16, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="May 27, 2026 23:19:12 UTC">May 27, 2026</span>
   </span>
 
     
