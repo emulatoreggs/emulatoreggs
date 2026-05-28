@@ -669,6 +669,28 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#how-to-configure-shaders" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to Configure Shaders
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-configure-retroachievements" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to Configure RetroAchievements
+      
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -679,6 +701,67 @@
     <span class="md-ellipsis">
       
         How to Play a Game in ES-DE Using RetroArch
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-set-up-steam-rom-manager" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to Set Up Steam ROM Manager
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="How to Set Up Steam ROM Manager">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#how-to-download-steam-rom-manager" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to Download Steam ROM Manager
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-configure-steam-rom-manager" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to Configure Steam ROM Manager
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-set-up-a-retroarch-core-parser" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        How to Set up a RetroArch Core Parser
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#final-words-and-tips" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Final Words and Tips
       
     </span>
   </a>
@@ -3947,9 +4030,18 @@
 <li><a href="#how-to-download-retroarch-cores-in-batch">How to Download RetroArch Cores in Batch</a></li>
 <li><a href="#retroarch-recommended-settings">RetroArch Recommended Settings</a></li>
 <li><a href="#how-to-configure-hotkeys">How to Configure Hotkeys</a></li>
+<li><a href="#how-to-configure-shaders">How to Configure Shaders</a></li>
+<li><a href="#how-to-configure-retroachievements">How to Configure RetroAchievements</a></li>
 </ul>
 </li>
 <li><a href="#how-to-play-a-game-in-es-de-using-retroarch">How to Play a Game in ES-DE Using RetroArch</a></li>
+<li><a href="#how-to-set-up-steam-rom-manager">How to Set Up Steam ROM Manager</a><ul>
+<li><a href="#how-to-download-steam-rom-manager">How to Download Steam ROM Manager</a></li>
+<li><a href="#how-to-configure-steam-rom-manager">How to Configure Steam ROM Manager</a></li>
+<li><a href="#how-to-set-up-a-retroarch-core-parser">How to Set up a RetroArch Core Parser</a></li>
+</ul>
+</li>
+<li><a href="#final-words-and-tips">Final Words and Tips</a></li>
 </ul>
 </li>
 </ul>
@@ -3961,6 +4053,10 @@
 <p>$HOME/Applications refers to the Applications folder in your home directory. On a typical linux distro, the full path will be <code>\$HOME/\$USER/Applications</code>. On a Steam Deck, the full path will be <code>/home/deck/Applications</code>. When navigating using the file manager, the file manager may not display the username visually in the full file path. The Applications folder is not created by default. If you have not created one already, do so before following the steps in this section.</p>
 </details>
 <h2 id="how-to-set-up-a-basic-emulation-directory">How to Set up a Basic Emulation Directory<a class="headerlink" href="#how-to-set-up-a-basic-emulation-directory" title="Permanent link"></a></h2>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>This page assumes you will use the paths in the section below. You are not required to use these paths. However, it is recommended you keep the folder names for consistency across the sections on this page. For example, if you are using an external storage device, it is recommended you use something like <code>/run/media/deck/Emulation</code> as your base folder.</p>
+</div>
 <ol>
 <li>In the <code>$HOME</code> folder, create a <code>Games</code> folder if one does not exist <span class="twemoji" title="If you are on a Steam Deck, use Desktop Mode for this step."><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 9h2V7h-2m1 13c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8m0-18A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m-1 15h2v-6h-2z"></path></svg></span></li>
 <li>In the <code>$HOME/Games</code> folder, create an <code>Emulation</code> folder</li>
@@ -4018,7 +4114,7 @@
 <li>Click <code>Settings</code> on the left-hand side of the screen</li>
 <li>Scroll down to <code>Directory</code></li>
 <li>Use the following format:<ul>
-<li>For directores that start with <code>/app</code>, click <code>Parent Directory</code> until you see <code>`$HOME/.var/app/org.libretro.RetroArch/config/retroarch</code></li>
+<li>For directores that start with <code>/app</code>, click <code>Parent Directory</code> until you see <code>$HOME/.var/app/org.libretro.RetroArch/config/retroarch</code></li>
 <li><code>System/BIOS</code><ul>
 <li><code>$HOME/Games/Emulation/BIOS</code></li>
 </ul>
@@ -4029,6 +4125,10 @@
 </li>
 <li><code>Save States</code><ul>
 <li><code>$HOME/Games/Emulation/Saves/States</code></li>
+</ul>
+</li>
+<li><code>Core Info</code><ul>
+<li><code>$HOME/.var/app/org.libretro.RetroArch/config/retroarch/info</code></li>
 </ul>
 </li>
 <li><code>Assets</code><ul>
@@ -4074,6 +4174,7 @@
 <li>Click <code>Configuration File</code>, click <code>Save Current Configuration</code></li>
 <li>Back out of the <code>Configuration File</code> screen and click <code>Online Updater</code></li>
 <li>Click the following options, one at a time, waiting for each to complete downloading<ul>
+<li><code>Update Core Info Files</code></li>
 <li><code>Update Assets</code></li>
 <li><code>Update Controller Profiles</code></li>
 <li><code>Update Cheats</code></li>
@@ -4084,7 +4185,7 @@
 <li><code>Core System Files Downloader</code> &gt; <code>PPSSPP.zip</code></li>
 </ul>
 </li>
-<li>Optionally, click <code>Core Downloader</code> and select which cores you would like to use. If you would like to download in batch,skip to <a href="#how-to-download-retroarch-cores-in-batch">How to Download RetroArch Cores in Batch</a>. Otherwise, RetroArch is now configured</li>
+<li>Optionally, click <code>Core Downloader</code> and select which cores you would like to use. If you would like to download in batch, skip to <a href="#how-to-download-retroarch-cores-in-batch">How to Download RetroArch Cores in Batch</a>. Otherwise, RetroArch is now configured</li>
 </ol>
 <h3 id="how-to-download-retroarch-cores-in-batch">How to Download RetroArch Cores in Batch<a class="headerlink" href="#how-to-download-retroarch-cores-in-batch" title="Permanent link"></a></h3>
 <ol>
@@ -4093,7 +4194,7 @@
 <li>Download <code>RetroArch_cores.7z</code></li>
 <li>Right click <code>RetroArch_cores.7z</code>, click <code>Extract</code> &gt; <code>Extract Here</code> which will extract it to a <code>RetroArch-Linux-x86-64</code> folder</li>
 <li>Open the newly extracted folder and navigate through the subfolders until you locate the <code>cores</code> folder</li>
-<li>Right click the <code>cores</code> folder, click <code>Copy</code>, navigate to <code>`$HOME/.var/app/org.libretro.RetroArch/config/retroarch</code></li>
+<li>Right click the <code>cores</code> folder, click <code>Copy</code>, navigate to <code>$HOME/.var/app/org.libretro.RetroArch/config/retroarch</code></li>
 <li>Right click anywhere in the folder, click <code>Paste</code>, click <code>Write Into</code></li>
 <li>All of the RetroArch cores are now downloaded</li>
 </ol>
@@ -4174,8 +4275,19 @@
 </li>
 <li>Back out to the <code>Settings</code> menu, click <code>Main Menu</code> on the left-hand side of the screen, click <code>Configuration File</code>, click <code>Save Current Configuration</code></li>
 </ol>
+<h3 id="how-to-configure-shaders">How to Configure Shaders<a class="headerlink" href="#how-to-configure-shaders" title="Permanent link"></a></h3>
+<p>See <a href="https://retrogamecorps.com/2022/02/28/retroarch-starter-guide/#Shaders">https://retrogamecorps.com/2022/02/28/retroarch-starter-guide/#Shaders</a> and <a href="https://retrogamecorps.com/2024/09/01/guide-shaders-and-overlays-on-retro-handhelds/">https://retrogamecorps.com/2024/09/01/guide-shaders-and-overlays-on-retro-handhelds/</a> for an in-depth guide.</p>
+<h3 id="how-to-configure-retroachievements">How to Configure RetroAchievements<a class="headerlink" href="#how-to-configure-retroachievements" title="Permanent link"></a></h3>
+<ol>
+<li>Launch RetroArch <span class="twemoji" title="If you are on a Steam Deck, use Desktop Mode for this step."><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 9h2V7h-2m1 13c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8m0-18A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m-1 15h2v-6h-2z"></path></svg></span></li>
+<li>Click <code>Settings</code> on the left-hand side of the screen</li>
+<li>Scroll down to <code>Achievements</code></li>
+<li>Click <code>Achievements</code> to toggle it to <code>On</code></li>
+<li>Enter your <code>Username</code> and <code>Password</code> in the respective fields</li>
+<li>Back out to the <code>Settings</code> menu, click <code>Main Menu</code> on the left-hand side of the screen, click <code>Configuration File</code>, click <code>Save Current Configuration</code></li>
+</ol>
 <h2 id="how-to-play-a-game-in-es-de-using-retroarch">How to Play a Game in ES-DE Using RetroArch<a class="headerlink" href="#how-to-play-a-game-in-es-de-using-retroarch" title="Permanent link"></a></h2>
-<p>This section will use Apotris, a homebrew Tetris game for the Game Boy Advance as an example</p>
+<p>This section will use Apotris, a homebrew Tetris game for the Game Boy Advance as an example.</p>
 <ol>
 <li>Open <a href="https://akouzoukos.com/apotris/downloads">https://akouzoukos.com/apotris/downloads</a> on a browser of your choice</li>
 <li>Click <code>GameBoy Advance</code> under <code>Downloads</code></li>
@@ -4186,6 +4298,80 @@
 <li>On the <code>Apotris</code> entry, click <code>Select</code>, <code>Edit This Game's Metadata</code>, <code>Alternative Emulator</code> and confirm <code>mGBA [SYSTEM-WIDE]</code> is selected</li>
 <li>Save the changes and launch the <code>ROM</code> by selecting it, it should now open in RetroArch</li>
 </ol>
+<h2 id="how-to-set-up-steam-rom-manager">How to Set Up Steam ROM Manager<a class="headerlink" href="#how-to-set-up-steam-rom-manager" title="Permanent link"></a></h2>
+<h3 id="how-to-download-steam-rom-manager">How to Download Steam ROM Manager<a class="headerlink" href="#how-to-download-steam-rom-manager" title="Permanent link"></a></h3>
+<ol>
+<li>Open the Steam ROM Manager GitHub releases page, <a href="https://github.com/SteamGridDB/steam-rom-manager/releases">https://github.com/SteamGridDB/steam-rom-manager/releases</a> on a browser of your choice <span class="twemoji" title="If you are on a Steam Deck, use Desktop Mode for this step."><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 9h2V7h-2m1 13c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8m0-18A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2m-1 15h2v-6h-2z"></path></svg></span></li>
+<li>Download the latest <code>Steam-ROM-Manager-#.#.##.AppImage</code> file<ul>
+<li>The <code>#.#.##</code> refer to the version number, this may vary depending on when you download Steam ROM Manager</li>
+</ul>
+</li>
+<li>Move the newly downloaded <abbr title="An AppImage is a portable/self-contained application. It contains all of the dependencies required to run the respective program.">AppImage</abbr> to the <code>$HOME/Applications</code> folder<ul>
+<li>$HOME/Applications refers to the Applications folder in your home directory. On a typical linux distro, the full path will be <code>\$HOME/\$USER/Applications</code>. On a Steam Deck, the full path will be <code>/home/deck/Applications</code>. When navigating using the file manager, the file manager may not display the username visually in the full file path. The Applications folder is not created by default. If you have not created one already, do so before following the steps in this section.</li>
+</ul>
+</li>
+<li>Right click the application or file in question, click <code>Properties</code>, click <code>Permissions</code>, check <code>Is Executable</code>.</li>
+<li>(Optional) For easier maintenance, rename the <abbr title="An AppImage is a portable/self-contained application. It contains all of the dependencies required to run the respective program.">AppImage</abbr> to <code>Steam-ROM-Manager.AppImage</code></li>
+<li>To launch Steam ROM Manager, double click the <abbr title="An AppImage is a portable/self-contained application. It contains all of the dependencies required to run the respective program.">AppImage</abbr></li>
+</ol>
+<h3 id="how-to-configure-steam-rom-manager">How to Configure Steam ROM Manager<a class="headerlink" href="#how-to-configure-steam-rom-manager" title="Permanent link"></a></h3>
+<ol>
+<li>Launch Steam ROM Manager</li>
+<li>On the <code>Welcome to SRM</code> screen, select your Steam directory<ul>
+<li>If you are on a Steam Deck, the path will be <code>/home/deck/.local/share/steam</code></li>
+<li>To show the hidden folder in Steam ROM Manager's file browser, right click anywhere in the blank space, click <code>Show Hidden Folders</code></li>
+</ul>
+</li>
+<li>On the next screen, select your Steam account</li>
+<li>On the left-hand side of the screen, click <code>Settings</code></li>
+<li>Enable <code>Auto kill Steam</code> and <code>Auto restart Steam</code></li>
+<li>Scroll down to <code>Environment Variables</code></li>
+<li>In the <code>ROMs Directory</code> field, write <code>$HOME/Games/Emulation/ROMs</code> or the ROM path where your ROMs are located</li>
+<li>In the <code>Retroarch Path</code> field, write <code>/usr/bin/flatpak</code></li>
+<li>In the <code>Retroarch Cores Directory</code> field, write <code>$HOME/.var/app/org.libretro.RetroArch/config/retroarch/cores</code><ul>
+<li>To show the hidden folder in Steam ROM Manager's file browser, click the <code>Menu</code> in the top right corner, click <code>Show Hidden Folders</code></li>
+</ul>
+</li>
+<li>The final screen should look similar to the image below (with the <code>User Accounts</code> field populated as well)<ul>
+<li><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../assets/steam-rom-manager-configurations.png" data-desc-position="bottom"><img alt="Steam ROM Manager Configurations" src="../assets/steam-rom-manager-configurations.png"></a></li>
+</ul>
+</li>
+<li>Steam ROM Manager is now configured, you may now proceed to <a href="#how-to-set-up-a-retroarch-core-parser">How to Set up a RetroArch Core Parser</a></li>
+</ol>
+<h3 id="how-to-set-up-a-retroarch-core-parser">How to Set up a RetroArch Core Parser<a class="headerlink" href="#how-to-set-up-a-retroarch-core-parser" title="Permanent link"></a></h3>
+<p>This section will use Apotris, a homebrew Tetris game for the Game Boy Advance as an example.</p>
+<ol>
+<li>Open <a href="https://akouzoukos.com/apotris/downloads">https://akouzoukos.com/apotris/downloads</a> on a browser of your choice</li>
+<li>Click <code>GameBoy Advance</code> under <code>Downloads</code></li>
+<li>Extract the newly downloaded <code>.zip</code> file</li>
+<li>In the newly extracted folder, move <code>Apotris.gba</code> to <code>$HOME/Games/Emulation/ROMs/gba</code></li>
+<li>Launch Steam ROM Manager</li>
+<li>Click <code>Create Parser</code> on the left-hand side of the screen</li>
+<li>Search for <code>mgba</code> under <code>Community Presets</code> and select <code>Nintendo Game Boy Advance - RetroArch(Flatpak) - mGBA</code></li>
+<li>In the <code>ROMS Directory</code> field, write the following:<ul>
+<li><code>${romsdirglobal}/gba</code></li>
+<li>For creating any other parser, replace <code>gba</code> with the respective ROM folder</li>
+</ul>
+</li>
+<li>(Optional) If you use subfolders in your ROM folders, in the <code>Search Glob</code> field, add the following to the beginning of the glob:<ul>
+<li><code>**/</code></li>
+<li><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../assets/steam-rom-manager-glob.png" data-desc-position="bottom"><img alt="Steam ROM Manager Glob Example" src="../assets/steam-rom-manager-glob.png"></a></li>
+<li>The general format to use subfolders is the following:<ul>
+<li><code>**/${title}@(.7z|.7Z|.gba|.GBA|.zip|.ZIP)</code></li>
+<li>Replace the file formats with your file formats, keeping in mind that it is case sensitive</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Click <code>Test</code> to validate that the parser can identify and locate your ROMs</li>
+<li>If the <code>Test</code> succeeds, click <code>Save</code></li>
+<li>Ensure the newly created parser is enabled with a green indicator on the left-hand side of the screen</li>
+<li>Click <code>Add Games</code></li>
+<li>Click <code>Parse</code></li>
+<li>Select your artwork, when you are ready, click <code>Save to Steam</code></li>
+</ol>
+<h2 id="final-words-and-tips">Final Words and Tips<a class="headerlink" href="#final-words-and-tips" title="Permanent link"></a></h2>
+<p>Make sure you update the various items in the <code>Online Updater</code> in RetroArch on major RetroArch updates to keep everything up to date. For steps, see Step 9 in <a href="#how-to-configure-retroarch">How to Configure RetroArch</a>.</p>
 
 
 
@@ -4208,7 +4394,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"></path></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="May 27, 2026 23:19:12 UTC">May 27, 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="May 28, 2026 00:28:12 UTC">May 28, 2026</span>
   </span>
 
     
