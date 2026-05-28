@@ -288,7 +288,7 @@ This section will use Apotris, a homebrew Tetris game for the Game Boy Advance a
 
 At this time, Freegosy can be used to manage and download ROMs **from your own** collection. Launching games is still in an early phase and it is generally recommended to use ES-DE or Steam ROM Manager. 
 
-## Steam Deck: How to Add RetroArch to Steam and Play in Game Mode
+## Steam Deck: How to Add RetroArch to Steam and Play RetroArch in Game Mode
 
 If on a Steam Deck or SteamOS, right click RetroArch in the applications launcher and click `Add to Steam`. When you are in Game Mode, RetroArch will appear in the `Non-Steam Games` tab and can be launched directly from Game Mode.
 
