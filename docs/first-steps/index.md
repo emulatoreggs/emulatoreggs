@@ -1,6 +1,7 @@
 # First Steps
 
 ## First Steps Table of Contents
+[Back to the Top](#first-steps-table-of-contents)
 
 [TOC]
 
@@ -12,6 +13,7 @@
     {{ applications }}
 
 ## How to Set up a Basic Emulation Directory
+[Back to the Top](#first-steps-table-of-contents)
 
 !!! info
 
@@ -29,6 +31,7 @@
     * ![Emulation Folder](../assets/emulation-folder.png)
 
 ## How to Set up ES-DE and the ROM Folders
+[Back to the Top](#first-steps-table-of-contents)
 
 1. Open the ES-DE website, [https://es-de.org/#Download](https://es-de.org/#Download) :material-information-outline:{ title="{{ steamdeckdesktopmode }}" }
 2. If on a Linux desktop, click the `Linux x64 AppImage` button. If on a Steam Deck, click the `Steam Deck AppImage`
@@ -45,8 +48,10 @@
 11. ES-DE and the ROM folders are now configured
 
 ## How to Set Up and Configure RetroArch
+[Back to the Top](#first-steps-table-of-contents)
 
 ### How to Install RetroArch
+[Back to the Top](#first-steps-table-of-contents)
 
 1. Open your distro's software manager. :material-information-outline:{ title="{{ steamdeckdesktopmode }}" }
     * {{ discover }}
@@ -57,6 +62,7 @@
     * {{ flatseal }}
 
 ### How to Configure RetroArch
+[Back to the Top](#first-steps-table-of-contents)
 
 1. Launch RetroArch :material-information-outline:{ title="{{ steamdeckdesktopmode }}" }
 2. Click `Settings` on the left-hand side of the screen
@@ -108,6 +114,7 @@
 9.  Optionally, click `Core Downloader` and select which cores you would like to use. If you would like to download in batch, skip to [How to Download RetroArch Cores in Batch](#how-to-download-retroarch-cores-in-batch). Otherwise, RetroArch is now configured
 
 ### How to Download RetroArch Cores in Batch
+[Back to the Top](#first-steps-table-of-contents)
 
 1. Open the RetroArch buildbot website, [https://buildbot.libretro.com/](https://buildbot.libretro.com/)
 2. click `Stable`, locate the latest version (look at the dates), click `linux`, `x86_64`
@@ -119,6 +126,7 @@
 8. All of the RetroArch cores are now downloaded
 
 ### RetroArch Recommended Settings
+[Back to the Top](#first-steps-table-of-contents)
 
 1. Launch RetroArch :material-information-outline:{ title="{{ steamdeckdesktopmode }}" }
 2. Click `Settings` on the left-hand side of the screen
@@ -132,6 +140,7 @@
 10. Back out to the `Settings` menu, click `Main Menu` on the left-hand side of the screen, click `Configuration File`, click `Save Current Configuration`
 
 ### How to Configure Hotkeys
+[Back to the Top](#first-steps-table-of-contents)
 
 1. Launch RetroArch :material-information-outline:{ title="{{ steamdeckdesktopmode }}" }
 2. Click `Settings` on the left-hand side of the screen
@@ -168,10 +177,12 @@
 7. Back out to the `Settings` menu, click `Main Menu` on the left-hand side of the screen, click `Configuration File`, click `Save Current Configuration`
 
 ### How to Configure Shaders
+[Back to the Top](#first-steps-table-of-contents)
 
 See [https://retrogamecorps.com/2022/02/28/retroarch-starter-guide/#Shaders](https://retrogamecorps.com/2022/02/28/retroarch-starter-guide/#Shaders) and [https://retrogamecorps.com/2024/09/01/guide-shaders-and-overlays-on-retro-handhelds/](https://retrogamecorps.com/2024/09/01/guide-shaders-and-overlays-on-retro-handhelds/) for an in-depth guide.
 
 ### How to Configure RetroAchievements
+[Back to the Top](#first-steps-table-of-contents)
 
 1. Launch RetroArch :material-information-outline:{ title="{{ steamdeckdesktopmode }}" }
 2. Click `Settings` on the left-hand side of the screen
@@ -182,6 +193,7 @@ See [https://retrogamecorps.com/2022/02/28/retroarch-starter-guide/#Shaders](htt
 
 
 ## How to Play a Game in ES-DE Using RetroArch
+[Back to the Top](#first-steps-table-of-contents)
 
 This section will use Apotris, a homebrew Tetris game for the Game Boy Advance as an example.
 
@@ -195,8 +207,10 @@ This section will use Apotris, a homebrew Tetris game for the Game Boy Advance a
 8. Save the changes and launch the `ROM` by selecting it, it should now open in RetroArch
 
 ## How to Set Up Steam ROM Manager
+[Back to the Top](#first-steps-table-of-contents)
 
 ### How to Download Steam ROM Manager
+[Back to the Top](#first-steps-table-of-contents)
 
 1. Open the Steam ROM Manager GitHub releases page, [https://github.com/SteamGridDB/steam-rom-manager/releases](https://github.com/SteamGridDB/steam-rom-manager/releases) on a browser of your choice :material-information-outline:{ title="{{ steamdeckdesktopmode }}" }
 2. Download the latest `Steam-ROM-Manager-#.#.##.AppImage` file
@@ -208,6 +222,7 @@ This section will use Apotris, a homebrew Tetris game for the Game Boy Advance a
 7. To launch Steam ROM Manager, double click the AppImage
 
 ### How to Configure Steam ROM Manager
+[Back to the Top](#first-steps-table-of-contents)
 
 1. Launch Steam ROM Manager
 2. On the `Welcome to SRM` screen, select your Steam directory
@@ -226,6 +241,7 @@ This section will use Apotris, a homebrew Tetris game for the Game Boy Advance a
 11. Steam ROM Manager is now configured, you may now proceed to [How to Set up a RetroArch Core Parser](#how-to-set-up-a-retroarch-core-parser)
 
 ### How to Set up a RetroArch Core Parser
+[Back to the Top](#first-steps-table-of-contents)
 
 This section will use Apotris, a homebrew Tetris game for the Game Boy Advance as an example.
 
@@ -252,6 +268,31 @@ This section will use Apotris, a homebrew Tetris game for the Game Boy Advance a
 14. Click `Parse`
 15. Select your artwork, when you are ready, click `Save to Steam`
 
+## How to Set up Freegosy
+[Back to the Top](#first-steps-table-of-contents)
+
+!!! info
+
+    Freegosy is a front-end with ROMM integrated. The primary benefit of ROMM is access to your ROM library on a separate server such as a NAS for example. When using Freegosy, you are able to download ROMs directly from your own collection and launch them immediately from Freegosy. Alternatively with the ROMs downloaded, you may then use Steam ROM Manager to parse and add them to Steam or launch them from ES-DE.
+
+### How to Download Freegosy
+[Back to the Top](#first-steps-table-of-contents)
+
+1. Open the Freegosy GitHub releases page, [https://github.com/abduznik/Freegosy/releases](https://github.com/abduznik/Freegosy/releases) on a browser of your choice :material-information-outline:{ title="{{ steamdeckdesktopmode }}" }
+2. Download the latest `Freegosy-x86_64.AppImage` file
+3. Move the newly downloaded AppImage to the `$HOME/Applications` folder
+    * {{ applications }}
+4. {{ permissions }}
+5. (Optional) For easier maintenance, rename the AppImage to `Freegosy.AppImage`
+6. To launch Freegosy, double click the AppImage
+
+At this time, Freegosy can be used to manage and download ROMs **from your own** collection. Launching games is still in an early phase and it is generally recommended to use ES-DE or Steam ROM Manager. 
+
+## Steam Deck: How to Add RetroArch to Steam and Play in Game Mode
+
+If on a Steam Deck or SteamOS, right click RetroArch in the applications launcher and click `Add to Steam`. When you are in Game Mode, RetroArch will appear in the `Non-Steam Games` tab and can be launched directly from Game Mode.
+
 ## Final Words and Tips
+[Back to the Top](#first-steps-table-of-contents)
 
 Make sure you update the various items in the `Online Updater` in RetroArch on major RetroArch updates to keep everything up to date. For steps, see Step 9 in [How to Configure RetroArch](#how-to-configure-retroarch).
