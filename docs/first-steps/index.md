@@ -137,7 +137,9 @@
 7. Back out to the `Audio` menu, click `Microphone`, `Microphone`, and select `sdl2`
 8. Back out to the `Settings` menu, click `Input`, `Controller`, and select `sdl2`
 9. Back out to the `Input` menu, click `Controller`, and select `sdl2`
-10. Back out to the `Settings` menu, click `Main Menu` on the left-hand side of the screen, click `Configuration File`, click `Save Current Configuration`
+10. Back out to the `Settings` menu, click `User Interface`, `File Browser`, `Start Directory`, and set it to `$HOME/Games/Emulation/ROMs`
+11. Back out to the `User Interface` menu and enable `Remember Last Used Start Directory`
+12. Back out to the `Settings` menu, click `Main Menu` on the left-hand side of the screen, click `Configuration File`, click `Save Current Configuration`
 
 ### How to Configure Hotkeys
 [Back to the Top](#first-steps-table-of-contents)
