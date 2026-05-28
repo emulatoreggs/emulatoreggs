@@ -20,12 +20,12 @@ PCSX2 is available as both an AppImage and Flatpak on Linux. The Flatpak build i
 
 To download PCSX2:
 
-1. Open the PCSX2 [website](https://pcsx2.net/) on a browser of your choice
+1. Open the PCSX2 website, [https://pcsx2.net/](https://pcsx2.net/) on a browser of your choice
 2. Click the `Latest Nightly` button, click the `Linux` > `AppImage` button
 3. Move the newly downloaded AppImage to the `$HOME/Applications` folder
     * {{ applications }}
 4. Rename the AppImage to `pcsx2.AppImage`
-4. {{ permissions }}
-5. PCSX2 will now be downloaded
+5. {{ permissions }}
+6. PCSX2 will now be downloaded
 
 ## PCSX2 Tips and Tricks
