@@ -68,6 +68,7 @@ nav:
         - mGBA: 'emulators/nintendo/mgba.md'
         - RMG: 'emulators/nintendo/rmg.md'
         - Ryujinx: 'emulators/nintendo/ryujinx.md'
+        - Super ZSNES: 'emulators/nintendo/super-zsnes.md'
       - Personal Computers:
         - DOSBox Pure Unleashed: 'emulators/personal-computers/dosbox-pure-unleashed.md'
         - DOSBox-X: 'emulators/personal-computers/dosbox-x.md'
@@ -99,6 +100,7 @@ nav:
         - Heroic Games Launcher!: 'linux-gaming/game-launchers/heroic-games-launcher.md'
       - Tools:
         - Game Fixes: 'linux-gaming/tools/game-fixes.md'
+        - Jackify: 'linux-gaming/tools/jackify.md'
         - Java: 'linux-gaming/tools/java.md'
         - umu launcher: 'linux-gaming/tools/umu-launcher.md'
   - How to Contribute:
