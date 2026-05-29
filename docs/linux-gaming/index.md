@@ -16,5 +16,6 @@
   ***
 
   - [Game Fixes](./tools/game-fixes.md)
+  - [Jackify](./tools/jackify.md)
   - [Java](./tools/java.md)
   - [umu launcher](./tools/umu-launcher.md)
