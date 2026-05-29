@@ -25,10 +25,10 @@
 
   ***
 
-  - [Melon Mix (Kingdom Hearts) (melonDS Fork)](./emulator-forks/melon-mix.md)
-  - [melonPrimeDS (Metroid Prime Hunters) (melonDS Fork)](./emulator-forks/melon-primeds.md)
-  - [PrimeHack (Metroid Prime Trilogy) (Dolphin Fork)](./emulator-forks/primehack.md)
-  - [Project Rio (Super Mario Baseball) (Dolphin Fork)](./emulator-forks/project-rio.md)
+  - [Melon Mix (Kingdom Hearts)](./emulator-forks/melon-mix.md)
+  - [melonPrimeDS (Metroid Prime Hunters)](./emulator-forks/melon-primeds.md)
+  - [PrimeHack (Metroid Prime Trilogy)](./emulator-forks/primehack.md)
+  - [Project Rio (Super Mario Baseball)](./emulator-forks/project-rio.md)
 
 - :material-microsoft-xbox: **Microsoft Emulators**{ style="font-size: 1.1rem" }
 
