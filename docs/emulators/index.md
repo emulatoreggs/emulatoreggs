@@ -75,6 +75,7 @@
   - [mGBA](./nintendo/mgba.md/)
   - [Rosalie's Mupen GUI](./nintendo/rmg.md)
   - [Ryujinx](./nintendo/ryujinx.md)
+  - [Super ZSNES](./nintendo/super-zsnes.md)
 
 - :material-desktop-classic: **Personal Computers**{ style="font-size: 1.1rem" }
 
