@@ -9,7 +9,7 @@
   
   - [Hypseus Singe (Laserdisc Arcade)](./arcade/hypseus-singe.md)
   - [Linux Loader (Sega Lindbergh)](./arcade/linux-loader.md)
-  - [MAME](./arcade/mame.md)
+  - [MAME (Arcade Games)](./arcade/mame.md)
   - [Supermodel (Sega Model 3)](./arcade/supermodel.md)
 
 - :material-silverware-fork: **Emulator Forks**{ style="font-size: 1.1rem" }
