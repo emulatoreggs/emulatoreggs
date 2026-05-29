@@ -1,5 +1,9 @@
 # RetroArch is an emulation core front-end
 
+!!! info
+
+    See [https://docs.libretro.com/guides/core-list/](https://docs.libretro.com/guides/core-list/) for a list of RetroArch cores and the associated systems.
+
 ## RetroArch Table of Contents
 
 [TOC]

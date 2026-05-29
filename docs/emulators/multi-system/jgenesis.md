@@ -1,5 +1,9 @@
 # jgenesis is a multi-console emulator supporting a number of 8-bit and 16-bit gaming consoles.
 
+!!! info
+
+    Systems Supported: Nintendo NES, Nintendo SNES, Nintendo Game Boy, Nintendo Game Boy Color, Nintendo Game Boy Advance, Sega CD, Sega 32X, Sega SG-1000, Sega Genesis
+
 ## jgenesis Table of Contents
 
 [TOC]
