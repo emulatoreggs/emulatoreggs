@@ -5,7 +5,7 @@
 
 [TOC]
 
-??? info "The Basics"
+!!! info "The Basics"
     {{ home }} 
 
     {{ hiddenfolders }}
@@ -20,13 +20,14 @@
     This page assumes you will use the paths in the section below. You are not required to use these paths. However, it is recommended you keep the folder names for consistency across the sections on this page. For example, if you are using an external storage device, it is recommended you use something like `/run/media/deck/Emulation` as your base folder.
 
 1. In the `$HOME` folder, create a `Games` folder if one does not exist :material-information-outline:{ title="{{ steamdeckdesktopmode }}" }
+    * {{ home }}
 2. In the `$HOME/Games` folder, create an `Emulation` folder
 3. In the `$HOME/Games/Emulation` folder, create the following folders:
-   * `BIOS`
-   * `ROMs`
-   * `Saves`
-     * In the `Saves` folder, create a `States` folder
-   * `Screenshots`
+    * `BIOS`
+    * `ROMs`
+    * `Saves`
+      * In the `Saves` folder, create a `States` folder
+    * `Screenshots`
 4. The final directory should look like the following image:
     * ![Emulation Folder](../assets/emulation-folder.png)
 
@@ -36,7 +37,7 @@
 1. Open the ES-DE website, [https://es-de.org/#Download](https://es-de.org/#Download) :material-information-outline:{ title="{{ steamdeckdesktopmode }}" }
 2. If on a Linux desktop, click the `Linux x64 AppImage` button. If on a Steam Deck, click the `Steam Deck AppImage`
 3. Move the downloaded AppImage to `$HOME/Applications`.
-4. Right click the AppImage, {{ permissions }}
+4. {{ permissions }}
 5. (Optional) For easier maintenance, rename the AppImage to `ES-DE.AppImage`
 6. Double click the AppImage to run ES-DE
 7. On the ES-DE onboarding screen, click `CHANGE` and update the path to `$HOME/Games/Emulation/ROMs`
