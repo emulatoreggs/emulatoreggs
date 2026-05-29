@@ -20,7 +20,7 @@ ymir is available as a binary file on Linux. This page will cover how to utilize
 
 To download ymir:
 
-1. Open the ymir [repository](https://github.com/StrikerX3/Ymir/releases) on a browser of your choice
+1. Open the ymir GitHub repository, [https://github.com/StrikerX3/Ymir/releases](https://github.com/StrikerX3/Ymir/releases) on a browser of your choice
 2. Click the `Assets` button under the most recent release
 3. Click `ymir-linux-x86_64-AVX2-v#.#.#.tar.xz` 
     * The `#.#.#` refer to the version number, this may vary depending on when you download ymir
