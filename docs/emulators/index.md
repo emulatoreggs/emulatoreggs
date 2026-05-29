@@ -44,9 +44,13 @@
 
   - [DREAMM (Lucas Games)](./miscellaneous/dreamm.md)
   - [EasyRPG (RPG Maker)](./miscellaneous/easyrpg.md)
+  - [Ikemen GO (Fighting Game Engine)](./miscellaneous/ikemen-go.md)
+  - [Mudlet (MUD Client)](./miscellaneous/mudlet.md) 
+  - [OpenBOR (Side Scroller Game Engine)](./miscellaneous/openbor.md)
   - [Pico-8 (Fantasy Console)](./miscellaneous/pico-8.md)
   - [Ruffle (Adobe Flash)](./miscellaneous/ruffle.md)
   - [ScummVM (Point and Click Games)](./miscellaneous/scummvm.md)
+  - [Solarus (Zelda-like 2D Game Engine)](./miscellaneous/solarus.md)
   - [Visual Pinball](./miscellaneous/visual-pinball.md)
   - [UZDoom (DOOM Ports)](./miscellaneous/uzdoom.md)
 
