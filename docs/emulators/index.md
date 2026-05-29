@@ -7,10 +7,19 @@
 
   ***
   
+  - [BigInstinct (Killer Instinct)](./arcade/biginstinct.md) 
   - [Hypseus Singe (Laserdisc Arcade)](./arcade/hypseus-singe.md)
   - [Linux Loader (Sega Lindbergh)](./arcade/linux-loader.md)
   - [MAME (Arcade Games)](./arcade/mame.md)
   - [Supermodel (Sega Model 3)](./arcade/supermodel.md)
+
+- :simple-atari: **Atari Emulators**{ style="font-size: 1.1rem" }
+
+  ***
+
+  - [Altirra (8-bit)](./altirra.md)
+  - [BigPEmu (Atari Jaguar)](./atari/bigpemu.md)
+  - [Stella (Atari 2600)](./atari/stella.md)
 
 - :material-silverware-fork: **Emulator Forks**{ style="font-size: 1.1rem" }
 
@@ -103,6 +112,8 @@
   - [DuckStation (Sony PlayStation)](./sony/duckstation.md)
   - [PCSX2 (Sony PlayStation 2)](./sony/pcsx2.md)
   - [Play! (Sony PlayStation 2)](./sony/play.md)
+  - [PPSSPP (Sony PlayStation Portable)](./sony/ppsspp.md) 
   - [RPCS3 (Sony PlayStation 3)](./sony/rpcs3.md)
   - [ShadPS4 (Sony PlayStation 4)](./sony/shadps4.md)
   - [Vita3K (Sony PlayStation Vita)](./sony/vita3k.md)
+

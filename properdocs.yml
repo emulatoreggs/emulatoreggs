@@ -24,10 +24,15 @@ nav:
   - Emulators: 
       - Emulators: 'emulators/index.md'
       - Arcade: 
+        - BigInstinct: 'emulators/arcade/biginstinct.md'
         - Hypsesus Singe: 'emulators/arcade/hypseus-singe.md'
         - Linux Loader: 'emulators/arcade/linux-loader.md'
         - MAME: 'emulators/arcade/mame.md'
         - Supermodel: 'emulators/arcade/supermodel.md'
+      - Atari:
+        - Altirra: 'emulators/atari/altirra.md'
+        - BigPEmu: 'emulators/atari/bigpemu.md'
+        - Stella: 'emulators/atari/stella.md'
       - Emulator Forks:
         - Melon Mix (melonDS Fork): 'emulators/emulator-forks/melon-mix.md'
         - melonPrimeDS (melonDS Fork): 'emulators/emulator-forks/melon-primeds.md'
@@ -84,6 +89,7 @@ nav:
         - DuckStation: 'emulators/sony/duckstation.md'
         - PCXS2: 'emulators/sony/pcsx2.md'
         - Play!: 'emulators/sony/play.md'
+        - PPSSPP: 'emulators/sony/ppsspp.md'
         - RPCS3: 'emulators/sony/rpcs3.md'
         - ShadPS4: 'emulators/sony/shadps4.md'
         - Vita3K: 'emulators/sony/vita3k.md'
