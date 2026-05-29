@@ -24,9 +24,9 @@ To download Gopher64:
     * {{ discover }}
 2. Search for "Gopher64" and click "Install" on the top right of the software page for Gopher64
 3. Open Konsole or a terminal of your choice
-4. Type the following two lines, one at a time, and press enter after each line:
+4. Type the following command and press enter after typing the command:
     * `flatpak override io.github.gopher64.gopher64 --filesystem=host --user`
     * {{ flatseal }}
-5. Gopher64 will now be installed
+5. Gopher64 will now be installed and properly configured
 
 ## Gopher64 Tips and Tricks

@@ -38,21 +38,22 @@ nav:
         - melonPrimeDS (melonDS Fork): 'emulators/emulator-forks/melon-primeds.md'
         - PrimeHack (Dolphin Fork): 'emulators/emulator-forks/primehack.md'
         - Project Rio (Dolphin Fork): 'emulators/emulator-forks/project-rio.md'
+      - Game Engines: 
+        - EasyRPG: 'emulators/game-engines/easyrpg.md'
+        - Ikemen-GO: 'emulators/game-engines/ikemen-go.md'
+        - Mudlet: 'emulators/game-engines/mudlet.md'
+        - OpenBOR: 'emulators/game-engines/openbor.md'
+        - Solarus: 'emulators/game-engines/solarus.md'
+        - UZDoom: 'emulators/game-engines/uzdoom.md'
       - Microsoft:
         - Cxbx-Reloaded: 'emulators/microsoft/cxbx-reloaded.md'
         - Xemu: 'emulators/microsoft/xemu.md'
         - Xenia: 'emulators/microsoft/xenia.md'
       - Miscellaneous:
         - DREAMM: 'emulators/miscellaneous/dreamm.md'
-        - EasyRPG: 'emulators/miscellaneous/easyrpg.md'
-        - Ikemen-GO: 'emulators/miscellaneous/ikemen-go.md'
-        - Mudlet: 'emulators/miscellaneous/mudlet.md'
-        - OpenBOR: 'emulators/miscellaneous/openbor.md'
         - Pico-8: 'emulators/miscellaneous/pico-8.md'
         - Ruffle: 'emulators/miscellaneous/ruffle.md'
-        - Solarus: 'emulators/miscellaneous/solarus.md'
         - ScummVM: 'emulators/miscellaneous/scummvm.md'
-        - UZDoom: 'emulators/miscellaneous/uzdoom.md'
         - Visual Pinball: 'emulators/miscellaneous/visual-pinball.md'
       - Mobile Emulators:
         - EKA2L1: 'emulators/mobile/eka2l1.md'

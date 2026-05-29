@@ -24,8 +24,10 @@ To download UZDoom:
     * {{ discover }}
 2. Search for "UZDoom" and click "Install" on the top right of the software page For UZDoom
 3. Open Konsole or a terminal of your choice
-4. Type the following two lines, one at a time, and press enter after each line:
+4. Type the following command and press enter after typing the command:
     * `flatpak override org.zdoom.UZDoom --filesystem=host --user`
     * {{ flatseal }}
+5. UZDoom will now be installed and properly configured
+
 
 ## UZDoom Tips and Tricks

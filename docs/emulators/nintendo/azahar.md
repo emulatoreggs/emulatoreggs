@@ -24,9 +24,10 @@ To download Azahar:
     * {{ discover }}
 2. Search for "Azahar" and click "Install" on the top right of the software page For Azahar
 3. Open Konsole or a terminal of your choice
-4. Type the following two lines, one at a time, and press enter after each line:
+4. Type the following command and press enter after typing the command:
     * `flatpak override org.azahar_emu.Azahar --filesystem=host --user`
     * {{ flatseal }}
+5. Azahar will now be installed and properly configured
 
 
 ## Azahar Tips and Tricks

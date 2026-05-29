@@ -24,8 +24,9 @@ To download RMG:
     * {{ discover }}
 2. Search for "Rosalie's Mupen GUI" and click "Install" on the top right of the software page for Rosalie's Mupen GUI
 3. Open Konsole or a terminal of your choice
-4. Type the following two lines, one at a time, and press enter after each line:
+4. Type the following command and press enter after typing the command:
     * `flatpak override com.github.Rosalie241.RMG --filesystem=host --user`
     * {{ flatseal }}
+5. RMG will now be installed and properly configured
 
 ## RMG Tips and Tricks

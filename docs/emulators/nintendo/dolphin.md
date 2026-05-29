@@ -25,11 +25,10 @@ To download Dolphin:
     * `flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo --user`
 3. Type the following and press enter:
     * `flatpak install org.DolphinEmu.dolphin-emu --user -y`
-4. Type the following two lines, one at a time, and press enter after each line:
+    * Alternatively, {{discover}}
+4. Type the following command and press enter after typing the command:
     * `flatpak override org.DolphinEmu.dolphin-emu --filesystem=host --user`
-    * `flatpak override org.DolphinEmu.dolphin-emu --share=network --user`
-
-If you have Discover installed, you may also use Discover to install Dolphin. Make sure you have the Flathub repo added (Step 2 in the section above). 
+5. Dolphin will now be installed and properly configured
 
 ## Dolphin Tips and Tricks
 

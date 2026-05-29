@@ -24,7 +24,7 @@ To download ares:
     * {{ discover }}
 2. Search for "ares" and click "Install" on the top right of the software page For Azahar
 3. Open Konsole or a terminal of your choice
-4. Type the following two lines, one at a time, and press enter after each line:
+4. Type the following command and press enter after typing the command:
     * `flatpak override dev.ares.ares --filesystem=host --user`
     * {{ flatseal }}
 

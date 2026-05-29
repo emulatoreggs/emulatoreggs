@@ -24,9 +24,9 @@ To download PrimeHack:
     * {{ discover }}
 2. Search for "PrimeHack" and click "Install" on the top right of the software page For PrimeHack
 3. Open Konsole or a terminal of your choice
-4. Type the following two lines, one at a time, and press enter after each line:
+4. Type the following command and press enter after typing the command:
     * `flatpak override io.github.shiiion.primehack --filesystem=host --user`
     * {{ flatseal }}
-6. PrimeHack will now be downloaded
+5. PrimeHack will now be installed and properly configured
 
 ## PrimeHack Tips and Tricks

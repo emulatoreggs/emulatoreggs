@@ -21,6 +21,15 @@
   - [BigPEmu (Atari Jaguar)](./atari/bigpemu.md)
   - [Stella (Atari 2600)](./atari/stella.md)
 
+- :material-engine: **Game Engines**{ style="font-size: 1.1rem" }
+
+  - [EasyRPG (RPG Maker)](./miscellaneous/easyrpg.md)
+  - [Ikemen GO (Fighting Game Engine)](./game-engines/ikemen-go.md)
+  - [Mudlet (MUD Client)](./game-engines/mudlet.md) 
+  - [OpenBOR (Side Scroller Game Engine)](./game-engines/openbor.md)
+  - [Solarus (Zelda-like 2D Game Engine)](./game-engines/solarus.md)
+  - [UZDoom (DOOM Ports)](./game-engines/uzdoom.md)
+
 - :material-silverware-fork: **Emulator Forks**{ style="font-size: 1.1rem" }
 
   ***
@@ -43,16 +52,10 @@
   ***
 
   - [DREAMM (Lucas Games)](./miscellaneous/dreamm.md)
-  - [EasyRPG (RPG Maker)](./miscellaneous/easyrpg.md)
-  - [Ikemen GO (Fighting Game Engine)](./miscellaneous/ikemen-go.md)
-  - [Mudlet (MUD Client)](./miscellaneous/mudlet.md) 
-  - [OpenBOR (Side Scroller Game Engine)](./miscellaneous/openbor.md)
   - [Pico-8 (Fantasy Console)](./miscellaneous/pico-8.md)
   - [Ruffle (Adobe Flash)](./miscellaneous/ruffle.md)
   - [ScummVM (Point and Click Games)](./miscellaneous/scummvm.md)
-  - [Solarus (Zelda-like 2D Game Engine)](./miscellaneous/solarus.md)
   - [Visual Pinball](./miscellaneous/visual-pinball.md)
-  - [UZDoom (DOOM Ports)](./miscellaneous/uzdoom.md)
 
 - :material-cellphone: **Mobile Emulators**{ style="font-size: 1.1rem" }
 

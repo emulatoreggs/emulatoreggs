@@ -24,8 +24,10 @@ To download EasyRPG:
     * {{ discover }}
 2. Search for "EasyRPG" and click "Install" on the top right of the software page For EasyRPG
 3. Open Konsole or a terminal of your choice
-4. Type the following two lines, one at a time, and press enter after each line:
+4. Type the following command and press enter after typing the command:
     * `flatpak override org.easyrpg.player --filesystem=host --user`
     * {{ flatseal }}
+5. EasyRPG will now be installed and properly configured
+
 
 ## Azahar Tips and Tricks

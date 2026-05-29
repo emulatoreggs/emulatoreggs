@@ -24,8 +24,9 @@ To download ShadPS4:
     * {{ discover }}
 2. Search for "ShadPS4" and click "Install" on the top right of the software page For ShadPS4
 3. Open Konsole or a terminal of your choice
-4. Type the following two lines, one at a time, and press enter after each line:
+4. Type the following command and press enter after typing the command:
     * `flatpak override net.shadps4.shadPS4 --filesystem=host --user`
     * {{ flatseal }}
+5. ShadPS4 will now be installed and properly configured
 
 ## ShadPS4 Tips and Tricks
