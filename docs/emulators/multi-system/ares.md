@@ -1,8 +1,41 @@
 # ares is a Multi-System Emulator
 
-!!! info
+??? info "Systems Supported"
 
-    Systems Supported: Arcade, Atari 2600, Bandai Wonderswan, Bandai Wanderswan Color, Benesse Pocket Challenge V2, Coleco ColecoVision, Microsoft MSX, Microsoft MSX 2, NEC PC Engine, NEC PC Engine CD, NEC PC Engine SuperGrafx, Nichibutsu My Vision, Nintendo NES, Nintendo Famicom Disk System, Nintendo Game Boy, Nintendo SNES, Nintendo Satellaview, Nintendo 64, Nintendo SuFami Turbo, Nintendo Game Boy Color, Nintendo 64DD, Nintendo Game Boy Advance, Pioneer LaserActive, Sega SG-1000, Sega Master System, Sega Genesis, Sega Game Gear, Sega CD, Sega 32X, Sinclair ZX Spectrum, SNK Neo Geo, SNK Neo Geo Pocket, SNK Neo Geo Pocket Color, Sony PlayStation
+    * Arcade
+    * Atari 2600
+    * Bandai Wonderswan
+    * Bandai Wanderswan Color
+    * Benesse Pocket Challenge V2
+    * Coleco ColecoVision
+    * Microsoft MSX
+    * Microsoft MSX 2
+    * NEC PC Engine
+    * NEC PC Engine CD
+    * NEC PC Engine SuperGrafx
+    * Nichibutsu My Vision
+    * Nintendo NES
+    * Nintendo Famicom Disk System
+    * Nintendo Game Boy
+    * Nintendo SNES
+    * Nintendo Satellaview
+    * Nintendo 64
+    * Nintendo SuFami Turbo
+    * Nintendo Game Boy Color
+    * Nintendo 64D
+    * Nintendo Game Boy Advance
+    * Pioneer LaserActive
+    * Sega SG-1000
+    * Sega Master System
+    * Sega Genesis
+    * Sega Game Gear
+    * Sega CD
+    * Sega 32X
+    * Sinclair ZX Spectrum
+    * SNK Neo Geo
+    * SNK Neo Geo Pocket
+    * SNK Neo Geo Pocket Color
+    * Sony PlayStation
 
 ## ares Table of Contents
 

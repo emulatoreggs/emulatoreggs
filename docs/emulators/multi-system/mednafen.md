@@ -1,8 +1,24 @@
 # Mednafen is a Multi-System Emulator
 
-!!! info
+??? info "Systems Supported"
 
-    Systems Supported: Apple II/II+/IIe/Enhanced IIe, Atari Lynx, Bandai WonderSwan, NEC PC Engine, NEC PC Engine CD, NEC PC Engine SuperGrafx, NEC PC-FX, Neo Geo Pocket, Neo Geo Pocket Color, Nintendo Game Boy Color, Nintendo Game Boy Advance, Nintendo NES, Nintendo SNES, Nintendo Virtual Boy, Sega Game Gear, Sega Genesis, Sega Master System, Sega Saturn, Sony PlayStation
+    * Apple II/II+/IIe/Enhanced IIe
+    * Atari Lynx, Bandai WonderSwan
+    * NEC PC Engine
+    * NEC PC Engine CD
+    * NEC PC Engine SuperGrafx
+    * NEC PC-FX, Neo Geo Pocket
+    * Neo Geo Pocket Color
+    * Nintendo Game Boy Color
+    * Nintendo Game Boy Advance
+    * Nintendo NES
+    * Nintendo SNES
+    * Nintendo Virtual Boy
+    * Sega Game Gear
+    * Sega Genesis
+    * Sega Master System
+    * Sega Saturn
+    * Sony PlayStation
 
 ## Mednafen Table of Contents
 

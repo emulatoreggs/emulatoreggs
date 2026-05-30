@@ -1,6 +1,6 @@
 # RetroArch is an emulation core front-end
 
-!!! info
+??? info "Systems Supported"
 
     See [https://docs.libretro.com/guides/core-list/](https://docs.libretro.com/guides/core-list/) for a list of RetroArch cores and the associated systems.
 

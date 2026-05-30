@@ -1,8 +1,17 @@
 # Mesen is a Multi-System Emulator
 
-!!! info
+??? info "Systems Supported"
 
-    Systems Supported: Bandai WonderSwan, Bandai WonderSwan Color, NEC PC Engine, Nintendo Game Boy, Nintendo Game Boy Color, Nintendo Game Boy Advance, Nintendo NES, Nintendo SNES, Nintendo Super Game Boy, Sega Game Gear
+    * Bandai WonderSwan
+    * Bandai WonderSwan Color
+    * NEC PC Engine
+    * Nintendo Game Boy
+    * Nintendo Game Boy Color
+    * Nintendo Game Boy Advance
+    * Nintendo NES
+    * Nintendo SNES
+    * Nintendo Super Game Boy
+    * Sega Game Gear
 
 ## Mesen Table of Contents
 
